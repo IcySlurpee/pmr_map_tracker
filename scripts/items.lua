@@ -1,0 +1,7 @@
+Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/counters.json")
+Tracker:AddItems("items/equipment.json")
+Tracker:AddItems("items/starspirits.json")
+Tracker:AddItems("items/partners.json")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/dojo.json")

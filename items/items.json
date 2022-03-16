@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Pulse Stone",
+    "type": "toggle",
+    "img": "images/ruins/ruinsPulse.png",
+    "codes": "pulsestone,ruinspulse"
+  },
+  {
+    "name": "Lunar Stone",
+    "type": "toggle",
+    "img": "images/ruins/ruinsLunar.png",
+    "codes": "lunarstone,ruinslunar"
+  },
+  {
+    "name": "Pyramid Stone",
+    "type": "toggle",
+    "img": "images/ruins/ruinsPyramid.png",
+    "codes": "pyramidstone,ruinspyramid"
+  },
+  {
+    "name": "Diamond Stone",
+    "type": "toggle",
+    "img": "images/ruins/ruinsDiamond.png",
+    "codes": "diamondstone,ruinsdiamond"
+  },
+  {
+    "name": "Kooper's Shell",
+    "type": "toggle",
+    "img": "images/misc/miscKooperShell.png",
+    "codes": "koopersshell,koopershell,blueshell"
+  },
+  {
+    "name": "Weight",
+    "type": "toggle",
+    "img": "images/mansion/mansionWeight.png",
+    "codes": "weight,booweight"
+  },
+  {
+    "name": "Boo's Portrait",
+    "type": "toggle",
+    "img": "images/mansion/mansionPortrait.png",
+    "codes": "portrait,booportrait"
+  },
+  {
+    "name": "Record",
+    "type": "toggle",
+    "img": "images/mansion/mansionRecord.png",
+    "codes": "record,boorecord"
+  },
+  {
+    "name": "Mystical Key (Yakkey)",
+    "type": "toggle",
+    "img": "images/gulch/gulchYakkey.png",
+    "codes": "yakkey,mysticalkey"
+  },
+  {
+    "name": "Storeroom Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "codes": "storeroomkey,storeroom"
+  },
+  {
+    "name": "Toy Train",
+    "type": "toggle",
+    "img": "images/toybox/toyboxTrain.png",
+    "codes": "toytrain,toyboxtrain"
+  },
+  {
+    "name": "Frying Pan",
+    "type": "toggle",
+    "img": "images/toybox/toyboxPan.png",
+    "codes": "fryingpan"
+  },
+  {
+    "name": "Dictionary",
+    "type": "toggle",
+    "img": "images/toybox/toyboxDictionary.png",
+    "codes": "dictionary"
+  },
+  {
+    "name": "Mystery Note",
+    "type": "toggle",
+    "img": "images/toybox/toyboxNote.png",
+    "codes": "mysterynote"
+  },
+  {
+    "name": "Calculator",
+    "type": "toggle",
+    "img": "images/toybox/toyboxCalculator.png",
+    "codes": "calculator"
+  },
+  {
+    "name": "Jade Raven",
+    "type": "toggle",
+    "img": "images/lavalava/lavalavaRaven.png",
+    "codes": "jaderaven,raven"
+  },
+  {
+    "name": "Volcano Vase",
+    "type": "toggle",
+    "img": "images/lavalava/lavalavaVase.png",
+    "codes": "volcanovase,vase"
+  },
+  {
+    "name": "Magical Seeds (composite)",
+    "type": "consumable",
+    "img": "images/fields/fieldsSeed1.png",
+    "codes": "magicalseed,magicseed,magicalseeds",
+    "max_quantity": 4
+  },
+  {
+    "name": "Magical Seed 1",
+    "type": "toggle",
+    "img": "images/fields/fieldsSeed1.png",
+    "codes": "magicalseed1,magicseed1"
+  },
+  {
+    "name": "Magical Seeds 2",
+    "type": "toggle",
+    "img": "images/fields/fieldsSeed2.png",
+    "codes": "magicalseed2,magicseed2"
+  },
+  {
+    "name": "Magical Seeds 3",
+    "type": "toggle",
+    "img": "images/fields/fieldsSeed3.png",
+    "codes": "magicalseed3,magicseed3"
+  },
+  {
+    "name": "Magical Seeds 4",
+    "type": "toggle",
+    "img": "images/fields/fieldsSeed4.png",
+    "codes": "magicalseed4,magicseed4"
+  },
+  {
+    "name": "Magical Bean",
+    "type": "toggle",
+    "img": "images/fields/fieldsBean.png",
+    "codes": "magicalbean,magicbean,bean"
+  },
+  {
+    "name": "Fertile Soil",
+    "type": "toggle",
+    "img": "images/fields/fieldsSoil.png",
+    "codes": "fertilesoil,soil"
+  },
+  {
+    "name": "Crystal Berry",
+    "type": "toggle",
+    "img": "images/fields/fieldsCrystal.png",
+    "codes": "crystalberry"
+  },
+  {
+    "name": "Water Stone",
+    "type": "toggle",
+    "img": "images/fields/fieldsStone.png",
+    "codes": "waterstone"
+  },
+  {
+    "name": "Miracle Water",
+    "type": "toggle",
+    "img": "images/fields/fieldsWater.png",
+    "codes": "miraclewater,water"
+  },
+  {
+    "name": "Bucket",
+    "type": "toggle",
+    "img": "images/shiver/shiverBucket.png",
+    "codes": "bucket,snowmanbucket"
+  },
+  {
+    "name": "Scarf",
+    "type": "toggle",
+    "img": "images/shiver/shiverScarf.png",
+    "codes": "scarf,snowmanscarf"
+  },
+  {
+    "name": "Star Stone",
+    "type": "toggle",
+    "img": "images/shiver/shiverStar.png",
+    "codes": "starstone"
+  },
+  {
+    "name": "Letter",
+    "type": "consumable",
+    "img": "images/misc/miscLetter.png",
+    "codes": "letter,letters",
+    "max_quantity": 25
+  },
+  {
+    "name": "Artifact",
+    "type": "toggle",
+    "img": "images/misc/miscArtifact.png",
+    "codes": "artifact"
+  },
+  {
+    "name": "Dolly",
+    "type": "toggle",
+    "img": "images/misc/miscDolly.png",
+    "codes": "dolly"
+  },
+  {
+    "name": "Lyrics",
+    "type": "toggle",
+    "img": "images/misc/miscLyrics.png",
+    "codes": "lyrics"
+  },
+  {
+    "name": "Melody",
+    "type": "toggle",
+    "img": "images/misc/miscMelody.png",
+    "codes": "melody"
+  },
+  {
+    "name": "Mailbag",
+    "type": "toggle",
+    "img": "images/misc/miscMailbag.png",
+    "codes": "mailbag"
+  },
+  {
+    "name": "Odd Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "codes": "oddkey,bluehousekey,ripcheatokey"
+  },
+  {
+    "name": "Tape",
+    "type": "toggle",
+    "img": "images/koot/kootTape.png",
+    "codes": "tape,kootthetape"
+  },
+  {
+    "name": "Koopa Legends",
+    "type": "toggle",
+    "img": "images/koot/kootLegends.png",
+    "codes": "legends,koopalegends,kootkoopalegends"
+  },
+  {
+    "name": "Luigi's Autograph",
+    "type": "toggle",
+    "img": "images/koot/kootLuigi.png",
+    "codes": "luigisautograph,lautograph,kootluigiautograph"
+  },
+  {
+    "name": "Wallet",
+    "type": "toggle",
+    "img": "images/koot/kootWallet.png",
+    "codes": "wallet,emptywallet,kootemptywallet"
+  },
+  {
+    "name": "Crystal Ball",
+    "type": "toggle",
+    "img": "images/misc/miscCrystalBall.png",
+    "codes": "crystalball"
+  },
+  {
+    "name": "Merluvlee's Autograph",
+    "type": "toggle",
+    "img": "images/koot/kootMerluvlee.png",
+    "codes": "merluvleesautograph,mautograph,kootmerluvleeautograph"
+  },
+  {
+    "name": "Old Photo",
+    "type": "toggle",
+    "img": "images/koot/kootPhoto.png",
+    "codes": "photo,oldphoto,kootoldphoto"
+  },
+  {
+    "name": "Glasses",
+    "type": "toggle",
+    "img": "images/koot/kootGlasses.png",
+    "codes": "glasses,kootglasses"
+  },
+  {
+    "name": "Package",
+    "type": "toggle",
+    "img": "images/koot/kootPackage.png",
+    "codes": "package,kootpackage"
+  },
+  {
+    "name": "Red Jar",
+    "type": "toggle",
+    "img": "images/koot/kootJar.png",
+    "codes": "redjar,jar,kootredjar"
+  },
+  {
+    "name": "Koopa Fortress Key",
+    "type": "consumable",
+    "img": "images/koopabros/fortressKey.png",
+    "codes": "fortresskey,koopafortresskey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Ruins Key",
+    "type": "consumable",
+    "img": "images/ruins/ruinsKey.png",
+    "codes": "ruinskey,drydryruinskey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Tubba's Castle Key",
+    "type": "consumable",
+    "img": "images/gulch/gulchKey.png",
+    "codes": "tubbacastlekey,tubbakey",
+    "max_quantity": 3
+  },
+  {
+    "name": "Red Berry",
+    "type": "toggle",
+    "img": "images/misc/miscBerryRed.png",
+    "codes": "redberry,rberry"
+  },
+  {
+    "name": "Blue Berry",
+    "type": "consumable",
+    "img": "images/misc/miscBerryBlue.png",
+    "codes": "blueberry,bberry"
+  },
+  {
+    "name": "Yellow Berry",
+    "type": "toggle",
+    "img": "images/misc/miscBerryYellow.png",
+    "codes": "yellowberry,yberry"
+  },
+  {
+    "name": "Warehouse Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverWarehouse.png",
+    "codes": "warehousekey,shiverwarehouse"
+  },
+  {
+    "name": "Palace Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyPalace.png",
+    "codes": "palacekey,crystalpalacekey"
+  },
+  {
+    "name": "Red Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyRed.png",
+    "codes": "redkey,palaceredkey"
+  },
+  {
+    "name": "Blue Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyBlue.png",
+    "codes": "bluekey,palacebluekey"
+  },
+  {
+    "name": "Bowser Castle Key",
+    "type": "consumable",
+    "img": "images/bowser/bowserKey.png",
+    "codes": "bowserkey,bowsercastlekey",
+    "max_quantity": 4
+  }
+]

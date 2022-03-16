@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Eldstar",
+    "type": "toggle",
+    "img": "images/spirit/iconEldstar.png",
+    "codes": "eldstar,spirit1"
+  },
+  {
+    "name": "Mamar",
+    "type": "toggle",
+    "img": "images/spirit/iconMamar.png",
+    "codes": "mamar,spirit2"
+  },
+  {
+    "name": "Skolar",
+    "type": "toggle",
+    "img": "images/spirit/iconSkolar.png",
+    "codes": "skolar,spirit3"
+  },
+  {
+    "name": "Muskular",
+    "type": "toggle",
+    "img": "images/spirit/iconMuskular.png",
+    "codes": "muskular,spirit4"
+  },
+  {
+    "name": "Misstar",
+    "type": "toggle",
+    "img": "images/spirit/iconMisstar.png",
+    "codes": "misstar,spirit5"
+  },
+  {
+    "name": "Klevar",
+    "type": "toggle",
+    "img": "images/spirit/iconKlevar.png",
+    "codes": "klevar,spirit6"
+  },
+  {
+    "name": "Kalmar",
+    "type": "toggle",
+    "img": "images/spirit/iconKalmar.png",
+    "codes": "kalmar,spirit7"
+  }
+]

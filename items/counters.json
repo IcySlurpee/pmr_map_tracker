@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Star Pieces",
+    "type": "consumable",
+    "img": "images/counter/counterStarPiece.png",
+    "codes": "counter_starpieces,counter_sp,c_sp",
+    "max_quantity": 96
+  },
+  {
+    "name": "Chuck Quizmo Quizzes",
+    "type": "consumable",
+    "img": "images/counter/counterQuiz.png",
+    "codes": "counter_chuckquizmo,counter_quiz,c_quiz",
+    "max_quantity": 64
+  },
+  {
+    "name": "Rip Cheato Purchases",
+    "type": "consumable",
+    "img": "images/counter/counterCheato.png",
+    "codes": "counter_ripcheato,counter_cheato,c_rc",
+    "max_quantity": 11
+  }
+]

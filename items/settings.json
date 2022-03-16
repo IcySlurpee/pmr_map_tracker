@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Coinsanity",
+    "type": "toggle",
+    "img": "images/setting/settingCoinsanity.png",
+    "codes": "setting_coinsanity"
+  },
+  {
+    "name": "Shopsanity",
+    "type": "toggle",
+    "img": "images/setting/settingShopsanity.png",
+    "codes": "setting_shopsanity"
+  },
+  {
+    "name": "Fast Bowser's Castle",
+    "type": "toggle",
+    "img": "images/setting/settingFastBowser.png",
+    "codes": "setting_fastbowser"
+  },
+  {
+    "name": "Shuffle Koopa Koot Rewards",
+    "type": "toggle",
+    "img": "images/setting/settingKoot.png",
+    "codes": "setting_koot"
+  }
+]

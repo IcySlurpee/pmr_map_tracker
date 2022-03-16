@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Boots",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/boots/boots.png",
+        "codes": "boots,jump"
+      },
+      {
+        "img": "images/boots/bootsSuper.png",
+        "codes": "superboots,sboots,spinjump"
+      },
+      {
+        "img": "images/boots/bootsUltra.png",
+        "codes": "ultraboots,uboots,tornadojump"
+      }
+    ]
+  },
+  {
+    "name": "Hammer",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/hammer/hammer.png",
+        "codes": "hammer"
+      },
+      {
+        "img": "images/hammer/hammerSuper.png",
+        "codes": "superhammer,shammer"
+      },
+      {
+        "img": "images/hammer/hammerUltra.png",
+        "codes": "ultrahammer,uhammer"
+      }
+    ]
+  }
+]

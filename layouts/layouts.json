@@ -1,0 +1,38 @@
+{
+  "item_map_tracker": {
+    "type": "container",
+    "background": "#212121",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "margin": "0,0,3,0",
+          "content": [
+            {
+              "type": "group",
+              "header": "Star Spirits",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "star_spirit_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Partners",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "partner_grid"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

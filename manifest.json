@@ -1,0 +1,15 @@
+{
+  "name": "Paper Mario Randomizer - Item Tracker",
+  "game_name": "Paper Mario Randomizer",
+  "package_version": "0.0.1",
+  "package_uid": "pmr_item_tracker",
+  "author": "slurpee",
+  "variants": {
+    "standard": {
+      "display_name": "Item Tracker w/ Map"
+    },
+    "itemsonly": {
+      "display_name": "Item Tracker"
+    }
+  }
+}
