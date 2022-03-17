@@ -1,0 +1,790 @@
+[
+  {
+    "name": "World Map",
+    "chest_unopened_img": "images/misc/miscNotChecked.png",
+    "chest_opened_img": "images/misc/miscChecked.png",
+    "children": [
+      {
+        "__regionID": "KMR",
+        "name": "Goomba Region",
+        "color": "#003300",
+        "children": [
+          {
+            "name": "West of Goomba King's Castle",
+            "access_rules": [
+              "$can_access_warp1",
+              "flag_beat_goomba_king"
+            ],
+            "children": [
+              {
+                "__mapID": "KMR_00",
+                "name": "Forest Clearing",
+                "sections": [
+                  {
+                    "name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 90,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_02",
+                "name": "Goomba Village",
+                "sections": [
+                  {
+                    "name": "Goompa Gift",
+                    "short_name": "Gift",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "On The Balcony",
+                    "short_name": "Balcony",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Goombario Partner",
+                    "short_name": "Partner",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Goomnut Tree",
+                    "short_name": "Tree",
+                    "access_rules": [
+                      "$can_shake_trees"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Goompa Koopa Koot Favor",
+                    "short_name": "Goompa Favor",
+                    "visibility_rules": [
+                      "setting_koot"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 115,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_05",
+                "name": "Behind the Village",
+                "sections": [
+                  {
+                    "name": "On Ledge",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 90,
+                    "y": 540
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_03",
+                "name": "Bottom of the Cliff",
+                "sections": [
+                  {
+                    "name": "Panel",
+                    "short_name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Above Stone Block",
+                    "short_name": "Stone Block",
+                    "access_rules": [
+                      "$has|superhammer,$can_see_hidden_blocks"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Floating Coins",
+                    "short_name": "Coins",
+                    "visibility_rules": [
+                      "setting_coinsanity"
+                    ],
+                    "item_count": 4
+                  },
+                  {
+                    "name": "Upper Ledge",
+                    "short_name": "Spring",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Tree",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "? Block on Ground",
+                    "short_name": "? Block",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 115,
+                    "y": 515
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_04",
+                "name": "Jr. Troopa Playground",
+                "sections": [
+                  {
+                    "name": "Hit Rightmost Tree",
+                    "short_name": "Tree",
+                    "access_rules": [
+                      "$can_shake_trees"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 90,
+                    "y": 515
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_09",
+                "name": "Goomba Road 1",
+                "sections": [
+                  {
+                    "name": "Left and Right ? Blocks",
+                    "short_name": "? Blocks",
+                    "visibility_rules": [
+                      "setting_coinsanity"
+                    ],
+                    "item_count": 2
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 150,
+                    "y": 480
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_06",
+                "name": "Goomba Road 2",
+                "sections": [
+                  {
+                    "name": "On Sign",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Red ? Block",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 175,
+                    "y": 475
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_07",
+                "name": "Goomba Road 3",
+                "sections": [
+                  {
+                    "name": "Defeat Goomba Bros.",
+                    "short_name": "Goomba Bros.",
+                    "hosted_item": "flag_beat_goomba_bros"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 200,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_11",
+                "name": "West Goomba King's Castle",
+                "sections": [
+                  {
+                    "name": "Shake Left Tree",
+                    "short_name": "Left Tree",
+                    "access_rules": [
+                      "$can_shake_trees,flag_beat_goomba_bros"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Defeat Goomba King",
+                    "short_name": "Goomba King",
+                    "access_rules": [
+                      "flag_beat_goomba_bros"
+                    ],
+                    "hosted_item": "flag_beat_goomba_king"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 225,
+                    "y": 465
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "East of Goomba King's Castle",
+            "children": [
+              {
+                "__mapID": "KMR_11",
+                "name": "East Goomba King's Castle",
+                "sections": [
+                  {
+                    "name": "Flip Right Panel",
+                    "short_name": "Right Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Hit Brick Block",
+                    "short_name": "? Block",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 250,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_10",
+                "name": "Toad Town Entrance",
+                "sections": [
+                  {
+                    "name": "Spring in Tree to Roof",
+                    "short_name": "Roof",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Lower ? Block",
+                    "short_name": "? Block",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 280,
+                    "y": 480
+                  }
+                ]
+              },
+              {
+                "__mapID": "KMR_20",
+                "name": "Mario's House",
+                "sections": [
+                  {
+                    "name": "Luigi Koopa Koot Autograph",
+                    "short_name": "Autograph",
+                    "visibility_rules": [
+                      "setting_koot"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 340,
+                    "y": 440
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "MAC",
+        "name": "Toad Town",
+        "color": "#FF6633",
+        "children": [
+          {
+            "__mapID": "MAC_00",
+            "name": "Gate District",
+            "sections": [
+              {
+                "name": "Sushie Island",
+                "short_name": "Island",
+                "access_rules": [
+                  "$has_partner|sushie",
+                  "{}"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "East Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 325,
+                "y": 505
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_00",
+            "name": "Gate District Shop",
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 355,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_00",
+            "name": "Dojo",
+            "sections": [
+              {
+                "name": "Fight Chan",
+                "short_name": "Chan",
+                "hosted_item": "flag_beat_chan"
+              },
+              {
+                "name": "Fight Lee",
+                "short_name": "Lee",
+                "access_rules": [
+                  "$has_star_spirits|2,flag_beat_chan"
+                ],
+                "hosted_item": "flag_beat_lee"
+              },
+              {
+                "name": "Fight The Master 1",
+                "short_name": "Master 1",
+                "access_rules": [
+                  "$has_star_spirits|3,flag_beat_lee"
+                ],
+                "hosted_item": "flag_beat_master1"
+              },
+              {
+                "name": "Fight The Master 2",
+                "short_name": "Master 2",
+                "access_rules": [
+                  "$has_star_spirits|4,flag_beat_master1"
+                ],
+                "hosted_item": "flag_beat_master2"
+              },
+              {
+                "name": "Fight The Master 3",
+                "short_name": "Master 3",
+                "access_rules": [
+                  "$has_star_spirits|5,flag_beat_master2"
+                ],
+                "hosted_item": "flag_beat_master3"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_dojo"
+                ],
+                "x": 385,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_01",
+            "name": "Merlon's House",
+            "sections": [
+              {
+                "name": "3 Spin Jumps",
+                "access_rules": [
+                  "spinjump"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 445,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_01",
+            "name": "Plaza West",
+            "sections": [
+              {             
+                "name": "Shake Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Read the News for Koopa Koot",
+                "short_name": "Front and Back!",
+                "visibility_rules": [
+                  "setting_koot"
+                ],
+                "hosted_item": "flag_koot_read_news"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 420,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_01",
+            "name": "Rowf",
+            "sections": [
+              {
+                "name": "Return Calculator",
+                "short_name": "Calculator",
+                "access_rules": [
+                  "calculator"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 445,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_01",
+            "name": "Badge Shop",
+            "sections": [
+              {
+                "name": "Badge Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 5",
+                "short_name": "Item 5",
+                "access_rules": [
+                  "$has_star_spirits|1"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 6",
+                "short_name": "Item 6",
+                "access_rules": [
+                  "$has_star_spirits|1"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 7",
+                "short_name": "Item 7",
+                "access_rules": [
+                  "$has_star_spirits|1"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 8",
+                "short_name": "Item 8",
+                "access_rules": [
+                  "$has_star_spirits|2"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 9",
+                "short_name": "Item 9",
+                "access_rules": [
+                  "$has_star_spirits|2"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 10",
+                "short_name": "Item 10",
+                "access_rules": [
+                  "$has_star_spirits|2"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 11",
+                "short_name": "Item 11",
+                "access_rules": [
+                  "$has_star_spirits|3"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 12",
+                "short_name": "Item 12",
+                "access_rules": [
+                  "$has_star_spirits|3"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 13",
+                "short_name": "Item 13",
+                "access_rules": [
+                  "$has_star_spirits|3"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 14",
+                "short_name": "Item 14",
+                "access_rules": [
+                  "$has_star_spirits|4"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 15",
+                "short_name": "Item 15",
+                "access_rules": [
+                  "$has_star_spirits|4"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Badge Shop Item 16",
+                "short_name": "Item 16",
+                "access_rules": [
+                  "$has_star_spirits|4"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 420,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_01",
+            "name": "Flower Fields Entry",
+            "sections": [
+              {
+                "name": "Place 4 Seeds",
+                "short_name": "4 Seeds",
+                "access_rules": [
+                  "$can_access_flower_fields"
+                ],
+                "hosted_item": "flag_flower_fields_access"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 500,
+                "y": 525
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_02",
+            "name": "Southeast Near Guard",
+            "sections": [
+              {
+                "name": "Bul-ulb Gift",
+                "short_name": "Bul-ulb",
+                "item_count": 1
+              },
+              {
+                "name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 475,
+                "y": 585
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_02",
+            "name": "Tayce T.",
+            "sections": [
+              {
+                "name": "Return Frying Pan",
+                "short_name": "Frying Pan",
+                "access_rules": [
+                  "fryingpan"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 435,
+                "y": 550
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_02",
+            "name": "Blue House",
+            "sections": [
+              {
+                "name": "Freestanding Item",
+                "short_name": "Grab it",
+                "access_rules": [
+                  "$can_access_blue_house"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 410,
+                "y": 550
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
