@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Koopa Fortress Key",
+    "type": "consumable",
+    "img": "images/koopabros/fortressKey.png",
+    "codes": "fortresskey,koopafortresskey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Ruins Key",
+    "type": "consumable",
+    "img": "images/ruins/ruinsKey.png",
+    "codes": "ruinskey,drydryruinskey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Tubba's Castle Key",
+    "type": "consumable",
+    "img": "images/gulch/gulchKey.png",
+    "codes": "tubbacastlekey,tubbakey",
+    "max_quantity": 3
+  },
+  {
+    "name": "Storeroom Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "img_mods": "overlay|images/overlay/overlayStoreroom.png",
+    "codes": "storeroomkey,storeroom"
+  },
+  {
+    "name": "Red Berry",
+    "type": "toggle",
+    "img": "images/misc/miscBerryRed.png",
+    "codes": "redberry,rberry"
+  },
+  {
+    "name": "Blue Berry",
+    "type": "consumable",
+    "img": "images/misc/miscBerryBlue.png",
+    "codes": "blueberry,blberry"
+  },
+  {
+    "name": "Yellow Berry",
+    "type": "toggle",
+    "img": "images/misc/miscBerryYellow.png",
+    "codes": "yellowberry,yberry"
+  },
+  {
+    "name": "Bubble Berry",
+    "type": "toggle",
+    "img": "images/misc/miscBerryBubble.png",
+    "codes": "bubbleberry,buberry"
+  },
+  {
+    "name": "Odd Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "img_mods": "overlay|images/overlay/overlayOdd.png",
+    "codes": "oddkey,odd"
+  },
+  {
+    "name": "Warehouse Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "img_mods": "overlay|images/overlay/overlayWarehouse.png",
+    "codes": "warehousekey,shiverwarehouse,warehouse"
+  },
+  {
+    "name": "Palace Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyPalace.png",
+    "codes": "palacekey,crystalpalacekey"
+  },
+  {
+    "name": "Red Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyRed.png",
+    "codes": "redkey,palaceredkey"
+  },
+  {
+    "name": "Blue Key",
+    "type": "toggle",
+    "img": "images/shiver/shiverKeyBlue.png",
+    "codes": "bluekey,palacebluekey"
+  },
+  {
+    "name": "Bowser's Castle Key",
+    "type": "consumable",
+    "img": "images/bowser/bowserKey.png",
+    "codes": "bowserkey,bowsercastlekey",
+    "max_quantity": 4
+  },
+  {
+    "name": "Prison Key",
+    "type": "consumable",
+    "img": "images/misc/miscKey.png",
+    "img_mods": "overlay|images/overlay/overlayPrison.png",
+    "codes": "prisonkey,castleprisonkey,koopatrolkey",
+    "max_quantity": 2
+  }
+]

@@ -1,13 +1,13 @@
 [
   {
-    "name": "Star Pieces",
+    "name": "Star Pieces Collected",
     "type": "consumable",
     "img": "images/counter/counterStarPiece.png",
     "codes": "counter_starpieces,counter_sp,c_sp",
     "max_quantity": 96
   },
   {
-    "name": "Chuck Quizmo Quizzes",
+    "name": "Chuck Quizmo Quizzes Correctly Answered",
     "type": "consumable",
     "img": "images/counter/counterQuiz.png",
     "codes": "counter_chuckquizmo,counter_quiz,c_quiz",

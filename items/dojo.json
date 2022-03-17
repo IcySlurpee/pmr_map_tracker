@@ -1,28 +1,32 @@
 [
   {
-    "name": "Dojo Card",
-    "type": "progressive",
-    "stages": [
-      {
-        "img": "images/dojo/dojoDegree1.png",
-        "codes": "firstdegreecard,degree1,dojo1"
-      },
-      {
-        "img": "images/dojo/dojoDegree2.png",
-        "codes": "seconddegreecard,degree2,dojo2"
-      },
-      {
-        "img": "images/dojo/dojoDegree3.png",
-        "codes": "thirddegreecard,degree3,dojo3"
-      },
-      {
-        "img": "images/dojo/dojoDegree4.png",
-        "codes": "fourthdegreecard,degree4,dojo4"
-      },
-      {
-        "img": "images/dojo/dojoDiploma.png",
-        "codes": "diploma,dojodiploma,degree5,dojo5"
-      }
-    ]
+    "name": "First-Degree Card",
+    "type": "toggle",
+    "img": "images/dojo/dojoDegree1.png",
+    "codes": "firstdegreecard,degree1,dojo1"
+  },
+  {
+    "name": "Second-Degree Card",
+    "type": "toggle",
+    "img": "images/dojo/dojoDegree2.png",
+    "codes": "seconddegreecard,degree2,dojo2"
+  },
+  {
+    "name": "Third-Degree Card",
+    "type": "toggle",
+    "img": "images/dojo/dojoDegree3.png",
+    "codes": "thirddegreecard,degree3,dojo3"
+  },
+  {
+    "name": "Fourth-Degree Card",
+    "type": "toggle",
+    "img": "images/dojo/dojoDegree4.png",
+    "codes": "fourthdegreecard,degree4,dojo4"
+  },
+  {
+    "name": "Diploma",
+    "type": "toggle",
+    "img": "images/dojo/dojoDiploma.png",
+    "codes": "diploma,dojodiploma,degree5,dojo5"
   }
 ]

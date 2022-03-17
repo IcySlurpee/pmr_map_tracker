@@ -22,5 +22,35 @@
     "type": "toggle",
     "img": "images/setting/settingKoot.png",
     "codes": "setting_koot"
+  },
+  {
+    "name": "Shuffle Dojo Rewards",
+    "type": "toggle",
+    "img": "images/setting/settingDojo.png",
+    "codes": "setting_dojo"
+  },
+  {
+    "name": "Open Blue House",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "setting_open_blue_house"
+  },
+  {
+    "name": "Open Flower Gate",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "setting_open_flower_gate"
+  },
+  {
+    "name": "Open Toy Box",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "setting_open_toybox"
+  },
+  {
+    "name": "Open Whale",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "setting_open_whale"
   }
 ]

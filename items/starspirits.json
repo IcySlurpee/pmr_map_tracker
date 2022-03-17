@@ -2,43 +2,43 @@
   {
     "name": "Eldstar",
     "type": "toggle",
-    "img": "images/spirit/iconEldstar.png",
-    "codes": "eldstar,spirit1"
+    "img": "images/spirit/spiritEldstar.png",
+    "codes": "eldstar,spirit1,spirits"
   },
   {
     "name": "Mamar",
     "type": "toggle",
-    "img": "images/spirit/iconMamar.png",
-    "codes": "mamar,spirit2"
+    "img": "images/spirit/spiritMamar.png",
+    "codes": "mamar,spirit2,spirits"
   },
   {
     "name": "Skolar",
     "type": "toggle",
-    "img": "images/spirit/iconSkolar.png",
-    "codes": "skolar,spirit3"
+    "img": "images/spirit/spiritSkolar.png",
+    "codes": "skolar,spirit3,spirits"
   },
   {
     "name": "Muskular",
     "type": "toggle",
-    "img": "images/spirit/iconMuskular.png",
-    "codes": "muskular,spirit4"
+    "img": "images/spirit/spiritMuskular.png",
+    "codes": "muskular,spirit4,spirits"
   },
   {
     "name": "Misstar",
     "type": "toggle",
-    "img": "images/spirit/iconMisstar.png",
-    "codes": "misstar,spirit5"
+    "img": "images/spirit/spiritMisstar.png",
+    "codes": "misstar,spirit5,spirits"
   },
   {
     "name": "Klevar",
     "type": "toggle",
-    "img": "images/spirit/iconKlevar.png",
-    "codes": "klevar,spirit6"
+    "img": "images/spirit/spiritKlevar.png",
+    "codes": "klevar,spirit6,spirits"
   },
   {
     "name": "Kalmar",
     "type": "toggle",
-    "img": "images/spirit/iconKalmar.png",
-    "codes": "kalmar,spirit7"
+    "img": "images/spirit/spiritKalmar.png",
+    "codes": "kalmar,spirit7,spirits"
   }
 ]

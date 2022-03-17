@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Defeated Goomba Bros",
+    "type": "toggle",
+    "img": "images/flag/flagGoombaBros.png",
+    "codes": "flag_beat_goomba_bros,RF_BeatGoombaBros"
+  },
+  {
+    "name": "Defeated Goomba King",
+    "type": "toggle",
+    "img": "images/flag/flagGoombaKing.png",
+    "codes": "flag_beat_goomba_king,RF_BeatGoombaKing"
+  },
+  {
+    "name": "Defeated Chan",
+    "type": "toggle",
+    "img": "images/flag/flagChan.png",
+    "codes": "flag_beat_chan"
+  },
+  {
+    "name": "Defeated Lee",
+    "type": "toggle",
+    "img": "images/flag/flagLee.png",
+    "codes": "flag_beat_lee"
+  },
+  {
+    "name": "Defeated The Master 1",
+    "type": "toggle",
+    "img": "images/flag/flagMaster1.png",
+    "codes": "flag_beat_master1"
+  },
+  {
+    "name": "Defeated The Master 2",
+    "type": "toggle",
+    "img": "images/flag/flagMaster2.png",
+    "codes": "flag_beat_master2"
+  },
+  {
+    "name": "Defeated The Master 3",
+    "type": "toggle",
+    "img": "images/flag/flagMaster3.png",
+    "codes": "flag_beat_master3"
+  },
+  {
+    "name": "Flower Fields Accessible",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_flower_fields_access"
+  },
+  {
+    "name": "Unlocked Blue House",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_unlocked_blue_house"
+  },
+  {
+    "__comment": "Might be better to use a progressive item w/o inheriting codes for Koopa Koot favors?",
+    "name": "Read the news for Koopa Koot",
+    "type": "toggle",
+    "img": "images/misc/debugBlank.png",
+    "codes": "flag_koot_read_news"
+  },
+  {
+    "name": "Defeated Blooper Phases",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/flag/flagBlooper1.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/flag/flagBlooper1.png",
+        "codes": "flag_beat_blooper1"
+      },
+      {
+        "img": "images/flag/flagBlooper2.png",
+        "codes": "flag_beat_blooper2"
+      },
+      {
+        "img": "images/flag/flagBlooper3.png",
+        "codes": "flag_beat_blooper3"
+      }
+    ]
+  }
+]

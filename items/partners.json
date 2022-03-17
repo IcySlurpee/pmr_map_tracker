@@ -2,49 +2,49 @@
   {
     "name": "Goombario",
     "type": "toggle",
-    "img": "images/partner/iconGoombario.png",
+    "img": "images/partner/partnerGoombario.png",
     "codes": "goombario,partner1"
   },
   {
     "name": "Kooper",
     "type": "toggle",
-    "img": "images/partner/iconKooper.png",
+    "img": "images/partner/partnerKooper.png",
     "codes": "kooper,partner2"
   },
   {
     "name": "Bombette",
     "type": "toggle",
-    "img": "images/partner/iconBombette.png",
+    "img": "images/partner/partnerBombette.png",
     "codes": "bombette,partner3"
   },
   {
     "name": "Parakarry",
     "type": "toggle",
-    "img": "images/partner/iconParakarry.png",
+    "img": "images/partner/partnerParakarry.png",
     "codes": "parakarry,partner4"
   },
   {
     "name": "Bow",
     "type": "toggle",
-    "img": "images/partner/iconBow.png",
+    "img": "images/partner/partnerBow.png",
     "codes": "bow,partner5"
   },
   {
     "name": "Watt",
     "type": "toggle",
-    "img": "images/partner/iconWatt.png",
+    "img": "images/partner/partnerWatt.png",
     "codes": "watt,partner6"
   },
   {
     "name": "Sushie",
     "type": "toggle",
-    "img": "images/partner/iconSushie.png",
+    "img": "images/partner/partnerSushie.png",
     "codes": "sushie,partner7"
   },
   {
     "name": "Lakilester",
     "type": "toggle",
-    "img": "images/partner/iconLakilester.png",
+    "img": "images/partner/partnerLakilester.png",
     "codes": "lakilester,partner8"
   }
 ]

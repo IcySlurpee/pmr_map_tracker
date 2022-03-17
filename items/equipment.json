@@ -29,11 +29,11 @@
       },
       {
         "img": "images/hammer/hammerSuper.png",
-        "codes": "superhammer,shammer"
+        "codes": "superhammer,shammer,hammer2"
       },
       {
         "img": "images/hammer/hammerUltra.png",
-        "codes": "ultrahammer,uhammer"
+        "codes": "ultrahammer,uhammer,hammer3"
       }
     ]
   }

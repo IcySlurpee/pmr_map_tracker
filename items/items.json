@@ -54,12 +54,6 @@
     "codes": "yakkey,mysticalkey"
   },
   {
-    "name": "Storeroom Key",
-    "type": "toggle",
-    "img": "images/misc/miscKey.png",
-    "codes": "storeroomkey,storeroom"
-  },
-  {
     "name": "Toy Train",
     "type": "toggle",
     "img": "images/toybox/toyboxTrain.png",
@@ -69,7 +63,13 @@
     "name": "Frying Pan",
     "type": "toggle",
     "img": "images/toybox/toyboxPan.png",
-    "codes": "fryingpan"
+    "codes": "fryingpan,pan"
+  },
+  {
+    "name": "Cake",
+    "type": "toggle",
+    "img": "images/toybox/toyboxCake.png",
+    "codes": "cake,toyboxcake"
   },
   {
     "name": "Dictionary",
@@ -105,32 +105,32 @@
     "name": "Magical Seeds (composite)",
     "type": "consumable",
     "img": "images/fields/fieldsSeed1.png",
-    "codes": "magicalseed,magicseed,magicalseeds",
+    "codes": "magicalseeds,seeds",
     "max_quantity": 4
   },
   {
     "name": "Magical Seed 1",
     "type": "toggle",
     "img": "images/fields/fieldsSeed1.png",
-    "codes": "magicalseed1,magicseed1"
+    "codes": "magicalseed1,seed1"
   },
   {
     "name": "Magical Seeds 2",
     "type": "toggle",
     "img": "images/fields/fieldsSeed2.png",
-    "codes": "magicalseed2,magicseed2"
+    "codes": "magicalseed2,seed2"
   },
   {
     "name": "Magical Seeds 3",
     "type": "toggle",
     "img": "images/fields/fieldsSeed3.png",
-    "codes": "magicalseed3,magicseed3"
+    "codes": "magicalseed3,seed3"
   },
   {
     "name": "Magical Seeds 4",
     "type": "toggle",
     "img": "images/fields/fieldsSeed4.png",
-    "codes": "magicalseed4,magicseed4"
+    "codes": "magicalseed4,seed4"
   },
   {
     "name": "Magical Bean",
@@ -181,11 +181,17 @@
     "codes": "starstone"
   },
   {
+    "name": "Ultra Stone",
+    "type": "toggle",
+    "img": "images/misc/miscUltraStone.png",
+    "codes": "ultrastone"
+  },
+  {
     "name": "Letter",
     "type": "consumable",
     "img": "images/misc/miscLetter.png",
     "codes": "letter,letters",
-    "max_quantity": 25
+    "max_quantity": 26
   },
   {
     "name": "Artifact",
@@ -216,12 +222,6 @@
     "type": "toggle",
     "img": "images/misc/miscMailbag.png",
     "codes": "mailbag"
-  },
-  {
-    "name": "Odd Key",
-    "type": "toggle",
-    "img": "images/misc/miscKey.png",
-    "codes": "oddkey,bluehousekey,ripcheatokey"
   },
   {
     "name": "Tape",
@@ -282,75 +282,5 @@
     "type": "toggle",
     "img": "images/koot/kootJar.png",
     "codes": "redjar,jar,kootredjar"
-  },
-  {
-    "name": "Koopa Fortress Key",
-    "type": "consumable",
-    "img": "images/koopabros/fortressKey.png",
-    "codes": "fortresskey,koopafortresskey",
-    "max_quantity": 4
-  },
-  {
-    "name": "Ruins Key",
-    "type": "consumable",
-    "img": "images/ruins/ruinsKey.png",
-    "codes": "ruinskey,drydryruinskey",
-    "max_quantity": 4
-  },
-  {
-    "name": "Tubba's Castle Key",
-    "type": "consumable",
-    "img": "images/gulch/gulchKey.png",
-    "codes": "tubbacastlekey,tubbakey",
-    "max_quantity": 3
-  },
-  {
-    "name": "Red Berry",
-    "type": "toggle",
-    "img": "images/misc/miscBerryRed.png",
-    "codes": "redberry,rberry"
-  },
-  {
-    "name": "Blue Berry",
-    "type": "consumable",
-    "img": "images/misc/miscBerryBlue.png",
-    "codes": "blueberry,bberry"
-  },
-  {
-    "name": "Yellow Berry",
-    "type": "toggle",
-    "img": "images/misc/miscBerryYellow.png",
-    "codes": "yellowberry,yberry"
-  },
-  {
-    "name": "Warehouse Key",
-    "type": "toggle",
-    "img": "images/shiver/shiverWarehouse.png",
-    "codes": "warehousekey,shiverwarehouse"
-  },
-  {
-    "name": "Palace Key",
-    "type": "toggle",
-    "img": "images/shiver/shiverKeyPalace.png",
-    "codes": "palacekey,crystalpalacekey"
-  },
-  {
-    "name": "Red Key",
-    "type": "toggle",
-    "img": "images/shiver/shiverKeyRed.png",
-    "codes": "redkey,palaceredkey"
-  },
-  {
-    "name": "Blue Key",
-    "type": "toggle",
-    "img": "images/shiver/shiverKeyBlue.png",
-    "codes": "bluekey,palacebluekey"
-  },
-  {
-    "name": "Bowser Castle Key",
-    "type": "consumable",
-    "img": "images/bowser/bowserKey.png",
-    "codes": "bowserkey,bowsercastlekey",
-    "max_quantity": 4
   }
 ]
