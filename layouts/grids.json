@@ -1,7 +1,8 @@
 {
   "partner_grid": {
     "type": "itemgrid",
-    "h_alignment": "left",
+    "h_alignment": "center",
+    "item_margin": "0",
     "rows": [
       [
         "goombario",
@@ -18,6 +19,7 @@
   "star_spirit_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
+    "item_margin": "0",
     "rows": [
       [
         "eldstar",
@@ -32,12 +34,13 @@
   },
   "items_grid": {
     "type": "itemgrid",
-    "h_alignment": "left",
+    "h_alignment": "center",
+    "item_margin": "0",
     "rows": [
       [
         "boots",
         "hammer",
-        "fortresskey",
+        "",
         "pulsestone",
         "pyramidstone",
         "diamondstone",
@@ -58,14 +61,14 @@
         "bucket",
         "scarf",
         "starstone",
-        "ultrastone",
-        "crystalball"
+        "ultrastone"
       ]
     ]
   },
   "dungeon_keys_grid": {
     "type": "itemgrid",
-    "h_alignment": "left",
+    "h_alignment": "center",
+    "item_margin": "0",
     "rows": [
       [
         "fortresskey",
@@ -75,6 +78,129 @@
         "bluekey",
         "palacekey",
         "bowserkey"
+      ]
+    ]
+  },
+  "other_keys_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "redberry",
+        "yellowberry",
+        "blueberry",
+        "bubbleberry",
+        "storeroomkey",
+        "oddkey",
+        "prisonkey"
+      ]
+    ]
+  },
+  "other_items_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "dolly",
+        "koopersshell",
+        "weight",
+        "record",
+        "fryingpan",
+        "calculator"
+      ],
+      [
+        "dictionary",
+        "mysterynote",
+        "artifact",
+        "volcanovase",
+        "crystalberry",
+        "waterstone"
+      ],
+      [
+        "mailbag",
+        "letter",
+        "crystalball",
+        "lyrics",
+        "melody"
+      ]
+    ]
+  },
+  "dojo_items_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "firstdegreecard",
+        "seconddegreecard",
+        "thirddegreecard"
+      ],
+      [
+        "fourthdegreecard",
+        "diploma"
+      ]
+    ]
+  },
+  "koopa_koot_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "kootthetape",
+        "koopalegends",
+        "luigisautograph"
+      ],
+      [
+        "merluvleesautograph",
+        "wallet",
+        "oldphoto"
+      ],
+      [
+        "glasses",
+        "package",
+        "redjar"
+      ]
+    ]
+  },
+  "counters_grid": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "0",
+    "rows": [
+      [
+        "counter_starpieces",
+        "counter_chuckquizmo",
+        "counter_ripcheato"
+      ]
+    ]
+  },
+  "check_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "0",
+    "rows": [
+      [
+        "setting_fastbowser",
+        "setting_shopsanity",
+        "setting_coinsanity",
+        "setting_koot",
+        "setting_dojo"
+      ]
+    ]
+  },
+  "world_setting_grid": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "0.5,0",
+    "rows": [
+      [
+        "setting_open_blue_house",
+        "setting_open_whale",
+        "setting_open_flower_gate",
+        "setting_open_toybox"
       ]
     ]
   }
