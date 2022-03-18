@@ -78,33 +78,28 @@
     "codes": "flag_beat_fuzzipede,RF_CanRideWhale"
   },
   {
+    "name": "Enabled Warp Zone 1",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_warp1,GF_TIK01_WarpPipes"
+  },
+  {
+    "name": "Enabled Warp Zone 2",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_warp2,GF_TIK09_WarpPipe"
+  },
+  {
+    "name": "Enabled Warp Zone 3",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_warp3,GF_TIK08_WarpPipe"
+  },
+  {
     "__comment": "Might be better to use a progressive item w/o inheriting codes for Koopa Koot favors?",
     "name": "Read the news for Koopa Koot",
     "type": "toggle",
     "img": "images/misc/debugPH.png",
     "codes": "flag_koot_read_news,RF_CanReadToadTownNews"
-  },
-  {
-    "name": "Defeated Blooper Phases",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/flag/flagBlooper1.png",
-        "img_mods": "@disabled"
-      },
-      {
-        "img": "images/flag/flagBlooper1.png",
-        "codes": "flag_beat_blooper1"
-      },
-      {
-        "img": "images/flag/flagBlooper2.png",
-        "codes": "flag_beat_blooper2"
-      },
-      {
-        "img": "images/flag/flagBlooper3.png",
-        "codes": "flag_beat_blooper3"
-      }
-    ]
   }
 ]

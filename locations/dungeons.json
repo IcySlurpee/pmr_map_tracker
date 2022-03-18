@@ -1,0 +1,341 @@
+[
+  {
+    "name": "All Dungeons",
+    "chest_unopened_img": "images/map/mapNotChecked.png",
+    "chest_opened_img": "images/map/mapCheckedTEMP.png",
+    "children": [
+      {
+        "__regionID": "TIK",
+        "name": "Toad Town Tunnels",
+        "color": "#009900",
+        "access_rules": [
+          "setting_start_toad",
+          "flag_beat_goomba_king",
+          "$can_ride_train",
+          "$can_ride_whale"
+        ],
+        "sections": [
+          {
+            "name": "B1 Entrance Area",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B1 West Area",
+            "access_rules": [
+              "superhammer"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B1 West Pipe to B2",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Area"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B1 Break Panels",
+            "access_rules": [
+              "spinjump"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B2 from Rip Cheato",
+            "access_rules": [
+              "setting_open_blue_house,bombette"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B2 Full Access",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 Break Panels,sushie",
+              "@Toad Town Tunnels/B2 from Rip Cheato,sushie"
+            ]
+          },
+          {
+            "name": "B3 Access",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access,lakilester",
+              "@Toad Town Tunnels/B2 from Rip Cheato,lakilester"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_18",
+            "name": "B1 Hidden Block",
+            "short_name": "B1 Hidden ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 Entrance Area,$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_02",
+            "name": "B1 Blooper Chest",
+            "short_name": "B1 Blooper",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 Entrance Area"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_01",
+            "name": "B1 Warp Zone",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Area"
+            ],
+            "hosted_item": "flag_warp1"
+          },
+          {
+            "__mapID": "TIK_03",
+            "name": "B1 West Elevator Center ? Block",
+            "short_name": "B1 Lift Center ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Area"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_03",
+            "name": "B1 West Elevator L/R ? Blocks",
+            "short_name": "B1 Lift Sides ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Area"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "TIK_05",
+            "name": "B2 West Spring Room",
+            "short_name": "B2 West Spring",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Pipe to B2"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_07",
+            "name": "B2 Elevator Ledge",
+            "short_name": "B2 Elevator",
+            "access_rules": [
+              "@Toad Town Tunnels/B1 West Pipe to B2,parakarry",
+              "{@Toad Town Tunnels/B1 West Pipe to B2}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_09",
+            "name": "B2 Warp Zone 2",
+            "short_name": "B2 Warp 2",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access",
+              "@Toad Town Tunnels/B1 Break Panels"
+            ],
+            "hosted_item": "flag_warp2"
+          },
+          {
+            "__mapID": "TIK_10",
+            "name": "B2 Block Puzzle Hidden Blocks",
+            "short_name": "B2 Block Puzzle",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access,$can_see_hidden_blocks",
+              "@Toad Town Tunnels/B1 Break Panels,$can_see_hidden_blocks"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 3
+          },
+          {
+            "__mapID": "TIK_08",
+            "name": "B2 Blooper Warp 3",
+            "short_name": "B2 Warp 3",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access",
+              "@Toad Town Tunnels/B2 from Rip Cheato"
+            ],
+            "hosted_item": "flag_warp2"
+          },
+          {
+            "__mapID": "TIK_21",
+            "name": "B2 Hidden ? Block Room",
+            "short_name": "B2 Hidden ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access",
+              "@Toad Town Tunnels/B2 from Rip Cheato,spinjump"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 5
+          },
+          {
+            "__mapID": "TIK_20",
+            "name": "B2 Spike Room ? Block",
+            "short_name": "B2 Spike ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access,tornadojump",
+              "@Toad Town Tunnels/B2 from Rip Cheato,tornadojump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_23",
+            "name": "B3 Windy Path Hidden ? Blocks",
+            "short_name": "B3 Path Hidden ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B3 Access,$can_see_hidden_blocks"
+            ],
+            "item_count": 3
+          },
+          {
+            "__mapID": "TIK_23",
+            "name": "B3 Windy Path ? Block",
+            "short_name": "B3 Path ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B3 Access"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_24",
+            "name": "B3 Hidden ? Blocks Near Ultra Boots",
+            "short_name": "B3 Ultras Hidden ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B3 Access,$can_see_hidden_blocks,superhammer,tornadojump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TIK_24",
+            "name": "B3 ? Blocks Near Ultra Boots",
+            "short_name": "B3 Ultras ?",
+            "access_rules": [
+              "@Toad Town Tunnels/B3 Access,superhammer,tornadojump"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "TIK_25",
+            "name": "B3 Ultra Boots Chest",
+            "short_name": "B3 Ultra Boots",
+            "access_rules": [
+              "@Toad Town Tunnels/B3 Access,ultrahammer"
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 425,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "__mapID": "TIK_15",
+        "name": "Rip Cheato Deals",
+        "access_rules": [
+          "setting_open_blue_house",
+          "spinjump,sushie,bombette"
+        ],
+        "sections": [
+          {
+            "name": "Deal 1",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 2",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 3",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 4",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 5",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 6",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 7",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 8",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 9",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 10",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Deal 11",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 400,
+            "y": 590
+          }
+        ]
+      }
+    ]
+  }
+]
