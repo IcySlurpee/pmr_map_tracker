@@ -1,6 +1,6 @@
 [
   {
-    "name": "World Map",
+    "name": "Kingdom",
     "chest_unopened_img": "images/map/mapNotChecked.png",
     "chest_opened_img": "images/map/mapCheckedTEMP.png",
     "children": [
@@ -12,7 +12,8 @@
           {
             "name": "West of Goomba King's Castle",
             "access_rules": [
-              "$can_access_warp1",
+              "setting_start_goomba",
+              "flag_warp1",
               "flag_beat_goomba_king"
             ],
             "children": [
@@ -113,7 +114,7 @@
                     "name": "Above Stone Block",
                     "short_name": "Stone Block",
                     "access_rules": [
-                      "$has|superhammer,$can_see_hidden_blocks"
+                      "superhammer,$can_see_hidden_blocks"
                     ],
                     "item_count": 1
                   },
@@ -237,7 +238,7 @@
                     "name": "Shake Left Tree",
                     "short_name": "Left Tree",
                     "access_rules": [
-                      "$can_shake_trees,flag_beat_goomba_bros"
+                      "flag_beat_goomba_bros,$can_shake_trees"
                     ],
                     "item_count": 1
                   },
@@ -262,6 +263,12 @@
           },
           {
             "name": "East of Goomba King's Castle",
+            "access_rules": [
+              "setting_start_toad",
+              "flag_beat_goomba_king",
+              "$can_ride_train",
+              "$can_ride_whale"
+            ],
             "children": [
               {
                 "__mapID": "KMR_11",
@@ -341,643 +348,667 @@
         "__regionID": "MAC",
         "name": "Toad Town",
         "color": "#FF6633",
+        "access_rules": [
+          "setting_start_toad",
+          "flag_beat_goomba_king",
+          "$can_ride_train",
+          "$can_ride_whale"
+        ],
         "children": [
           {
             "__mapID": "MAC_00",
             "name": "Gate District",
-            "sections": [
+            "children": [
               {
-                "name": "Sushie Island",
-                "short_name": "Island",
-                "access_rules": [
-                  "$has_partner|sushie",
-                  "{}"
+                "name": "Town Gate District",
+                "sections": [
+                  {
+                    "name": "Sushie Island",
+                    "short_name": "Island",
+                    "access_rules": [
+                      "sushie",
+                      "{}"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "East Hidden Panel",
+                    "short_name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Russ T. Give Dict/Note",
+                    "short_name": "Dictionary/Note",
+                    "access_rules": [
+                      "dictionary,mysterynote"
+                    ],
+                    "hosted_item": "flag_can_solve_color_puzzle"
+                  }
                 ],
-                "capture_item": true,
-                "item_count": 1
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 325,
+                    "y": 505
+                  }
+                ]
               },
               {
-                "name": "East Hidden Panel",
-                "short_name": "Panel",
-                "access_rules": [
-                  "$can_flip_panels"
+                "name": "Gate District Shop",
+                "sections": [
+                  {
+                    "name": "Shop Item 1",
+                    "short_name": "Item 1",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 2",
+                    "short_name": "Item 2",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 3",
+                    "short_name": "Item 3",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 4",
+                    "short_name": "Item 4",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 5",
+                    "short_name": "Item 5",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 6",
+                    "short_name": "Item 6",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_shopsanity"
+                    ],
+                    "x": 355,
+                    "y": 480
+                  }
+                ]
               },
               {
-                "name": "Russ T. Give Dict/Note",
-                "short_name": "Dictionary/Note",
-                "access_rules": [
-                  "dictionary,mysterynote"
+                "name": "Dojo",
+                "sections": [
+                  {
+                    "name": "Fight Chan",
+                    "short_name": "Chan",
+                    "hosted_item": "flag_beat_chan"
+                  },
+                  {
+                    "name": "Fight Lee",
+                    "short_name": "Lee",
+                    "access_rules": [
+                      "$has_star_spirits|2,flag_beat_chan"
+                    ],
+                    "hosted_item": "flag_beat_lee"
+                  },
+                  {
+                    "name": "Fight The Master 1",
+                    "short_name": "Master 1",
+                    "access_rules": [
+                      "$has_star_spirits|3,flag_beat_lee"
+                    ],
+                    "hosted_item": "flag_beat_master1"
+                  },
+                  {
+                    "name": "Fight The Master 2",
+                    "short_name": "Master 2",
+                    "access_rules": [
+                      "$has_star_spirits|4,flag_beat_master1"
+                    ],
+                    "hosted_item": "flag_beat_master2"
+                  },
+                  {
+                    "name": "Fight The Master 3",
+                    "short_name": "Master 3",
+                    "access_rules": [
+                      "$has_star_spirits|5,flag_beat_master2"
+                    ],
+                    "hosted_item": "flag_beat_master3"
+                  }
                 ],
-                "hosted_item": "flag_can_solve_color_puzzle"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 325,
-                "y": 505
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_00",
-            "name": "Gate District Shop",
-            "sections": [
-              {
-                "name": "Shop Item 1",
-                "short_name": "Item 1",
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Shop Item 2",
-                "short_name": "Item 2",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 3",
-                "short_name": "Item 3",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 4",
-                "short_name": "Item 4",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 5",
-                "short_name": "Item 5",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 6",
-                "short_name": "Item 6",
-                "capture_item": true,
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "restrict_visibility_rules": [
-                  "setting_shopsanity"
-                ],
-                "x": 355,
-                "y": 480
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_00",
-            "name": "Dojo",
-            "sections": [
-              {
-                "name": "Fight Chan",
-                "short_name": "Chan",
-                "hosted_item": "flag_beat_chan"
-              },
-              {
-                "name": "Fight Lee",
-                "short_name": "Lee",
-                "access_rules": [
-                  "$has_star_spirits|2,flag_beat_chan"
-                ],
-                "hosted_item": "flag_beat_lee"
-              },
-              {
-                "name": "Fight The Master 1",
-                "short_name": "Master 1",
-                "access_rules": [
-                  "$has_star_spirits|3,flag_beat_lee"
-                ],
-                "hosted_item": "flag_beat_master1"
-              },
-              {
-                "name": "Fight The Master 2",
-                "short_name": "Master 2",
-                "access_rules": [
-                  "$has_star_spirits|4,flag_beat_master1"
-                ],
-                "hosted_item": "flag_beat_master2"
-              },
-              {
-                "name": "Fight The Master 3",
-                "short_name": "Master 3",
-                "access_rules": [
-                  "$has_star_spirits|5,flag_beat_master2"
-                ],
-                "hosted_item": "flag_beat_master3"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "restrict_visibility_rules": [
-                  "setting_dojo"
-                ],
-                "x": 385,
-                "y": 480
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_01",
-            "name": "Merlon's House",
-            "sections": [
-              {
-                "name": "3 Spin Jumps",
-                "access_rules": [
-                  "spinjump"
-                ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 445,
-                "y": 480
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_dojo"
+                    ],
+                    "x": 385,
+                    "y": 480
+                  }
+                ]
               }
             ]
           },
           {
             "__mapID": "MAC_01",
-            "name": "Plaza West",
-            "sections": [
-              {             
-                "name": "Shake Tree",
-                "access_rules": [
-                  "$can_shake_trees"
+            "name": "Plaza District",
+            "children": [
+              {
+                "name": "Merlon's House",
+                "sections": [
+                  {
+                    "name": "3 Spin Jumps",
+                    "access_rules": [
+                      "spinjump"
+                    ],
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 445,
+                    "y": 480
+                  }
+                ]
               },
               {
-                "name": "Read the News for Koopa Koot",
-                "short_name": "Front and Back!",
-                "visibility_rules": [
-                  "setting_koot"
+                "name": "Plaza West",
+                "sections": [
+                  {             
+                    "name": "Shake Tree",
+                    "access_rules": [
+                      "$can_shake_trees"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Read the News for Koopa Koot",
+                    "short_name": "Front and Back!",
+                    "visibility_rules": [
+                      "setting_koot"
+                    ],
+                    "hosted_item": "flag_koot_read_news"
+                  }
                 ],
-                "hosted_item": "flag_koot_read_news"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 420,
-                "y": 480
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_01",
-            "name": "Rowf",
-            "sections": [
-              {
-                "name": "Return Calculator",
-                "short_name": "Calculator",
-                "access_rules": [
-                  "calculator"
-                ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 445,
-                "y": 510
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_01",
-            "name": "Badge Shop",
-            "sections": [
-              {
-                "name": "Badge Shop Item 1",
-                "short_name": "Item 1",
-                "capture_item": true,
-                "item_count": 1
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 420,
+                    "y": 480
+                  }
+                ]
               },
               {
-                "name": "Badge Shop Item 2",
-                "short_name": "Item 2",
-                "capture_item": true,
-                "item_count": 1
+                "name": "Rowf",
+                "sections": [
+                  {
+                    "name": "Return Calculator",
+                    "short_name": "Calculator",
+                    "access_rules": [
+                      "calculator"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 445,
+                    "y": 510
+                  }
+                ]
               },
               {
-                "name": "Badge Shop Item 3",
-                "short_name": "Item 3",
-                "capture_item": true,
-                "item_count": 1
+                "name": "Badge Shop",
+                "sections": [
+                  {
+                    "name": "Badge Shop Item 1",
+                    "short_name": "Item 1",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 2",
+                    "short_name": "Item 2",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 3",
+                    "short_name": "Item 3",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 4",
+                    "short_name": "Item 4",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 5",
+                    "short_name": "Item 5",
+                    "access_rules": [
+                      "$has_star_spirits|1"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 6",
+                    "short_name": "Item 6",
+                    "access_rules": [
+                      "$has_star_spirits|1"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 7",
+                    "short_name": "Item 7",
+                    "access_rules": [
+                      "$has_star_spirits|1"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 8",
+                    "short_name": "Item 8",
+                    "access_rules": [
+                      "$has_star_spirits|2"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 9",
+                    "short_name": "Item 9",
+                    "access_rules": [
+                      "$has_star_spirits|2"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 10",
+                    "short_name": "Item 10",
+                    "access_rules": [
+                      "$has_star_spirits|2"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 11",
+                    "short_name": "Item 11",
+                    "access_rules": [
+                      "$has_star_spirits|3"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 12",
+                    "short_name": "Item 12",
+                    "access_rules": [
+                      "$has_star_spirits|3"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 13",
+                    "short_name": "Item 13",
+                    "access_rules": [
+                      "$has_star_spirits|3"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 14",
+                    "short_name": "Item 14",
+                    "access_rules": [
+                      "$has_star_spirits|4"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 15",
+                    "short_name": "Item 15",
+                    "access_rules": [
+                      "$has_star_spirits|4"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Badge Shop Item 16",
+                    "short_name": "Item 16",
+                    "access_rules": [
+                      "$has_star_spirits|4"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_shopsanity"
+                    ],
+                    "x": 420,
+                    "y": 510
+                  }
+                ]
               },
               {
-                "name": "Badge Shop Item 4",
-                "short_name": "Item 4",
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 5",
-                "short_name": "Item 5",
-                "access_rules": [
-                  "$has_star_spirits|1"
+                "name": "Flower Fields Entry",
+                "sections": [
+                  {
+                    "name": "Place 4 Seeds",
+                    "short_name": "4 Seeds",
+                    "access_rules": [
+                      "$can_access_flower_fields"
+                    ],
+                    "hosted_item": "flag_flower_fields_access"
+                  }
                 ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 6",
-                "short_name": "Item 6",
-                "access_rules": [
-                  "$has_star_spirits|1"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 7",
-                "short_name": "Item 7",
-                "access_rules": [
-                  "$has_star_spirits|1"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 8",
-                "short_name": "Item 8",
-                "access_rules": [
-                  "$has_star_spirits|2"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 9",
-                "short_name": "Item 9",
-                "access_rules": [
-                  "$has_star_spirits|2"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 10",
-                "short_name": "Item 10",
-                "access_rules": [
-                  "$has_star_spirits|2"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 11",
-                "short_name": "Item 11",
-                "access_rules": [
-                  "$has_star_spirits|3"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 12",
-                "short_name": "Item 12",
-                "access_rules": [
-                  "$has_star_spirits|3"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 13",
-                "short_name": "Item 13",
-                "access_rules": [
-                  "$has_star_spirits|3"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 14",
-                "short_name": "Item 14",
-                "access_rules": [
-                  "$has_star_spirits|4"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 15",
-                "short_name": "Item 15",
-                "access_rules": [
-                  "$has_star_spirits|4"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              },
-              {
-                "name": "Badge Shop Item 16",
-                "short_name": "Item 16",
-                "access_rules": [
-                  "$has_star_spirits|4"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "restrict_visibility_rules": [
-                  "setting_shopsanity"
-                ],
-                "x": 420,
-                "y": 510
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_01",
-            "name": "Flower Fields Entry",
-            "sections": [
-              {
-                "name": "Place 4 Seeds",
-                "short_name": "4 Seeds",
-                "access_rules": [
-                  "$can_access_flower_fields"
-                ],
-                "hosted_item": "flag_flower_fields_access"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 500,
-                "y": 525
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 500,
+                    "y": 525
+                  }
+                ]
               }
             ]
           },
           {
             "__mapID": "MAC_02",
-            "name": "Southeast Near Guard",
-            "sections": [
+            "name": "Southern District",
+            "children": [
               {
-                "name": "Bul-ulb Gift",
-                "short_name": "Bul-ulb",
-                "item_count": 1
+                "name": "Southeast Near Guard",
+                "sections": [
+                  {
+                    "name": "Bul-ulb Gift",
+                    "short_name": "Bul-ulb",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 475,
+                    "y": 585
+                  }
+                ]
               },
               {
-                "name": "Panel",
-                "access_rules": [
-                  "$can_flip_panels"
+                "name": "Tayce T.",
+                "sections": [
+                  {
+                    "name": "Return Frying Pan",
+                    "short_name": "Frying Pan",
+                    "access_rules": [
+                      "fryingpan"
+                    ],
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 435,
+                    "y": 550
+                  }
+                ]
+              },
               {
-                "map": "worldmap",
-                "x": 475,
-                "y": 585
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_02",
-            "name": "Tayce T.",
-            "sections": [
-              {
-                "name": "Return Frying Pan",
-                "short_name": "Frying Pan",
-                "access_rules": [
-                  "fryingpan"
+                "name": "Blue House",
+                "sections": [
+                  {
+                    "name": "Free Item",
+                    "short_name": "Grab it",
+                    "access_rules": [
+                      "$can_access_blue_house"
+                    ],
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 435,
-                "y": 550
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_02",
-            "name": "Blue House",
-            "sections": [
-              {
-                "name": "Free Item",
-                "short_name": "Grab it",
-                "access_rules": [
-                  "$can_access_blue_house"
-                ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 410,
-                "y": 550
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 410,
+                    "y": 550
+                  }
+                ]
               }
             ]
           },
           {
             "__mapID": "MAC_03",
-            "name": "Toad Town Station",
-            "sections": [
+            "name": "Station District",
+            "children": [
               {
-                "name": "Bomb Rock",
-                "access_rules": [
-                  "$has_partner|bombette"
+                "name": "Toad Town Station",
+                "sections": [
+                  {
+                    "name": "Bomb Rock",
+                    "access_rules": [
+                      "bombette"
+                    ],
+                    "hosted_item": "flag_bombed_train_rock"
+                  }
                 ],
-                "hosted_item": "flag_bombed_train_rock"
-              }
-            ],
-            "map_locations": [
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 420,
+                    "y": 630
+                  }
+                ]
+              },
               {
-                "map": "worldmap",
-                "x": 420,
-                "y": 630
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_03",
-            "name": "East Train Station",
-            "sections": [
-              {
-                "name": "Panel",
-                "access_rules": [
-                  "$can_flip_panels"
+                "name": "East Train Station",
+                "sections": [
+                  {
+                    "name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 500,
-                "y": 630
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 500,
+                    "y": 630
+                  }
+                ]
               }
             ]
           },
           {
             "__mapID": "MAC_04",
-            "name": "South Toad Town Shop",
-            "sections": [
+            "name": "Residential District",
+            "children": [
               {
-                "name": "Shop Item 1",
-                "short_name": "Item 1",
-                "capture_item": true,
-                "item_count": 1
+                "name": "South Toad Town Shop",
+                "sections": [
+                  {
+                    "name": "Shop Item 1",
+                    "short_name": "Item 1",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 2",
+                    "short_name": "Item 2",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 3",
+                    "short_name": "Item 3",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 4",
+                    "short_name": "Item 4",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 5",
+                    "short_name": "Item 5",
+                    "capture_item": true,
+                    "item_count": 1
+                  },              
+                  {
+                    "name": "Shop Item 6",
+                    "short_name": "Item 6",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_shopsanity"
+                    ],
+                    "x": 370,
+                    "y": 560
+                  }
+                ]
               },
               {
-                "name": "Shop Item 2",
-                "short_name": "Item 2",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 3",
-                "short_name": "Item 3",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 4",
-                "short_name": "Item 4",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 5",
-                "short_name": "Item 5",
-                "capture_item": true,
-                "item_count": 1
-              },              
-              {
-                "name": "Shop Item 6",
-                "short_name": "Item 6",
-                "capture_item": true,
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "restrict_visibility_rules": [
-                  "setting_shopsanity"
+                "name": "Shop Storeroom",
+                "sections": [
+                  {
+                    "name": "Free Items",
+                    "access_rules": [
+                      "storeroomkey"
+                    ],
+                    "item_count": 4
+                  }
                 ],
-                "x": 370,
-                "y": 560
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_04",
-            "name": "Shop Storeroom",
-            "sections": [
-              {
-                "name": "Free Items",
-                "access_rules": [
-                  "storeroomkey"
-                ],
-                "item_count": 4
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 370,
-                "y": 535
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_05",
-            "name": "Club 64",
-            "sections": [
-              {
-                "name": "Lyrics Item",
-                "short_name": "Lyrics",
-                "item_count": 1
-              },
-              {
-                "name": "Return with Melody",
-                "short_name": "Melody",
-                "access_rules": [
-                  "melody"
-                ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 310,
-                "y": 590
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 370,
+                    "y": 535
+                  }
+                ]
               }
             ]
           },
           {
             "__mapID": "MAC_05",
-            "name": "Toad Town Docks",
-            "sections": [
+            "name": "Port District",
+            "children": [
               {
-                "name": "West Behind Boxes",
-                "short_name": "Boxes",
-                "item_count": 1
+                "name": "Club 64",
+                "sections": [
+                  {
+                    "name": "Lyrics Item",
+                    "short_name": "Lyrics",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Return with Melody",
+                    "short_name": "Melody",
+                    "access_rules": [
+                      "melody"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 310,
+                    "y": 590
+                  }
+                ]
               },
               {
-                "name": "Panel",
-                "access_rules": [
-                  "$can_flip_panels"
+                "name": "Toad Town Docks",
+                "sections": [
+                  {
+                    "name": "West Behind Boxes",
+                    "short_name": "Boxes",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  }
                 ],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 255,
-                "y": 610
-              }
-            ]
-          },
-          {
-            "__mapID": "MAC_05",
-            "name": "Whale at Docks",
-            "sections": [
-              {
-                "name": "Wake Up Whale",
-                "access_rules": [
-                  "hammer"
-                ],
-                "hosted_item": "flag_whale_awake"
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 255,
+                    "y": 610
+                  }
+                ]
               },
               {
-                "name": "Defeat Fuzzipede",
-                "access_rules": [
-                  "$has_partner|watt,flag_whale_awake"
+                "name": "Whale at Docks",
+                "sections": [
+                  {
+                    "name": "Wake Up Whale",
+                    "access_rules": [
+                      "hammer"
+                    ],
+                    "hosted_item": "flag_whale_awake"
+                  },
+                  {
+                    "name": "Defeat Fuzzipede",
+                    "access_rules": [
+                      "watt,flag_whale_awake"
+                    ],
+                    "hosted_item": "flag_beat_fuzzipede"
+                  }
                 ],
-                "hosted_item": "flag_beat_fuzzipede"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "worldmap",
-                "x": 255,
-                "y": 655
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 255,
+                    "y": 655
+                  }
+                ]
               }
             ]
           }

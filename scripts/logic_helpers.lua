@@ -14,7 +14,6 @@ end
 function has_star_spirits(amount)
   local count = Tracker:ProviderCountForCode("spirits")
   amount = tonumber(amount)
-
   return count >= amount
 end
 
@@ -38,14 +37,6 @@ function can_access_blue_house()
   end 
 end
 
-function can_access_warp1()
-  if has("superhammer") then
-    return 1
-  else
-    return 0
-  end
-end
-
 function can_shake_trees()
   if has("hammer") or has("bombette") then
     return 1
@@ -64,6 +55,22 @@ end
 
 function can_see_hidden_blocks()
   if has("watt") or has("setting_blocksalwaysvisible") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_ride_train()
+  if has("setting_start_outpost") or has("flag_bombed_train_rock") then
+    return 1
+  else
+    return 0
+  end
+end
+
+function can_ride_whale()
+  if has("setting_start_yoshi") or has("flag_beat_fuzzipede") then
     return 1
   else
     return 0
