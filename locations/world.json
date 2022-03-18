@@ -1,8 +1,8 @@
 [
   {
     "name": "World Map",
-    "chest_unopened_img": "images/misc/miscNotChecked.png",
-    "chest_opened_img": "images/misc/miscChecked.png",
+    "chest_unopened_img": "images/map/mapNotChecked.png",
+    "chest_opened_img": "images/map/mapCheckedTEMP.png",
     "children": [
       {
         "__regionID": "KMR",
@@ -363,6 +363,14 @@
                   "$can_flip_panels"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Russ T. Give Dict/Note",
+                "short_name": "Dictionary/Note",
+                "access_rules": [
+                  "dictionary,mysterynote"
+                ],
+                "hosted_item": "flag_can_solve_color_puzzle"
               }
             ],
             "map_locations": [
@@ -767,7 +775,7 @@
             "name": "Blue House",
             "sections": [
               {
-                "name": "Freestanding Item",
+                "name": "Free Item",
                 "short_name": "Grab it",
                 "access_rules": [
                   "$can_access_blue_house"
@@ -780,6 +788,196 @@
                 "map": "worldmap",
                 "x": 410,
                 "y": 550
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_03",
+            "name": "Toad Town Station",
+            "sections": [
+              {
+                "name": "Bomb Rock",
+                "access_rules": [
+                  "$has_partner|bombette"
+                ],
+                "hosted_item": "flag_bombed_train_rock"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 420,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_03",
+            "name": "East Train Station",
+            "sections": [
+              {
+                "name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 500,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_04",
+            "name": "South Toad Town Shop",
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },              
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 370,
+                "y": 560
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_04",
+            "name": "Shop Storeroom",
+            "sections": [
+              {
+                "name": "Free Items",
+                "access_rules": [
+                  "storeroomkey"
+                ],
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 370,
+                "y": 535
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_05",
+            "name": "Club 64",
+            "sections": [
+              {
+                "name": "Lyrics Item",
+                "short_name": "Lyrics",
+                "item_count": 1
+              },
+              {
+                "name": "Return with Melody",
+                "short_name": "Melody",
+                "access_rules": [
+                  "melody"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 310,
+                "y": 590
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_05",
+            "name": "Toad Town Docks",
+            "sections": [
+              {
+                "name": "West Behind Boxes",
+                "short_name": "Boxes",
+                "item_count": 1
+              },
+              {
+                "name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 255,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "__mapID": "MAC_05",
+            "name": "Whale at Docks",
+            "sections": [
+              {
+                "name": "Wake Up Whale",
+                "access_rules": [
+                  "hammer"
+                ],
+                "hosted_item": "flag_whale_awake"
+              },
+              {
+                "name": "Defeat Fuzzipede",
+                "access_rules": [
+                  "$has_partner|watt,flag_whale_awake"
+                ],
+                "hosted_item": "flag_beat_fuzzipede"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 255,
+                "y": 655
               }
             ]
           }

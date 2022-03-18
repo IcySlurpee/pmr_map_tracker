@@ -30,6 +30,38 @@
     "codes": "setting_dojo"
   },
   {
+    "name": "Starting Location",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/debugBlank.png",
+        "img_mods": "overlay|images/overlay/overlayToad.png",
+        "codes": "setting_start,setting_start_mac",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/debugBlank.png",
+        "img_mods": "overlay|images/overlay/overlayGoomba.png",
+        "codes": "setting_start,setting_start_kmr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/debugBlank.png",
+        "img_mods": "overlay|images/overlay/overlayDry.png",
+        "codes": "setting_start,setting_start_dro",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/debugBlank.png",
+        "img_mods": "overlay|images/overlay/overlayYoshi.png",
+        "codes": "setting_start,setting_start_jan",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Open Blue House",
     "type": "toggle",
     "img": "images/debugPH.png",

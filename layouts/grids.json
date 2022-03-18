@@ -197,6 +197,7 @@
     "item_margin": "0.5,0",
     "rows": [
       [
+        "setting_start",
         "setting_open_blue_house",
         "setting_open_whale",
         "setting_open_flower_gate",

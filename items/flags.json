@@ -12,6 +12,12 @@
     "codes": "flag_beat_goomba_king,RF_BeatGoombaKing"
   },
   {
+    "name": "Can Solve Toybox Color Puzzle",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_can_solve_color_puzzle,RF_CanSolveColorPuzzle"
+  },
+  {
     "name": "Defeated Chan",
     "type": "toggle",
     "img": "images/flag/flagChan.png",
@@ -45,20 +51,38 @@
     "name": "Flower Fields Accessible",
     "type": "toggle",
     "img": "images/debugPH.png",
-    "codes": "flag_flower_fields_access"
+    "codes": "flag_flower_fields_access,RF_Ch6_FlowerGateOpen"
   },
   {
     "name": "Unlocked Blue House",
     "type": "toggle",
     "img": "images/debugPH.png",
-    "codes": "flag_unlocked_blue_house"
+    "codes": "flag_unlocked_blue_house,GF_MAC02_UnlockedHouse"
+  },
+  {
+    "name": "Bombed Train Station Rock",
+    "type": "toggle",
+    "img": "images/flag/flagTrainRockCleared.png",
+    "codes": "flag_bombed_train_rock,GF_MAC03_BombedRock"
+  },
+  {
+    "name": "Woke Up Whale",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_whale_awake"
+  },
+  {
+    "name": "Defeated Fuzzipede",
+    "type": "toggle",
+    "img": "images/flag/flagFuzzipede.png",
+    "codes": "flag_beat_fuzzipede,RF_CanRideWhale"
   },
   {
     "__comment": "Might be better to use a progressive item w/o inheriting codes for Koopa Koot favors?",
     "name": "Read the news for Koopa Koot",
     "type": "toggle",
-    "img": "images/misc/debugBlank.png",
-    "codes": "flag_koot_read_news"
+    "img": "images/misc/debugPH.png",
+    "codes": "flag_koot_read_news,RF_CanReadToadTownNews"
   },
   {
     "name": "Defeated Blooper Phases",
