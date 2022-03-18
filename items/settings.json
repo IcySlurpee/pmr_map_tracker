@@ -38,25 +38,25 @@
       {
         "img": "images/debugBlank.png",
         "img_mods": "overlay|images/overlay/overlayToad.png",
-        "codes": "setting_start,setting_start_mac",
+        "codes": "setting_start,setting_start_toad",
         "inherit_codes": false
       },
       {
         "img": "images/debugBlank.png",
         "img_mods": "overlay|images/overlay/overlayGoomba.png",
-        "codes": "setting_start,setting_start_kmr",
+        "codes": "setting_start,setting_start_goomba",
         "inherit_codes": false
       },
       {
         "img": "images/debugBlank.png",
         "img_mods": "overlay|images/overlay/overlayDry.png",
-        "codes": "setting_start,setting_start_dro",
+        "codes": "setting_start,setting_start_outpost",
         "inherit_codes": false
       },
       {
         "img": "images/debugBlank.png",
         "img_mods": "overlay|images/overlay/overlayYoshi.png",
-        "codes": "setting_start,setting_start_jan",
+        "codes": "setting_start,setting_start_yoshi",
         "inherit_codes": false
       }
     ]
