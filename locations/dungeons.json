@@ -9,10 +9,7 @@
         "name": "Toad Town Tunnels",
         "color": "#009900",
         "access_rules": [
-          "setting_start_toad",
-          "flag_beat_goomba_king",
-          "$can_ride_train",
-          "$can_ride_whale"
+          "$can_access_toad_town"
         ],
         "sections": [
           {
@@ -333,6 +330,38 @@
             "map": "worldmap",
             "x": 400,
             "y": 590
+          }
+        ]
+      },
+      {
+        "__regionID": "KKJ",
+        "name": "Peach's Castle",
+        "color": "#ff66cc",
+        "access_rules": [
+          "flag_cleared_bowsers_castle"
+        ],
+        "sections": [
+          {
+            "__mapID": "KKJ_20",
+            "name": "1F East Guest Room",
+            "short_name": "1F Guest Room",
+            "item_count": 1
+          },
+          {
+            "__mapID": "KKJ_16",
+            "name": "2F Library",
+            "item_count": 2
+          },
+          {
+            "__mapID": "KKJ_17",
+            "name": "2F Storeroom",
+            "item_count": 1
+          },
+          {
+            "__mapID": "KKJ_25",
+            "name": "Beat Bowser",
+            "short_name": "Win!",
+            "hosted_item": "YOUWIN"
           }
         ]
       }

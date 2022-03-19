@@ -1,5 +1,8 @@
 [
   {
+    "__comment": "Filename is to prevent collision with EmoTracker reserved names."
+  },
+  {
     "name": "Coinsanity",
     "type": "toggle",
     "img": "images/setting/settingCoinsanity.png",
@@ -36,25 +39,25 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/debugBlank.png",
+        "img": "images/setting/settingStart.png",
         "img_mods": "overlay|images/overlay/overlayToad.png",
         "codes": "setting_start,setting_start_toad",
         "inherit_codes": false
       },
       {
-        "img": "images/debugBlank.png",
+        "img": "images/setting/settingStart.png",
         "img_mods": "overlay|images/overlay/overlayGoomba.png",
         "codes": "setting_start,setting_start_goomba",
         "inherit_codes": false
       },
       {
-        "img": "images/debugBlank.png",
+        "img": "images/setting/settingStart.png",
         "img_mods": "overlay|images/overlay/overlayDry.png",
         "codes": "setting_start,setting_start_outpost",
         "inherit_codes": false
       },
       {
-        "img": "images/debugBlank.png",
+        "img": "images/setting/settingStart.png",
         "img_mods": "overlay|images/overlay/overlayYoshi.png",
         "codes": "setting_start,setting_start_yoshi",
         "inherit_codes": false
@@ -64,13 +67,14 @@
   {
     "name": "Open Blue House",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingBlueHouse.png",
     "codes": "setting_open_blue_house"
   },
   {
     "name": "Open Flower Gate",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingFieldsOpen.png",
+    "disabled_img": "images/setting/settingFieldsClosed.png",
     "codes": "setting_open_flower_gate"
   },
   {
@@ -82,7 +86,22 @@
   {
     "name": "Open Whale",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingWhale.png",
     "codes": "setting_open_whale"
+  },
+  {
+    "name": "Number of Spirits Required",
+    "type": "consumable",
+    "img": "images/setting/settingSpirits.png",
+    "codes": "setting_spirits",
+    "initial_quantity": 7,
+    "max_quantity": 7
+  },
+  {
+    "name": "Hidden ? Blocks Visibility",
+    "type": "toggle",
+    "img": "images/setting/settingHidden.png",
+    "disabled_img_mods": "@disabled,overlay|images/overlay/overlayWatt.png",
+    "codes": "setting_visible_blocks"
   }
 ]

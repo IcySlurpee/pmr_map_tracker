@@ -326,6 +326,9 @@
                   {
                     "name": "Luigi Koopa Koot Autograph",
                     "short_name": "Autograph",
+                    "access_rules": [
+                      "$can_access_toad_town"
+                    ],
                     "visibility_rules": [
                       "setting_koot"
                     ],
@@ -349,10 +352,7 @@
         "name": "Toad Town",
         "color": "#FF6633",
         "access_rules": [
-          "setting_start_toad",
-          "flag_beat_goomba_king",
-          "$can_ride_train",
-          "$can_ride_whale"
+          "$can_access_toad_town"
         ],
         "children": [
           {
@@ -367,7 +367,7 @@
                     "short_name": "Island",
                     "access_rules": [
                       "sushie",
-                      "{}"
+                      "{$can_access_toad_town}"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -723,10 +723,10 @@
                 "name": "Flower Fields Entry",
                 "sections": [
                   {
-                    "name": "Place 4 Seeds",
-                    "short_name": "4 Seeds",
+                    "name": "Entry Open",
+                    "short_name": "Open",
                     "access_rules": [
-                      "$can_access_flower_fields"
+                      "$can_plant_seeds"
                     ],
                     "hosted_item": "flag_flower_fields_access"
                   }
@@ -1009,6 +1009,192 @@
                     "y": 655
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "HOS",
+        "name": "Shooting Star Summit",
+        "access_rules": [
+          "$can_access_toad_town"
+        ],
+        "children": [
+          {
+            "__mapID": "HOS_00",
+            "name": "Shooting Star Path",
+            "sections": [
+              {
+                "name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 520,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "__mapID": "HOS_01",
+            "name": "Shooting Star Summit",
+            "sections": [
+              {
+                "name": "Free Item Behind Summit",
+                "short_name": "Behind Summit",
+                "item_count": 1
+              },
+              {
+                "name": "Panel on First Step",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "__mapID": "HOS_02",
+            "name": "Merluvlee's House",
+            "sections": [
+              {
+                "name": "Panel Outside Front",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Trade Crystal for Autograph",
+                "short_name": "Autograph",
+                "access_rules": [
+                  "crystalball"
+                ],
+                "visibility_rules": [
+                  "setting_koot"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 565,
+                "y": 395
+              }
+            ]
+          },
+          {
+            "__mapID": "HOS_02",
+            "name": "Merlow's Star Piece Shop",
+            "sections": [
+              {
+                "name": "Star Piece Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 7",
+                "short_name": "Item 7",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 8",
+                "short_name": "Item 8",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 9",
+                "short_name": "Item 9",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 10",
+                "short_name": "Item 10",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 11",
+                "short_name": "Item 11",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 12",
+                "short_name": "Item 12",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 13",
+                "short_name": "Item 13",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 14",
+                "short_name": "Item 14",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece Item 15",
+                "short_name": "Item 15",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 565,
+                "y": 370
               }
             ]
           }

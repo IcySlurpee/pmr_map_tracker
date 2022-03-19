@@ -50,7 +50,7 @@
   {
     "name": "Flower Fields Accessible",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingFieldsOpen.png",
     "codes": "flag_flower_fields_access,RF_Ch6_FlowerGateOpen"
   },
   {
@@ -96,10 +96,22 @@
     "codes": "flag_warp3,GF_TIK08_WarpPipe"
   },
   {
+    "name": "Cleared Bowser's Castle",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes:": "flag_cleared_bowsers_castle"
+  },
+  {
     "__comment": "Might be better to use a progressive item w/o inheriting codes for Koopa Koot favors?",
     "name": "Read the news for Koopa Koot",
     "type": "toggle",
     "img": "images/misc/debugPH.png",
     "codes": "flag_koot_read_news,RF_CanReadToadTownNews"
+  },
+  {
+    "name": "YOU WIN",
+    "type": "toggle",
+    "img": "images/flag/flagYouWin.png",
+    "codes": "YOUWIN"
   }
 ]
