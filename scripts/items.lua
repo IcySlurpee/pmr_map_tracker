@@ -7,5 +7,5 @@ Tracker:AddItems("items/keys.json")
 Tracker:AddItems("items/dojo.json")
 if HAS_MAP then
   Tracker:AddItems("items/flags.json")
-  Tracker:AddItems("items/settings.json")
+  Tracker:AddItems("items/options.json")
 end
