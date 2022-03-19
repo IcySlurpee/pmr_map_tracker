@@ -8,7 +8,7 @@
     "standard": {
       "display_name": "Full Map Tracker"
     },
-    "itemsonly": {
+    "varitemsonly": {
       "display_name": "Item Tracker Only"
     }
   }

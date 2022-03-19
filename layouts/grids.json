@@ -32,6 +32,32 @@
       ]
     ]
   },
+  "stars_partners_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "eldstar",
+        "mamar",
+        "skolar",
+        "muskular",
+        "misstar",
+        "klevar",
+        "kalmar"
+      ],
+      [
+        "goombario",
+        "kooper",
+        "bombette",
+        "parakarry",
+        "bow",
+        "watt",
+        "sushie",
+        "lakilester"
+      ]
+    ]
+  },
   "items_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
@@ -198,11 +224,79 @@
     "rows": [
       [
         "setting_start",
+        "setting_spirits",
+        "setting_visible_blocks",
         "setting_open_blue_house",
         "setting_open_whale",
         "setting_open_flower_gate",
         "setting_open_toybox"
       ]
     ]
+  },
+  "compact_left_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "boots",
+        "hammer",
+        "ultrastone"
+      ],
+      [
+        "pulsestone",
+        "pyramidstone",
+        "diamondstone",
+        "lunarstone"
+      ],
+      [
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4"
+      ],
+      [
+        "magicalbean",
+        "fertilesoil",
+        "miraclewater"
+      ],
+      [
+        "warehousekey",
+        "bucket",
+        "scarf",
+        "starstone"
+      ]
+    ]
+  },
+  "compact_right_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": 0,
+    "rows": [
+      [
+        "portrait",
+        "jaderaven"
+      ],
+      [
+        "toyboxtrain",
+        "toyboxcake"
+      ],
+      [
+        "fortresskey",
+        "ruinskey"
+      ],
+      [
+        "redkey",
+        "bluekey"
+      ],
+      [
+        "palacekey",
+        "bowserkey"
+      ]
+    ]
+  },
+  "gap_grid": {
+    "type": "itemgrid",
+    "rows": []
   }
 }

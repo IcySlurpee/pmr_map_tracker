@@ -92,5 +92,20 @@
         }
       ]
     }
+  },
+  "items_only_tracker": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "stars_partners_grid"
+      },
+      {
+        "type": "layout",
+        "key": "compact_combined_items_grid"
+      }     
+    ]
   }
 }

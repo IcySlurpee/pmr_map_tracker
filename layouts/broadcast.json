@@ -1,6 +1,6 @@
 {
   "tracker_broadcast": {
     "type": "layout",
-    "key": "item_map_tracker"
+    "key": "items_only_tracker"
   }
 }

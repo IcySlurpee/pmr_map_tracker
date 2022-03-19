@@ -72,11 +72,30 @@
     "content": [
       {
         "type": "layout",
-        "key": "check_setting_grid"
+        "key": "world_setting_grid"
       },
       {
         "type": "layout",
-        "key": "world_setting_grid"
+        "key": "check_setting_grid"
+      }
+    ]
+  },
+  "compact_combined_items_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "compact_left_item_grid"
+      },
+      {
+        "type": "layout",
+        "key": "gap_grid"
+      },
+      {
+        "type": "layout",
+        "key": "compact_right_item_grid"
       }
     ]
   }
