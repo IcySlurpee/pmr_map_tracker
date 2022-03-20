@@ -465,13 +465,25 @@
           },
           {
             "__mapID": "TRD_03",
-            "name": "1F Central Hall Cracked Walls",
-            "short_name": "1FC Cracked Walls",
+            "name": "1F Central Hall Cracked Wall Middle",
+            "short_name": "1FC Cracked Wall Middle",
             "access_rules": [
               "@Koopa Bros. Fortress/1F Access,bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
-            "item_count": 2
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_03",
+            "name": "1F Central Hall Cracked Wall Right",
+            "short_name": "1FC Cracked Wall Right",
+            "access_rules": [
+              "@Koopa Bros. Fortress/1F Access,bombette",
+              "{@Koopa Bros. Fortress/1F Access}"
+            ],
+            "capture_item": true,
+            "item_count": 1
           },
           {
             "__mapID": "TRD_05",
@@ -499,6 +511,7 @@
               "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
+            "capture_item": true,
             "item_count": 1
           },
           {
