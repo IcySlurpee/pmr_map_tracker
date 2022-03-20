@@ -25,8 +25,10 @@ function has_star_spirits(amount)
 end
 
 function can_access_star_haven()
-  local amount = get_object("setting_required_spirits").AcquiredCount
-  if has_star_spirits(amount) then
+  local amount = get_object("setting_spirits").AcquiredCount
+  if amount == 0 then
+    return 1
+  elseif has_star_spirits(amount) then
     return 1
   end
   return 0
