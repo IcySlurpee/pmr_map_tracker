@@ -4,7 +4,11 @@
 
 ---
 
-Currently tracks all key items, star spirits, and partners in the game and some checks in the following regions:
+Currently tracks all key items, star spirits, and partners in the game and checks in the following regions:
 * Goomba Region
 * Toad Town
 * Toad Town Tunnels
+* Shooting Star Summit
+* Koopa Region
+* Koopa Bros. Fortress
+* Peach's Castle
