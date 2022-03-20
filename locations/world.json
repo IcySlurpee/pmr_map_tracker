@@ -53,7 +53,7 @@
                   },
                   {
                     "name": "Goombario Partner",
-                    "short_name": "Partner",
+                    "short_name": "Goombario",
                     "item_count": 1
                   },
                   {
@@ -350,7 +350,7 @@
       {
         "__regionID": "MAC",
         "name": "Toad Town",
-        "color": "#FF6633",
+        "color": "#ff6633",
         "access_rules": [
           "$can_access_toad_town"
         ],
@@ -367,7 +367,7 @@
                     "short_name": "Island",
                     "access_rules": [
                       "sushie",
-                      "{$can_access_toad_town}"
+                      "{}"
                     ],
                     "capture_item": true,
                     "item_count": 1
@@ -1017,6 +1017,7 @@
       {
         "__regionID": "HOS",
         "name": "Shooting Star Summit",
+        "color": "#9966cc",
         "access_rules": [
           "$can_access_toad_town"
         ],
@@ -1195,6 +1196,431 @@
                 ],
                 "x": 565,
                 "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "HOS_03",
+            "name": "Star Haven",
+            "access_rules": [
+              "$can_access_star_haven"
+            ],
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 655,
+                "y": 195
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "NOK",
+        "name": "Koopa Region",
+        "color": "#339900",
+        "access_rules": [
+          "$can_access_toad_town"
+        ],
+        "children": [
+          {
+            "__mapID": "NOK_11",
+            "name": "Pleasant Path Entry",
+            "sections": [
+              {
+                "name": "Red and Right ? Blocks",
+                "short_name": "Red/Right ?",
+                "item_count": 2
+              },
+              {
+                "name": "Left ? Block",
+                "short_name": "Left ?",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 580,
+                "y": 505
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_12",
+            "name": "Pleasant Path Bridge",
+            "sections": [
+              {
+                "name": "West ? Block",
+                "short_name": "West ?",
+                "item_count": 1
+              },
+              {
+                "name": "Bridge Switch",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "hosted_item": "flag_path_bridge"
+              },
+              {
+                "name": "Behind Fence",
+                "item_count": 1
+              },
+              {
+                "name": "Star Piece",
+                "access_rules": [
+                  "kooper"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 615,
+                "y": 505
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_13",
+            "name": "Pleasant Crossroads",
+            "sections": [
+              {
+                "name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Behind Peg",
+                "item_count": 1
+              },
+              {
+                "name": "Smash Brick Blocks",
+                "short_name": "Bricks: L -> R -> C",
+                "access_rules": [
+                  "hammer"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 670,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_01",
+            "name": "Koopa Village 1",
+            "children": [
+              {
+                "name": "West Koopa Village",
+                "sections": [
+                  {
+                    "name": "Front West Bush",
+                    "short_name": "Frontmost Bush",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Bush Near Bob-ombs",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 660,
+                    "y": 460
+                  }
+                ]
+              },
+              {
+                "name": "Koopa Village Shop",
+                "sections": [
+                  {
+                    "name": "Shop Item 1",
+                    "short_item": "Item 1",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 2",
+                    "short_item": "Item 2",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 3",
+                    "short_item": "Item 3",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 4",
+                    "short_item": "Item 4",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 5",
+                    "short_item": "Item 5",
+                    "capture_item": true,
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Shop Item 6",
+                    "short_item": "Item 6",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_shopsanity"
+                    ],
+                    "x": 635,
+                    "y": 460
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_02",
+            "name": "Koopa Village 2",
+            "children": [
+              {
+                "name": "East Koopa Village",
+                "sections": [
+                  {
+                    "name": "Bush near Entry",
+                    "short_name": "Bush",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Kooper Partner",
+                    "short_name": "Kooper",
+                    "access_rules": [
+                      "koopersshell"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Push Block Star Piece",
+                    "short_name": "Star Piece",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 615,
+                    "y": 430
+                  }
+                ]
+              },
+              {
+                "name": "Koopa Koot Favor",
+                "sections": [
+                  {
+                    "name": "Current Step",
+                    "hosted_item": "flag_koot_step"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "restrict_visibility_rules": [
+                      "setting_koot"
+                    ],
+                    "x": 590,
+                    "y": 420
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_03",
+            "name": "Behind Koopa Village",
+            "sections": [
+              {
+                "name": "On Stump",
+                "access_rules": [
+                  "kooper",
+                  "parakarry"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 580,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_04",
+            "name": "Fuzzy Forest",
+            "sections": [
+              {
+                "name": "Clear Fuzzies",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 555,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_14",
+            "name": "Path to Fortress 1",
+            "children": [
+              {
+                "name": "West Fortress Path",
+                "sections": [
+                  {
+                    "name": "Panel Under Coins",
+                    "short_name": "Panel",
+                    "access_rules": [
+                      "$can_flip_panels"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Coin X",
+                    "visibility_rules": [
+                      "setting_coinsanity"
+                    ],
+                    "item_count": 5
+                  },
+                  {
+                    "name": "On top of Bricks",
+                    "short_name": "Brick Block",
+                    "access_rules": [
+                      "kooper",
+                      "tornadojump"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Activate Bridge",
+                    "access_rules": [
+                      "kooper"
+                    ],
+                    "hosted_item": "flag_kooper_bridge"
+                  },
+                  {
+                    "name": "Hidden Block between Bricks",
+                    "short_name": "Hidden ?",
+                    "access_rules": [
+                      "flag_kooper_bridge,$can_see_hidden_blocks"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 715,
+                    "y": 490
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "__mapID": "NOK_15",
+            "name": "East Fortress Path",
+            "access_rules": [
+              "flag_kooper_bridge"
+            ],
+            "sections": [
+              {
+                "name": "Hit Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Pipe Behind Cracked Wall",
+                "short_name": "Cracked Wall Pipe",
+                "access_rules": [
+                  "bombette"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 750,
+                "y": 475
               }
             ]
           }

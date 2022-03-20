@@ -56,7 +56,7 @@
   {
     "name": "Unlocked Blue House",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingHouse.png",
     "codes": "flag_unlocked_blue_house,GF_MAC02_UnlockedHouse"
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Woke Up Whale",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingWhale.png",
     "codes": "flag_whale_awake"
   },
   {
@@ -96,17 +96,47 @@
     "codes": "flag_warp3,GF_TIK08_WarpPipe"
   },
   {
+    "name": "Activated Pleasant Path Bridge",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_path_bridge,MF_NOK12_BuiltBridge"
+  },
+  {
+    "name": "Activated Kooper Fortress Bridge",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_kooper_bridge,MF_NOK14_BuiltBridge"
+  },
+  {
+    "name": "Koopa Bros. Right Staircase Lowered",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_trd_right_lowered,MF_TRD04_LoweredStairs"
+  },
+  {
+    "name": "Koopa Bros. Left Staircase Lowered",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_trd_left_lowered,MF_TRD02_LoweredStairs"
+  },
+  {
+    "name": "Koopa Bros. Left Tower Stairs Raised",
+    "type": "toggle",
+    "img": "images/flag/flagSwitch.png",
+    "codes": "flag_trd_tower_raised,MF_TRD01_RaisedStairs"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",
     "codes:": "flag_cleared_bowsers_castle"
   },
   {
-    "__comment": "Might be better to use a progressive item w/o inheriting codes for Koopa Koot favors?",
-    "name": "Read the news for Koopa Koot",
+    "__comment": "If the favors themselves will never be randomized, then this would be better as a progressive flag to hold state of quests.",
+    "name": "Koopa Koot Step",
     "type": "toggle",
-    "img": "images/misc/debugPH.png",
-    "codes": "flag_koot_read_news,RF_CanReadToadTownNews"
+    "img": "images/debugPH.png",
+    "codes": "flag_koot_step"
   },
   {
     "name": "YOU WIN",

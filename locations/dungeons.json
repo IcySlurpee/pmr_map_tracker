@@ -363,6 +363,187 @@
             "short_name": "Win!",
             "hosted_item": "YOUWIN"
           }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 380,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "__regionID": "TRD",
+        "name": "Koopa Bros. Fortress",
+        "access_rules": [
+          "flag_kooper_bridge"
+        ],
+        "sections": [
+          {
+            "name": "1F Access",
+            "access_rules": [
+              "fortresskey:1"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "B1 Access",
+            "access_rules": [
+              "@Koopa Bros. Fortress/1F Access,flag_trd_right_lowered"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Right Tower Access",
+            "access_rules": [
+              "fortresskey:2"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "2F Access",
+            "access_rules": [
+              "fortresskey:3,kooper",
+              "fortresskey:3,parakarry"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Battlements Access",
+            "access_rules": [
+              "@Koopa Bros. Fortress/2F Access,fortresskey:4"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_01",
+            "name": "1F Left Tower Entry Koopa",
+            "short_name": "1FL Entry Koopa",
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_04",
+            "name": "1F Right Staircase Koopa",
+            "short_name": "1FR Stairs Koopa",
+            "access_rules": [
+              "@Koopa Bros. Fortress/1F Access"
+            ],
+            "hosted_item": "flag_trd_right_lowered"
+          },
+          {
+            "__mapID": "TRD_08",
+            "name": "B1 Fire Pole Room",
+            "access_rules": [
+              "@Koopa Bros. Fortress/B1 Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_05",
+            "name": "2F Trap ? Block to Jail",
+            "short_name": "Trap ?, Free Bombette",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Right Tower Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_03",
+            "name": "1F Central Hall Cracked Walls",
+            "short_name": "1FC Cracked Walls",
+            "access_rules": [
+              "@Koopa Bros. Fortress/1F Access,bombette",
+              "{@Koopa Bros. Fortress/1F Access}"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "TRD_05",
+            "name": "1F Right Tower Cracked Wall",
+            "short_name": "1FR Tower Cracked Wall",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Right Tower Access,bombette"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_02",
+            "name": "2F Left Stairs Switch",
+            "short_name": "2FL Switch",
+            "access_rules": [
+              "@Koopa Bros. Fortress/2F Access"
+            ],
+            "hosted_item": "flag_trd_left_lowered"
+          },
+          {
+            "__mapID": "TRD_02",
+            "name": "1F Left Stairs Cracked Wall",
+            "short_name": "1FL Stairs Cracked Wall",
+            "access_rules": [
+              "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,bombette",
+              "{@Koopa Bros. Fortress/1F Access}"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_01",
+            "name": "2F Left Tower Switch",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Battlements Access"
+            ],
+            "hosted_item": "flag_trd_tower_raised"
+          },
+          {
+            "__mapID": "TRD_01",
+            "name": "3F Left Tower Item Near Bob-omb",
+            "short_name": "3FL Tower Item",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Battlements Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_09",
+            "name": "Battlements Behind Rock",
+            "short_name": "Battlements",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Battlements Access,bombette"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "TRD_10",
+            "name": "Defeat Koopa Bros.",
+            "short_name": "Koopa Bros.",
+            "access_rules": [
+              "@Koopa Bros. Fortress/Battlements Access"
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 800,
+            "y": 435
+          }
         ]
       }
     ]
