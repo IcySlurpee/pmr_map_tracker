@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v0.0.10] - 2022-03-XX (UNRELEASED)
+## [Next Release] - 2022-03-XX (UNRELEASED)
 ### ➕ Added
 - This CHANGELOG!
 - Capturing items
@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Support for
 - Dry Dry Outpost starting location
 
-### ➕ Support for capturing items
+### ➕ Capturing items
 - If you can see a check, but can't pick it up, this will allow you to mark the location with what the check contains.
 - For example, the star piece in Toad Town across the water by the gate is a capturable check.
 - Currently, only key items are capturable, other "priority" items will be added to the capture layout in the future.
@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Koopa Bros. Fortress: splits cracked walls in central hall to allow both to be captured
 
 ### 🧹 Chores
-- `images/flag/flagBlooper*.png`: removed images, logic no longer relies on this flag
+- `images/flag/flagBlooper*.png`: removed images, tracker logic no longer relies on this flag
 
 ## [v0.0.7] - 2022-03-20
 ### ➕ Checks and logic for
@@ -91,6 +91,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection
 
+[Next Release]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.7...main
 [v0.0.7]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.5...v0.0.7
 [v0.0.5]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.3...v0.0.5
 [v0.0.3]: https://github.com/IcySlurpee/pmr_map_tracker/tree/v0.0.3
