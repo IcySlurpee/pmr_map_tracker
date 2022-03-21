@@ -90,6 +90,12 @@
     "codes": "calculator"
   },
   {
+    "name": "Cookbook",
+    "type": "toggle",
+    "img": "images/misc/miscCookbook.png",
+    "codes": "cookbook"
+  },
+  {
     "name": "Jade Raven",
     "type": "toggle",
     "img": "images/lavalava/lavalavaRaven.png",

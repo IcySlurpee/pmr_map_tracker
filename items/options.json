@@ -18,12 +18,16 @@
     "name": "Fast Bowser's Castle",
     "type": "toggle",
     "img": "images/setting/settingFastBowser.png",
+    "img_mods": "overlay|images/overlay/overlayX.png",
+    "disabled_img_mods": "@disabled,overlay|images/overlay/overlayX.png",
     "codes": "setting_fastbowser"
   },
   {
     "name": "Shuffle Koopa Koot Rewards",
     "type": "toggle",
     "img": "images/setting/settingKoot.png",
+    "img_mods": "overlay|images/overlay/overlayX.png",
+    "disabled_img_mods": "@disabled,overlay|images/overlay/overlayX.png",
     "codes": "setting_koot"
   },
   {
@@ -58,7 +62,7 @@
       },
       {
         "img": "images/setting/settingStart.png",
-        "img_mods": "overlay|images/overlay/overlayYoshi.png",
+        "img_mods": "overlay|images/overlay/overlayYoshi.png,overlay|images/overlay/overlayX.png",
         "codes": "setting_start,setting_start_yoshi",
         "inherit_codes": false
       }

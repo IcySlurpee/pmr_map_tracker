@@ -21,7 +21,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Capturing items
 - If you can see a check, but can't pick it up, this will allow you to mark the location with what the check contains.
 - For example, the star piece in Toad Town across the water by the gate is a capturable check.
-- Currently, only key items are capturable, other "priority" items will be added to the capture layout in the future.
+- Currently, only key items are capturable, other "priority" items will be added to the capture layout in the future (maybe the hinted badges...? lmk!).
+
+### 🔄 Item updates
+- Added the Cookbook (was missing, whoops!)
 
 ### 🔄 Check updates
 - Koopa Bros. Fortress: splits cracked walls in central hall to allow both to be captured

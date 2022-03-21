@@ -129,12 +129,12 @@
     "item_margin": "0",
     "rows": [
       [
-        "dolly",
         "koopersshell",
         "weight",
         "record",
         "fryingpan",
-        "calculator"
+        "calculator",
+        "cookbook"
       ],
       [
         "dictionary",
@@ -145,6 +145,7 @@
         "waterstone"
       ],
       [
+        "dolly",
         "mailbag",
         "letter",
         "crystalball",
@@ -286,12 +287,12 @@
         "ruinskey"
       ],
       [
-        "redkey",
-        "bluekey"
+        "tubbakey",
+        "palacekey"
       ],
       [
-        "palacekey",
-        "bowserkey"
+        "redkey",
+        "bluekey"
       ]
     ]
   },

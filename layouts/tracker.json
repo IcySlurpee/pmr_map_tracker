@@ -2,5 +2,9 @@
   "tracker_default": {
     "type": "layout",
     "key": "item_map_tracker"
+  },
+  "tracker_capture_item": {
+    "type": "layout",
+    "key": "items_only_tracker"
   }
 }
