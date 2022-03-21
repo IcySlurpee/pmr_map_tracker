@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🔄 Check updates
 - Koopa Bros. Fortress: splits cracked walls in central hall to allow both to be captured
+- Marked WIP or NYI settings with an X to indicate they do not function.
+- Panel checks now have a star piece icon to show their vanilla item.
 
 ### 🧹 Chores
 - `images/flag/flagBlooper*.png`: removed images, tracker logic no longer relies on this flag
@@ -64,7 +66,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - More succinctly checks for Toad Town access
 
 ### 🧹 Chores
-- All Files: newlines at EOF, because a [line isn't a line without \n](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206)
+- All Files: newlines at EOF, because [a line isn't a line without \n](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206)
 - `location/world.json`: groups Toad Town checks by internal map ID
 
 ## [v0.0.3] - 2022-03-18
@@ -89,7 +91,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Toad Town Tunnels
 
 ### ➕ Initial support for
-- Starting location selection
+- Starting location selection - Toad Town and Goomba Village
 
 [Next Release]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.7...main
 [v0.0.7]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.5...v0.0.7

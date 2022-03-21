@@ -23,6 +23,8 @@
                 "sections": [
                   {
                     "name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -105,6 +107,8 @@
                   {
                     "name": "Panel",
                     "short_name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -277,6 +281,8 @@
                   {
                     "name": "Flip Right Panel",
                     "short_name": "Right Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -375,6 +381,8 @@
                   {
                     "name": "East Hidden Panel",
                     "short_name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -755,6 +763,8 @@
                   },
                   {
                     "name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -839,6 +849,8 @@
                 "sections": [
                   {
                     "name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -970,6 +982,8 @@
                   },
                   {
                     "name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -1028,6 +1042,8 @@
             "sections": [
               {
                 "name": "Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
                 ],
@@ -1054,6 +1070,8 @@
               {
                 "name": "Panel on First Step",
                 "short_name": "Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
                 ],
@@ -1068,6 +1086,8 @@
               {
                 "name": "Panel Outside Front",
                 "short_name": "Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
                 ],
@@ -1332,6 +1352,8 @@
             "sections": [
               {
                 "name": "Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
                 ],
@@ -1372,6 +1394,8 @@
                   },
                   {
                     "name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
@@ -1546,6 +1570,8 @@
                   {
                     "name": "Panel Under Coins",
                     "short_name": "Panel",
+                    "chest_unopened_img": "images/counter/counterStarPiece.png",
+                    "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
                     ],
