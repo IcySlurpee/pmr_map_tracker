@@ -1914,6 +1914,9 @@
             "map_locations": [
               {
                 "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
                 "x": 1070,
                 "y": 540
               }
