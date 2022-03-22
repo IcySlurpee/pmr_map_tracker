@@ -28,6 +28,9 @@
                     "access_rules": [
                       "$can_flip_panels"
                     ],
+                    "visibility_rules": [
+                      "setting_panel"
+                    ],
                     "item_count": 1
                   }
                 ],
@@ -111,6 +114,9 @@
                     "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
+                    ],
+                    "visibility_rules": [
+                      "setting_panel"
                     ],
                     "item_count": 1
                   },
@@ -286,6 +292,9 @@
                     "access_rules": [
                       "$can_flip_panels"
                     ],
+                    "visibility_rules": [
+                      "setting_panel"
+                    ],
                     "item_count": 1
                   },
                   {
@@ -385,6 +394,9 @@
                     "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
+                    ],
+                    "visibility_rules": [
+                      "setting_panel"
                     ],
                     "item_count": 1
                   },
@@ -768,6 +780,9 @@
                     "access_rules": [
                       "$can_flip_panels"
                     ],
+                    "visibility_rules": [
+                      "setting_panel"
+                    ],
                     "item_count": 1
                   }
                 ],
@@ -853,6 +868,9 @@
                     "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
+                    ],
+                    "visibility_rules": [
+                      "setting_panel"
                     ],
                     "item_count": 1
                   }
@@ -987,6 +1005,9 @@
                     "access_rules": [
                       "$can_flip_panels"
                     ],
+                    "visibility_rules": [
+                      "setting_panel"
+                    ],
                     "item_count": 1
                   }
                 ],
@@ -1047,6 +1068,9 @@
                 "access_rules": [
                   "$can_flip_panels"
                 ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
                 "item_count": 1
               }
             ],
@@ -1075,6 +1099,9 @@
                 "access_rules": [
                   "$can_flip_panels"
                 ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
                 "item_count": 1
               }
             ]
@@ -1090,6 +1117,9 @@
                 "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
                 ],
                 "item_count": 1
               },
@@ -1357,6 +1387,9 @@
                 "access_rules": [
                   "$can_flip_panels"
                 ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
                 "item_count": 1
               },
               {
@@ -1398,6 +1431,9 @@
                     "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                     "access_rules": [
                       "$can_flip_panels"
+                    ],
+                    "visibility_rules": [
+                      "setting_panel"
                     ],
                     "item_count": 1
                   },
@@ -1575,6 +1611,9 @@
                     "access_rules": [
                       "$can_flip_panels"
                     ],
+                    "visibility_rules": [
+                      "setting_panel"
+                    ],
                     "item_count": 1
                   },
                   {
@@ -1728,6 +1767,9 @@
                 "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "access_rules": [
                   "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
                 ],
                 "item_count": 1
               },
@@ -1950,6 +1992,9 @@
                 "access_rules": [
                   "$can_flip_panels"
                 ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
                 "item_count": 1
               },
               {
@@ -2121,6 +2166,9 @@
             "chest_opened_img": "images/counter/counterOpenPanelSP.png",
             "access_rules": [
               "$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
             ],
             "item_count": 1
           },

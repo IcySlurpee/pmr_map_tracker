@@ -37,6 +37,12 @@
     "codes": "setting_dojo"
   },
   {
+    "name": "Shuffle Hidden Panels",
+    "type": "toggle",
+    "img": "images/counter/counterStarPiece.png",
+    "codes": "setting_panel"
+  },
+  {
     "name": "Starting Location",
     "type": "progressive",
     "loop": true,
