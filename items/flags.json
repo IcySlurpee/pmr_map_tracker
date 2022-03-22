@@ -126,10 +126,52 @@
     "codes": "flag_trd_tower_raised,MF_TRD01_RaisedStairs"
   },
   {
+    "name": "Dry Dry Outpost Met Moustafa",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_met_moustafa"
+  },
+  {
+    "name": "Raised Dry Dry Ruins",
+    "type": "toggle",
+    "img": "images/ruins/ruinsPulse.png",
+    "codes": "flag_raised_ruins"
+  },
+  {
+    "name": "Drained First Sand Room",
+    "type": "toggle",
+    "img": "images/flag/flagSandSwitch.png",
+    "codes": "flag_drained_first_sand,MF_ISK03_DrainedFirstSandRoom"
+  },
+  {
+    "name": "Drained Second Sand Room",
+    "type": "toggle",
+    "img": "images/flag/flagSandSwitch.png",
+    "codes": "flag_drained_second_sand,MF_ISK06_DrainedSecondSandRoom"
+  },
+  {
+    "name": "Opened Ruins Hammer Chest",
+    "type": "toggle",
+    "img": "images/hammer/hammerSuper.png",
+    "codes": "flag_ruins_hammer,RF_ISK09_OpenedHammerChest"
+  },
+  {
+    "name": "Drained Third Sand Room",
+    "type": "toggle",
+    "img": "images/flag/flagSandSwitch.png",
+    "codes": "flag_drained_third_sand,MF_ISK12_DrainedThirdSandRoom"
+  },
+  {
+    "name": "Cleared Dry Dry Ruins",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_cleared_ruins,RF_Ch2_SavedStarSpirit"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",
-    "codes:": "flag_cleared_bowsers_castle"
+    "codes": "flag_cleared_bowsers_castle"
   },
   {
     "__comment": "If the favors themselves will never be randomized, then this would be better as a progressive flag to hold state of quests.",

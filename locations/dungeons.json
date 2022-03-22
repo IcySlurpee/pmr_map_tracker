@@ -558,6 +558,187 @@
             "y": 435
           }
         ]
+      },
+      {
+        "__regionID": "ISK",
+        "name": "Dry Dry Ruins",
+        "color": "#cc9933",
+        "access_rules": [
+          "flag_raised_ruins"
+        ],
+        "sections": [
+          {
+            "name": "First Sand Drain",
+            "access_rules": [
+              "flag_drained_first_sand"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Central Crypt",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,ruinskey:3"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Opened Hammer Chest",
+            "access_rules": [
+              "flag_ruins_hammer"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_02",
+            "name": "Long Entrance Hall Middle Sarcophagus",
+            "short_name": "Foyer Middle Sarcophagus",
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_03",
+            "name": "Lower First Sand Drain Room",
+            "short_name": "Lower First Sand Item",
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_03",
+            "name": "Upper First Sand Drain Switch",
+            "short_name": "Upper First Sand Switch",
+            "access_rules": [
+              "ruinskey"
+            ],
+            "hosted_item": "flag_drained_first_sand"
+          },
+          {
+            "__mapID": "ISK_06",
+            "name": "Upper Second Sand Drain Switch",
+            "short_name": "Upper Second Sand Drain Switch",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,parakarry,bombette"
+            ],
+            "hosted_item": "flag_drained_second_sand"
+          },
+          {
+            "__mapID": "ISK_06",
+            "name": "Lower Second Sand Drain Item",
+            "short_name": "Lower Second Sand Item",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,flag_drained_second_sand",
+              "{@Dry Dry Ruins/First Sand Drain,ruinskey}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_07",
+            "name": "Sarcophagus Room Ground Item",
+            "short_name": "Sarcophagi Room Lower",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,ruinskey:2"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_09",
+            "name": "Hidden Ledge Above Super Hammer",
+            "short_name": "Super Hammer Ledge",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,parakarry"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_09",
+            "name": "Super Hammer Chest",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,parakarry"
+            ],
+            "hosted_item": "flag_ruins_hammer"
+          },
+          {
+            "__mapID": "ISK_07",
+            "name": "Sarcophagus Room Upper Item",
+            "short_name": "Sarcophagi Room Upper",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,ruinskey:2,flag_ruins_hammer",
+              "{@Dry Dry Ruins/First Sand Drain,ruinskey:2}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_05",
+            "name": "Pyramid Stone Room",
+            "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,ruinskey,flag_ruins_hammer",
+              "{@Dry Dry Ruins/First Sand Drain,ruinskey}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_14",
+            "name": "Diamond Stone Room",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,bombette,flag_ruins_hammer",
+              "{@Dry Dry Ruins/Past Central Crypt,bombette}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_12",
+            "name": "Lower Third Sand Drain Item",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,flag_ruins_hammer",
+              "{@Dry Dry Ruins/Past Central Crypt}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_12",
+            "name": "Upper Third Sand Drain Switch",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,ruinskey:4"
+            ],
+            "hosted_item": "flag_drained_third_sand"
+          },
+          {
+            "__mapID": "ISK_13",
+            "name": "Lunar Stone Room",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,flag_drained_third_sand,flag_ruins_hammer",
+              "{@Dry Dry Ruins/Past Central Crypt,flag_drained_third_sand}"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "ISK_16",
+            "name": "Defeat Tutankoopa",
+            "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,pyramidstone,diamondstone,lunarstone"
+            ],
+            "hosted_item": "flag_cleared_ruins"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 975,
+            "y": 580
+          }
+        ]
       }
     ]
   }

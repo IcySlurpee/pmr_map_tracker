@@ -14,14 +14,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mt. Rugged
 - Dry Dry Desert
 - Dry Dry Outpost
+- Dry Dry Ruins
 
 ### ➕ Support for
 - Dry Dry Outpost starting location
 
+### ➕ Additional support for
+- Shopsanity (as checks for regions are added)
+- Coinsanity (as checks for regions are added)
+
 ### ➕ Capturing items
 - If you can see a check, but can't pick it up, this will allow you to mark the location with what the check contains.
 - For example, the star piece in Toad Town across the water by the gate is a capturable check.
-- Currently, only key items are capturable, other "priority" items will be added to the capture layout in the future (maybe the hinted badges...? lmk!).
+- Currently, only key items are capturable, other "priority" items will be added to the capture layout in the future. (maybe the hinted badges...? lmk!)
 
 ### 🔄 Item updates
 - Added the Cookbook (was missing, whoops!)
@@ -29,10 +34,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔄 Check updates
 - Koopa Bros. Fortress: splits cracked walls in central hall to allow both to be captured
 - Marked WIP or NYI settings with an X to indicate they do not function.
+- Adds ability to exclude Star Piece Panels (not sure how I forgot this either)
 - Panel checks now have a star piece icon to show their vanilla item.
 
 ### 🧹 Chores
 - `images/flag/flagBlooper*.png`: removed images, tracker logic no longer relies on this flag
+- Adds documentation comments to `logic_helpers.lua`.
 
 ## [v0.0.7] - 2022-03-20
 ### ➕ Checks and logic for

@@ -1651,6 +1651,572 @@
             ]
           }
         ]
+      },
+      {
+        "__regionID": "IWA",
+        "name": "Mt. Rugged",
+        "color": "#663300",
+        "access_rules": [
+          "setting_start_outpost",
+          "$can_ride_train"
+        ],
+        "children": [
+          {
+            "__mapID": "IWA_10",
+            "name": "Mt. Rugged Train Station",
+            "sections": [
+              {
+                "name": "North Bush near Station",
+                "short_name": "North Bush",
+                "item_count": 1
+              },
+              {
+                "name": "Give 3 Letters to Parakarry",
+                "short_name": "Parakarry Letters",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 865,
+                "y": 750
+              }
+            ]
+          },
+          {
+            "__mapID": "IWA_00",
+            "name": "Mt. Rugged Lower West",
+            "sections": [
+              {
+                "name": "Coins on Slide",
+                "short_name": "Coins",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 3
+              },
+              {
+                "name": "Whack Whacka D:",
+                "access_rules": [
+                  "hammer"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "? Block near Whacka",
+                "short_name": "Lower ?",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 875,
+                "y": 715
+              }
+            ]
+          },
+          {
+            "__mapID": "IWA_01",
+            "name": "Mt. Rugged Central",
+            "sections": [
+              {
+                "name": "Panel at Bottom of Slide",
+                "short_name": "Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Kooper Ledge",
+                "access_rules": [
+                  "kooper"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Parakarry Ledge",
+                "access_rules": [
+                  "parakarry"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 880,
+                "y": 685
+              }
+            ]
+          },
+          {
+            "__mapID": "IWA_02",
+            "name": "Mt. Rugged East",
+            "sections": [
+              {
+                "name": "Star Piece on Ledge",
+                "short_name": "Star Piece",
+                "item_count": 1
+              },
+              {
+                "name": "Bul-ulb Gift",
+                "access_rules": [
+                  "parakarry"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 880,
+                "y": 655
+              }
+            ]
+          },
+          {
+            "__mapID": "IWA_03",
+            "name": "Mt. Rugged Upper West",
+            "sections": [
+              {
+                "name": "Lower Middle ? Block",
+                "short_name": "Lower ?",
+                "item_count": 1
+              },
+              {
+                "name": "Chest in Cave",
+                "short_name": "Cave Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Upper Left Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Upper Right Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Item in Coin Ring Center",
+                "short_name": "Center of Coins",
+                "access_rules": [
+                  "parakarry"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Lower Coins",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Upper Coin Ring",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 6
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 845,
+                "y": 710
+              }
+            ]
+          },
+          {
+            "__mapID": "IWA_04",
+            "name": "Suspension Bridge",
+            "sections": [
+              {
+                "name": "Bottom Left Item",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 900,
+                "y": 630
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "DRO",
+        "name": "Dry Dry Outpost",
+        "color": "#ffffcc",
+        "access_rules": [
+          "$can_traverse_desert"
+        ],
+        "children": [
+          {
+            "__mapID": "DRO_01",
+            "name": "West Dry Dry Outpost",
+            "sections": [
+              {
+                "name": "Trade Lyrics for Melody",
+                "access_rules": [
+                  "lyrics"
+                ],
+                "short_name": "Trade Lyrics",
+                "item_count": 1
+              },
+              {
+                "name": "Buy Red Jar: (Dried Hammer -> Pasta -> Shroom)",
+                "short_name": "Buy Red Jar",
+                "visibility_rules": [
+                  "setting_koot"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 1095,
+                "y": 565
+              }
+            ]
+          },
+          {
+            "__mapID": "DRO_01",
+            "name": "Dry Dry Outpost Shop",
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 1070,
+                "y": 540
+              }
+            ]
+          },
+          {
+            "__mapID": "DRO_02",
+            "name": "East Dry Dry Outpost",
+            "sections": [
+              {
+                "name": "Return Crystal Ball to Merluvlee",
+                "short_name": "Return Crystal Ball",
+                "access_rules": [
+                  "crystalball"
+                ],
+                "visibility_rules": [
+                  "setting_koot"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Meet Moustafa: (Dried Shroom -> Hammer)",
+                "short_name": "Meet Moustafa",
+                "hosted_item": "flag_met_moustafa"
+              },
+              {
+                "name": "Blue Building Roof Panel",
+                "short_name": "Roof Panel",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Orange Building Roof Item",
+                "short_name": "Roof Item",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 1125,
+                "y": 540
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "SBK",
+        "name": "Dry Dry Desert - Northwest is R1C1 (0,0)",
+        "color": "#ffcc33",
+        "access_rules": [
+          "$can_traverse_desert"
+        ],
+        "sections": [
+          {
+            "__mapID": "SBK_00",
+            "name": "R1C1 Left ? Block",
+            "short_name": "R1C1 Left ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_coinsanity"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_00",
+            "name": "R1C1 Ground ? Blocks",
+            "short_name": "R1C1 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "SBK_02",
+            "name": "R1C3 Activate Dry Dry Ruins",
+            "short_name": "R1C3 Activate Ruins",
+            "access_rules": [
+              "pulsestone"
+            ],
+            "hosted_item": "flag_raised_ruins"
+          },
+          {
+            "__mapID": "SBK_05",
+            "name": "R1C6 Pokey Army Item",
+            "short_name": "R1C6 Item",
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_10",
+            "name": "R2C1 Hidden ? Block",
+            "short_name": "R2C1 Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_14",
+            "name": "R2C4 Right ? Block",
+            "short_name": "R2C4 Right ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_coinsanity"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_14",
+            "name": "R2C4 Ground ? Blocks",
+            "short_name": "R2C4 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "SBK_20",
+            "name": "R3C1 Hit Block 1 Time",
+            "access_rules": [
+              "hammer"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_20",
+            "name": "R3C1 Hit Block 5 Times",
+            "access_rules": [
+              "hammer"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_20",
+            "name": "R3C1 Hit Block 10 Times",
+            "access_rules": [
+              "hammer"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_22",
+            "name": "R3C3 Center ? Block",
+            "short_name": "R3C3 Center ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_coinsanity"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_22",
+            "name": "R3C3 Ground ? Blocks",
+            "short_name": "R3C3 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 5
+          },
+          {
+            "__mapID": "SBK_24",
+            "name": "R3C5 Hidden ? Block in 3 Palms",
+            "short_name": "R3C5 Palms Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_30",
+            "name": "R4C1 Kolorado's Camp Tree",
+            "short_name": "R4C1 Camp Tree",
+            "access_rules": [
+              "flag_cleared_ruins,$can_shake_trees"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_33",
+            "name": "R4C4 (Center) Panel",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "access_rules": [
+              "$can_flip_panels"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_36",
+            "name": "R4C7 Tree Outside Outpost",
+            "short_name": "R4C7 Outpost Tree",
+            "access_rules": [
+              "$can_shake_trees"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_43",
+            "name": "R5C4 Ground ? Block",
+            "short_name": "R5C4 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_45",
+            "name": "R5C6 Kooper Item",
+            "access_rules": [
+              "kooper",
+              "ultraboots"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_45",
+            "name": "R5C6 Enter from R6C5 Tweester",
+            "short_name": "R5C6 Use Tweester in R6C5",
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_46",
+            "name": "R5C7 Ground ? Block",
+            "short_name": "R5C7 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_46",
+            "name": "R5C7 Hidden ? Block",
+            "short_name": "R5C7 Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_55",
+            "name": "R6C6 Near Oasis Item",
+            "short_name": "R6C6 Item",
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_56",
+            "name": "R6C7 Oasis Big Trees",
+            "short_name": "R6C7 Oasis Trees",
+            "access_rules": [
+              "$can_shake_trees"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "SBK_61",
+            "name": "R7C2 Hidden ? Block",
+            "short_name": "R7C2 Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "SBK_64",
+            "name": "R7C5 Ground ? Block",
+            "short_name": "R7C5 Ground ?",
+            "access_rules": [
+              "hammer"
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 1020,
+            "y": 625
+          }
+        ]
       }
     ]
   }
