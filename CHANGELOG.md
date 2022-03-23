@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🧹 Chores
 - `images/flag/flagBlooper*.png`: removed images, tracker logic no longer relies on this flag
-- Adds documentation comments to `logic_helpers.lua`.
+- `logic_helpers.lua`: added documentation comments
 
 ## [v0.0.7] - 2022-03-20
 ### ➕ Checks and logic for

@@ -12,3 +12,7 @@ Currently tracks all key items, star spirits, and partners in the game and check
 * Koopa Region
 * Koopa Bros. Fortress
 * Peach's Castle
+* Mt. Rugged
+* Dry Dry Desert
+* Dry Dry Outpost
+* Dry Dry Ruins
