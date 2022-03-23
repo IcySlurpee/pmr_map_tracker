@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Next Release] - 2022-03-XX (UNRELEASED)
+## [v0.1.0] - 2022-03-22
 ### ➕ Added
 - This CHANGELOG!
 - Capturing items
@@ -103,7 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
-[Next Release]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.7...main
+[v0.1.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.7...v0.1.0
 [v0.0.7]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.5...v0.0.7
 [v0.0.5]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.3...v0.0.5
 [v0.0.3]: https://github.com/IcySlurpee/pmr_map_tracker/tree/v0.0.3
