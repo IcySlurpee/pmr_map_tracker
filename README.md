@@ -4,15 +4,9 @@
 
 ---
 
-Currently tracks all key items, star spirits, and partners in the game and checks in the following regions:
-* Goomba Region
-* Toad Town
-* Toad Town Tunnels
-* Shooting Star Summit
-* Koopa Region
-* Koopa Bros. Fortress
-* Peach's Castle
-* Mt. Rugged
-* Dry Dry Desert
-* Dry Dry Outpost
-* Dry Dry Ruins
+### Currently tracks all key items, star spirits, and partners in the game and checks in the following regions:
+
+* Prologue
+* Chapter 1
+* Chapter 2
+* Chapter 3
