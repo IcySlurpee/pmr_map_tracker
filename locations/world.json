@@ -2198,7 +2198,7 @@
             "name": "R5C6 Kooper Item",
             "access_rules": [
               "kooper",
-              "ultraboots"
+              "tornadojump"
             ],
             "item_count": 1
           },
@@ -2266,6 +2266,234 @@
             "size": 35,
             "x": 1020,
             "y": 625
+          }
+        ]
+      },
+      {
+        "__regionID": "MIM",
+        "name": "Forever Forest",
+        "color": "#666699",
+        "access_rules": [
+          "$can_access_toad_town"
+        ],
+        "children": [
+          {
+            "name": "Forever Forest Path",
+            "sections": [
+              {
+                "__mapID": "MIM_04",
+                "name": "Bul-ulb Gift (Face in Tree)",
+                "short_name": "Bul-ulb Gift",
+                "item_count": 1
+              },
+              {
+                "__mapID": "MIM_08",
+                "name": "? Block (Opposite, Most Mushrooms)",
+                "short_name": "? Block (Mushrooms)",
+                "item_count": 1
+              },
+              {
+                "__mapID": "MIM_09",
+                "name": "? Block (1 Exit CCW Boo's Mansion)",
+                "short_name": "? Block (Near Mansion)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "size": 35,
+                "x": 620,
+                "y": 575
+              }
+            ]
+          },
+          {
+            "name": "Outside Boo's Mansion",
+            "sections": [
+              {
+                "__mapID": "MIM_11",
+                "name": "? Block",
+                "short_name": "Mansion ?",
+                "item_count": 1
+              },
+              {
+                "__mapID": "MIM_11",
+                "name": "Bush near Gusty Gulch Exit",
+                "short_name": "Bush near Gulch",
+                "item_count": 1
+              },
+              {
+                "__mapID": "MIM_12",
+                "name": "Hidden Panel by Gusty Gulch Fence",
+                "short_name": "Gulch Entrance Panel",
+                "access_rules": [
+                  "flag_cleared_mansion,$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 770,
+                "y": 545
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "ARN",
+        "name": "Gusty Gulch",
+        "color": "#999933",
+        "access_rules": [
+          "flag_cleared_mansion"
+        ],
+        "children": [
+          {
+            "__mapID": "ARN_03",
+            "name": "West Ghost Town",
+            "sections": [
+              {
+                "name": "? Block in House Behind Save",
+                "short_name": "Behind Save ?",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Boo Koopa Koot Favor",
+                "short_name": "Boo Favor",
+                "visibility_rules": [
+                  "setting_koot"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 875,
+                "y": 515
+              }
+            ]
+          },
+          {
+            "__mapID": "ARN_02",
+            "name": "West Ascent",
+            "sections": [
+              {
+                "name": "West ? Block",
+                "short_name": "West ?",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Item on Rock",
+                "short_name": "Rock Item",
+                "access_rules": [
+                  "kooper"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Eastern ? Block",
+                "short_name": "Eastmost ?",
+                "visibility_rules": [
+                  "$not_has|setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Central ? Blocks",
+                "short_name": "Central ?s",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Item on Ground",
+                "short_name": "Ground Item",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 940,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "__mapID": "ARN_04",
+            "name": "East Ascent",
+            "sections": [
+              {
+                "name": "Behind Rock",
+                "item_count": 1
+              },
+              {
+                "name": "West ? Block",
+                "short_name": "West ?",
+                "visibility_rules": [
+                  "$not_has|setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "? Blocks",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 995,
+                "y": 485
+              }
+            ]
+          },
+          {
+            "__mapID": "ARN_07",
+            "name": "Outside Windmill",
+            "sections": [
+              {
+                "name": "Defeat Tubba Blubba's Heart",
+                "short_name": "Defeat Heart",
+                "access_rules": [
+                  "yakkey"
+                ],
+                "hosted_item": "flag_defeated_heart"
+              },
+              {
+                "name": "Defeat Tubba Blubba",
+                "access_rules": [
+                  "flag_defeated_heart"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 805,
+                "y": 520
+              }
+            ]
           }
         ]
       }

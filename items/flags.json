@@ -168,6 +168,24 @@
     "codes": "flag_cleared_ruins,RF_Ch2_SavedStarSpirit"
   },
   {
+    "name": "Weighted Boo Mansion Chandelier",
+    "type": "toggle",
+    "img": "images/mansion/mansionWeight.png",
+    "codes": "flag_attached_weight"
+  },
+  {
+    "name": "Completed Bow Quest",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_cleared_mansion,RF_OpenedGustyGulch"
+  },
+  {
+    "name": "Defeated Tubba Blubba's Heart",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_defeated_heart,RF_Ch3_HeartFledFirstTunnel"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",

@@ -739,6 +739,361 @@
             "y": 580
           }
         ]
+      },
+      {
+        "__regionID": "OBK",
+        "name": "Boo's Mansion",
+        "color": "#993399",
+        "access_rules": [
+          "$can_access_toad_town"
+        ],
+        "sections": [
+          {
+            "name": "Weighted Chandelier",
+            "access_rules": [
+              "flag_attached_weight"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_08",
+            "name": "2F Right Record Game",
+            "short_name": "2FR Record",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_08",
+            "name": "2F Right Panel",
+            "short_name": "2FR Panel",
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_07",
+            "name": "2F Left Lure Ghost w/ Record",
+            "short_name": "2FL Lure Ghost",
+            "access_rules": [
+              "record"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_01",
+            "name": "1F Lobby Attach Weight",
+            "short_name": "Lobby Weight",
+            "access_rules": [
+              "weight"
+            ],
+            "hosted_item": "flag_attached_weight"
+          },
+          {
+            "__mapID": "OBK_04",
+            "name": "Super Boots Chest",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_04",
+            "name": "Super Boots Panel",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier,$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_04",
+            "name": "Super Boots Crate",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier,spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_03",
+            "name": "Crate Above Shop",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier,spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_02",
+            "name": "Below Trap Chest Panel",
+            "short_name": "Below Trap Panel",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier,$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_01",
+            "name": "Lobby Panel",
+            "access_rules": [
+              "$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_08",
+            "name": "2F Right Room Panel",
+            "short_name": "2FR Record Panel",
+            "access_rules": [
+              "$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_06",
+            "name": "Top of Library Shelf",
+            "short_name": "Library Shelf",
+            "access_rules": [
+              "spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_06",
+            "name": "Library Crate",
+            "access_rules": [
+              "@Boo's Mansion/Weighted Chandelier,bombette",
+              "spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "OBK_09",
+            "name": "Bow Partner",
+            "access_rules": [
+              "portrait"
+            ],
+            "hosted_item": "flag_cleared_mansion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 710,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "__mapID": "OBK_03",
+        "name": "Boo's Mansion Shop",
+        "color": "#993399",
+        "access_rules": [
+          "flag_cleared_mansion"
+        ],
+        "sections": [
+          {
+            "name": "Shop Item 1",
+            "short_name": "Item 1",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shop Item 2",
+            "short_name": "Item 2",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shop Item 3",
+            "short_name": "Item 3",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shop Item 4",
+            "short_name": "Item 4",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shop Item 5",
+            "short_name": "Item 5",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shop Item 6",
+            "short_name": "Item 6",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "restrict_visibility_rules": [
+              "setting_shopsanity"
+            ],
+            "x": 710,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "__regionID": "DGR",
+        "name": "Tubba Blubba's Castle",
+        "color": "#cccc99",
+        "access_rules": [
+          "flag_cleared_mansion,bow"
+        ],
+        "sections": [
+          {
+            "name": "2F Access",
+            "access_rules": [
+              "tubbakey:1"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "3F Access",
+            "access_rules": [
+              "tubbakey:2"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Mystical Key Access",
+            "access_rules": [
+              "tubbakey:3"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_07",
+            "name": "1F Study Item",
+            "short_name": "1F Study",
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_06",
+            "name": "Basement Chest past Planks",
+            "short_name": "Basement Chest",
+            "access_rules": [
+              "spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_11",
+            "name": "2F Hidden Room Drop to 1F Covered Table",
+            "short_name": "2F Hidden Planks Drop",
+            "access_rules": [
+              "@Tubba Blubba's Castle/2F Access,bombette,spinjump,parakarry",
+              "{}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_12",
+            "name": "2F Spike Room",
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_03",
+            "name": "2F Clock Drop to 1F Table",
+            "short_name": "2F Drop to Table",
+            "access_rules": [
+              "@Tubba Blubba's Castle/2F Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_13",
+            "name": "2F Hidden Bedroom Coins",
+            "short_name": "2F Bedroom Coins",
+            "access_rules": [
+              "@Tubba Blubba's Castle/2F Access"
+            ],
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 6
+          },
+          {
+            "__mapID": "DGB_13",
+            "name": "2F Hidden Bedroom Item",
+            "access_rules": [
+              "@Tubba Blubba's Castle/2F Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_14",
+            "name": "Stairs to 3F",
+            "access_rules": [
+              "@Tubba Blubba's Castle/3F Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_16",
+            "name": "3F Sleeping Clubbas",
+            "access_rules": [
+              "@Tubba Blubba's Castle/3F Access"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "DGB_18",
+            "name": "Yakkey",
+            "access_rules": [
+              "@Tubba Blubba's Castle/Mystical Key Access"
+            ],
+            "capture_item": "yakkey"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 1040,
+            "y": 445
+          }
+        ]
       }
     ]
   }
