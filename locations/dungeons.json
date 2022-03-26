@@ -55,6 +55,7 @@
           {
             "name": "B2 from Rip Cheato",
             "access_rules": [
+              "setting_open_blue_house,setting_partners_active",
               "setting_open_blue_house,bombette"
             ],
             "visibility_rules": [
@@ -65,6 +66,8 @@
           {
             "name": "B2 Full Access",
             "access_rules": [
+              "@Toad Town Tunnels/B1 Break Panels,setting_partners_active",
+              "@Toad Town Tunnels/B2 from Rip Cheato,setting_partners_active",
               "@Toad Town Tunnels/B1 Break Panels,sushie",
               "@Toad Town Tunnels/B2 from Rip Cheato,sushie"
             ]
@@ -72,6 +75,8 @@
           {
             "name": "B3 Access",
             "access_rules": [
+              "@Toad Town Tunnels/B2 Full Access,setting_partners_active",
+              "@Toad Town Tunnels/B2 from Rip Cheato,setting_partners_active",
               "@Toad Town Tunnels/B2 Full Access,lakilester",
               "@Toad Town Tunnels/B2 from Rip Cheato,lakilester"
             ],
@@ -141,6 +146,7 @@
             "name": "B2 Elevator Ledge",
             "short_name": "B2 Elevator",
             "access_rules": [
+              "@Toad Town Tunnels/B1 West Pipe to B2,setting_partners_active",
               "@Toad Town Tunnels/B1 West Pipe to B2,parakarry",
               "{@Toad Town Tunnels/B1 West Pipe to B2}"
             ],
@@ -266,6 +272,7 @@
         "name": "Rip Cheato Deals",
         "access_rules": [
           "setting_open_blue_house",
+          "spinjump,setting_partners_active",
           "spinjump,sushie,bombette"
         ],
         "sections": [
@@ -413,6 +420,7 @@
           {
             "name": "2F Access",
             "access_rules": [
+              "fortresskey:3,setting_partners_active",
               "fortresskey:3,kooper",
               "fortresskey:3,parakarry"
             ],
@@ -468,6 +476,7 @@
             "name": "1F Central Hall Cracked Wall Middle",
             "short_name": "1FC Cracked Wall Middle",
             "access_rules": [
+              "@Koopa Bros. Fortress/1F Access,setting_partners_active",
               "@Koopa Bros. Fortress/1F Access,bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
@@ -479,6 +488,7 @@
             "name": "1F Central Hall Cracked Wall Right",
             "short_name": "1FC Cracked Wall Right",
             "access_rules": [
+              "@Koopa Bros. Fortress/1F Access,setting_partners_active",
               "@Koopa Bros. Fortress/1F Access,bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
@@ -490,6 +500,7 @@
             "name": "1F Right Tower Cracked Wall",
             "short_name": "1FR Tower Cracked Wall",
             "access_rules": [
+              "@Koopa Bros. Fortress/Right Tower Access,setting_partners_active",
               "@Koopa Bros. Fortress/Right Tower Access,bombette"
             ],
             "item_count": 1
@@ -508,6 +519,7 @@
             "name": "1F Left Stairs Cracked Wall",
             "short_name": "1FL Stairs Cracked Wall",
             "access_rules": [
+              "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,setting_partners_active",
               "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
@@ -536,6 +548,7 @@
             "name": "Battlements Behind Rock",
             "short_name": "Battlements",
             "access_rules": [
+              "@Koopa Bros. Fortress/Battlements Access,setting_partners_active",
               "@Koopa Bros. Fortress/Battlements Access,bombette"
             ],
             "item_count": 1
@@ -625,6 +638,7 @@
             "name": "Upper Second Sand Drain Switch",
             "short_name": "Upper Second Sand Drain Switch",
             "access_rules": [
+              "@Dry Dry Ruins/First Sand Drain,setting_partners_active",
               "@Dry Dry Ruins/First Sand Drain,parakarry,bombette"
             ],
             "hosted_item": "flag_drained_second_sand"
@@ -654,6 +668,7 @@
             "name": "Hidden Ledge Above Super Hammer",
             "short_name": "Super Hammer Ledge",
             "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active",
               "@Dry Dry Ruins/Past Central Crypt,parakarry"
             ],
             "item_count": 1
@@ -662,6 +677,7 @@
             "__mapID": "ISK_09",
             "name": "Super Hammer Chest",
             "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active",
               "@Dry Dry Ruins/Past Central Crypt,parakarry"
             ],
             "hosted_item": "flag_ruins_hammer"
@@ -691,7 +707,9 @@
             "__mapID": "ISK_14",
             "name": "Diamond Stone Room",
             "access_rules": [
+              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active,flag_ruins_hammer",
               "@Dry Dry Ruins/Past Central Crypt,bombette,flag_ruins_hammer",
+              "{@Dry Dry Ruins/Past Central Crypt,setting_partners_active}",
               "{@Dry Dry Ruins/Past Central Crypt,bombette}"
             ],
             "capture_item": true,
@@ -886,7 +904,8 @@
             "__mapID": "OBK_06",
             "name": "Library Crate",
             "access_rules": [
-              "@Boo's Mansion/Weighted Chandelier,bombette",
+              "@Boo's Mansion/Weighted Chandelier,setting_partners_active,spinjump",
+              "@Boo's Mansion/Weighted Chandelier,bombette,spinjump",
               "spinjump"
             ],
             "item_count": 1
@@ -970,6 +989,7 @@
         "name": "Tubba Blubba's Castle",
         "color": "#cccc99",
         "access_rules": [
+          "flag_cleared_mansion,setting_partners_active",
           "flag_cleared_mansion,bow"
         ],
         "sections": [
@@ -1023,6 +1043,7 @@
             "name": "2F Hidden Room Drop to 1F Covered Table",
             "short_name": "2F Hidden Planks Drop",
             "access_rules": [
+              "@Tubba Blubba's Castle/2F Access,setting_partners_active,spinjump",
               "@Tubba Blubba's Castle/2F Access,bombette,spinjump,parakarry",
               "{}"
             ],

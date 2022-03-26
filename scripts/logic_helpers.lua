@@ -179,7 +179,9 @@ end
   ? blocks to be in logic.
 ]]--
 function can_see_hidden_blocks()
-  if has("watt") or has("setting_visible_blocks") then
+  if has("watt")
+     or has("setting_visible_blocks")
+     or has("setting_partners_active") then
     return 1
   else
     return 0
