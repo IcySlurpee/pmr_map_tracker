@@ -164,7 +164,8 @@
   {
     "name": "Cleared Dry Dry Ruins",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "disabled_img": "images/spirit/spiritCardBack.png",
+    "img": "images/spirit/spiritCardMamar.png",
     "codes": "flag_cleared_ruins,RF_Ch2_SavedStarSpirit"
   },
   {

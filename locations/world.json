@@ -2484,6 +2484,8 @@
                 "access_rules": [
                   "flag_defeated_heart"
                 ],
+                "chest_unopened_img": "images/spirit/spiritCardBack.png",
+                "chest_opened_img": "images/spirit/spiritCardSkolar.png",
                 "item_count": 1
               }
             ],

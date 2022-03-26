@@ -547,6 +547,8 @@
             "access_rules": [
               "@Koopa Bros. Fortress/Battlements Access"
             ],
+            "chest_unopened_img": "images/spirit/spiritCardBack.png",
+            "chest_opened_img": "images/spirit/spiritCardEldstar.png",
             "item_count": 1
           }
         ],
