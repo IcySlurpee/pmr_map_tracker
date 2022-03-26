@@ -187,6 +187,24 @@
     "codes": "flag_defeated_heart,RF_Ch3_HeartFledFirstTunnel"
   },
   {
+    "name": "Returned Toybox Train",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_returned_train,MF_Ch4_ReturnedToyTrain"
+  },
+  {
+    "name": "Moved Gourmet Guy",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_moved_gourmet_guy,MF_Ch4_GaveCakeToGourmetGuy"
+  },
+  {
+    "name": "Pulled Pink Station Lever",
+    "type": "toggle",
+    "img": "images/toybox/toyboxLeverPink.png",
+    "codes": "flag_pink_lever,MF_Ch4_PulledPinkSwitch"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",

@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Next Release] - 2022-03-XX (UNRELEASED)
+### ➕ Checks and logic for
+- Chapter 4
+  - Shy Guy's Toybox
+
+### ➕ Support for
+- Partner abilities being always active.
+
+### 🔄 Check updates
+- Boss battle check icons are now the Star Spirit card you would collect after the fight.
+
+### 🌎 Map Updates
+- Adds new map to allow separating Chapter 4 checks, as Toybox is incredibly dense.
+
 ## [v0.1.1] - 2022-03-24
 ### ➕ Checks and logic for
 - Chapter 3

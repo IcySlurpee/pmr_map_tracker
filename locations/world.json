@@ -821,7 +821,8 @@
                     "name": "Free Item",
                     "short_name": "Grab it",
                     "access_rules": [
-                      "$can_access_blue_house"
+                      "$can_access_blue_house",
+                      "[hammer]"
                     ],
                     "item_count": 1
                   }

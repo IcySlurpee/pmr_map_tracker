@@ -3,6 +3,6 @@
   "name": "worldmap",
   "location_size": 25,
   "location_border_thickness": 5,
-  "img": "images/map/map.png"
+  "img": "images/map/mapToybox.png"
   }
 ]

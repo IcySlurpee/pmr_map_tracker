@@ -1117,6 +1117,608 @@
             "y": 445
           }
         ]
+      },
+      {
+        "__regionID": "OMO",
+        "name": "Shy Guy's Toybox",
+        "access_rules": [
+          "setting_open_toybox",
+          "bow",
+          "setting_partners_active"
+        ],
+        "color": "#cc9966",
+        "children": [
+          {
+            "name": "Toybox Blue Station",
+            "sections": [
+              {
+                "__mapID": "OMO_03",
+                "name": "BLUE Station Panel",
+                "short_name": "BLUE-S Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_03",
+                "name": "Station Hidden ? Block",
+                "short_name": "Station - Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_13",
+                "name": "West Hall East Hidden ? Block",
+                "short_name": "West - Hall East Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_13",
+                "name": "West Anti-Guy Chest (Cook Lemon + Cake Mix)",
+                "short_name": "West - Anti-Guy Chest",
+                "access_rules": [
+                  "cookbook"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_13",
+                "name": "West Hall West ? Block",
+                "short_name": "West - West ?",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_01",
+                "name": "West Playground Stolen Items",
+                "short_name": "West - PG Stolen Items",
+                "item_count": 6
+              },
+              {
+                "__mapID": "OMO_01",
+                "name": "West Playground Hidden ? Blocks",
+                "short_name": "West - PG Hidden ?s",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 2
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Coins Above Box",
+                "short_name": "East - Box Coins",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 3
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Coins Across Gap",
+                "short_name": "East - Gap Coins",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 5
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Behind Hex on Side",
+                "short_name": "East - Behind Hex",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Roof Item",
+                "short_name": "East - City Roof",
+                "access_rules": [
+                  "setting_partners_active",
+                  "parakarry"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Building ? Block",
+                "short_name": "East - Building ?",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Gap ? Block",
+                "short_name": "East - Gap ?",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City ? Block on Ledge",
+                "short_name": "East - Ledge ?",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Peach's Choice",
+                "short_name": "East - Peach's Choice",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_04",
+                "name": "East City Chest",
+                "short_name": "East - Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "size": 35,
+                "x": 90,
+                "y": 615
+              }
+            ]
+          },
+          {
+            "name": "Toybox Pink Station",
+            "access_rules": [
+              "@Shy Guy's Toybox/Returned Train"
+            ],
+            "sections": [
+              {
+                "__mapID": "OMO_06",
+                "name": "Station Panel",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train,$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_06",
+                "name": "Station Chest",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_07",
+                "name": "East Playhouse Upper Chest",
+                "short_name": "East - Upper Chest",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_07",
+                "name": "East Playhouse Fence ? Block",
+                "short_name": "East - Fence ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_07",
+                "name": "East Playhouse East Chests",
+                "short_name": "East - East Chests",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "item_count": 2
+              },
+              {
+                "__mapID": "OMO_07",
+                "name": "East Playhouse Peach's Choice",
+                "short_name": "East - Peach's Choice",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_17",
+                "name": "West Tracks ? Block On Steps",
+                "short_name": "West - Steps ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Returned Train"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_05",
+                "name": "West Move Gourmet Guy",
+                "short_name": "West - Gourmet Guy",
+                "access_rules": [
+                  "cake"
+                ],
+                "hosted_item": "flag_moved_gourmet_guy"
+              },
+              {
+                "__mapID": "OMO_05",
+                "name": "West Left of Gourmet Guy",
+                "short_name": "West - Left of Gourmet ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_05",
+                "name": "West ? Blocks Right of Gourmet",
+                "short_name": "West - Right of Gourmet ?s",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy"
+                ],
+                "item_count": 2
+              },
+              {
+                "__mapID": "OMO_05",
+                "name": "West Hidden ? Right of Gourmet",
+                "short_name": "West - Gourmet Hidden ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy,$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_17",
+                "name": "West Tracks Far ? Blocks",
+                "short_name": "West - Far ?s",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "__mapID": "OMO_06",
+                "name": "Station Lever",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy"
+                ],
+                "hosted_item": "flag_pink_lever"
+              },
+              {
+                "__mapID": "OMO_06",
+                "name": "Station Lever Hidden ? Block",
+                "short_name": "Lever Hidden ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Moved Gourmet Guy,$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "size": 35,
+                "x": 130,
+                "y": 615
+              }
+            ]
+          },
+          {
+            "name": "Toybox Green Station",
+            "access_rules": [
+              "@Shy Guy's Toybox/Pulled Pink Lever"
+            ],
+            "sections": [
+              {
+                "__mapID": "OMO_08",
+                "name": "Station Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_08",
+                "name": "Station Hidden ? Block",
+                "short_name": "Station Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Coins Before Screen",
+                "short_name": "Before Screen",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 6
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Stolen Item",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bow"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Peach's Choice",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bow,parakarry",
+                  "{bow}"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Chest",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bow,parakarry"
+                ]
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Item Under Chest",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bow"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_09",
+                "name": "Coins Around Item",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bow"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 6
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "size": 35,
+                "x": 90,
+                "y": 655
+              }
+            ]
+          },
+          {
+            "name": "Toybox Red Station",
+            "access_rules": [
+              "@Shy Guy's Toybox/Color Puzzle"
+            ],
+            "sections": [
+              {
+                "__mapID": "OMO_10",
+                "name": "Station Hidden ? Block",
+                "short_name": "Station - Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_10",
+                "name": "Station Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_11",
+                "name": "West Hidden ? Block Near Exit",
+                "short_name": "West - Exit Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_11",
+                "name": "West - Center Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_11",
+                "name": "West Center ? Blocks",
+                "short_name": "West - Center ?s",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "__mapID": "OMO_11",
+                "name": "West Hidden ? Near Miniboss Exit",
+                "short_name": "West - Miniboss Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_12",
+                "name": "Watt Partner",
+                "short_name": "Watt",
+                "access_rules": [
+                  "setting_partners_active",
+                  "hammer",
+                  "bombette",
+                  "kooper"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_02",
+                "name": "East Hidden ? Block",
+                "short_name": "East - Hidden ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_02",
+                "name": "East Item on Bricks",
+                "short_name": "East - Bricks",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks,setting_partners_active",
+                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks,kooper",
+                  "@Shy Guy's Toybox/Shy Guy Barricade,tornadojump",
+                  "{@Shy Guy's Toybox/Shy Guy Barricade}"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_02",
+                "name": "East ? Block Near Boss",
+                "short_name": "East - Near Boss ?",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Shy Guy Barricade"
+                ],
+                "item_count": 1
+              },
+              {
+                "__mapID": "OMO_15",
+                "name": "Defeat General Guy",
+                "short_name": "General Guy",
+                "access_rules": [
+                  "@Shy Guy's Toybox/Shy Guy Barricade,setting_partners_active",
+                  "@Shy Guy's Toybox/Shy Guy Barricade,watt"
+                ],
+                "chest_unopened_img": "images/spirit/spiritCardBack.png",
+                "chest_opened_img": "images/spirit/spiritCardMuskular.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "size": 35,
+                "x": 130,
+                "y": 655
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Returned Train",
+            "access_rules": [
+              "flag_returned_train"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Moved Gourmet Guy",
+            "access_rules": [
+              "@Shy Guy's Toybox/Returned Train,cake"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pulled Pink Lever",
+            "access_rules": [
+              "flag_pink_lever"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Color Puzzle",
+            "access_rules": [
+              "hammer,flag_can_solve_color_puzzle"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Shy Guy Barricade",
+            "access_rules": [
+              "@Shy Guy's Toybox/Color Puzzle,setting_partners_active",
+              "@Shy Guy's Toybox/Color Puzzle,bombette"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Return Toy Train",
+            "access_rules": [
+              "toytrain"
+            ],
+            "hosted_item": "flag_returned_train"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 300,
+            "y": 555
+          }
+        ]
       }
     ]
   }
