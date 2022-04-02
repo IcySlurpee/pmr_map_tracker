@@ -1721,6 +1721,9 @@
               {
                 "name": "Give 3 Letters to Parakarry",
                 "short_name": "Parakarry Letters",
+                "access_rules": [
+                  "letter:3"
+                ],
                 "item_count": 1
               }
             ],
