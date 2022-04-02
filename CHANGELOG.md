@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Next Version] - 2022-04-0X (UNRELEASED)
+### ➕ Additional support for
+- Partner abilities being always active.
+
+### 🔄 Check updates
+- Toad Town Tunnels
+  - Chapter 5 warp check now toggles correct tracker flag.
+- Koopa Village
+  - Short name for shop items now displays correctly.
+- Mt. Rugged
+  - Adds logic for turning in letters to Parakarry for his partner quest.
+- Shy Guy's Toybox
+  - Color Box Puzzle now is in logic when you have the **Dictionary** and **Mystery Note**, without needing to set the tracker flag turning them in. (Russ T. in Toad Town - this may change if the color box puzzle's solution is randomized)
+  - Checks for each station are indicated with the station's color.
+
+### 🔄 Item updates
+- Koopa Koot
+  - Autograph items have been further optimized for ChatHUD: now can be toggled with `lauto` and `mauto`, for Luigi's and Merluvlee's autograph, respectively. (Randomizer has NYI Koopa Koot checks)
+
+### 🔄 Layout updates
+- Settings
+  - Tracker settings are now contained in a popup - click the gear in the Star Spirits / Partners header.
+- Condensed Star Spirits and partners into one header.
+
 ## [v0.2.0] - 2022-03-26
 ### ➕ Checks and logic for
 - Chapter 4
@@ -129,6 +153,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[Next Version]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.2.0...main
 [v0.2.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.0.7...v0.1.0
