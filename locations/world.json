@@ -1460,37 +1460,37 @@
                 "sections": [
                   {
                     "name": "Shop Item 1",
-                    "short_item": "Item 1",
+                    "short_name": "Item 1",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Shop Item 2",
-                    "short_item": "Item 2",
+                    "short_name": "Item 2",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Shop Item 3",
-                    "short_item": "Item 3",
+                    "short_name": "Item 3",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Shop Item 4",
-                    "short_item": "Item 4",
+                    "short_name": "Item 4",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Shop Item 5",
-                    "short_item": "Item 5",
+                    "short_name": "Item 5",
                     "capture_item": true,
                     "item_count": 1
                   },
                   {
                     "name": "Shop Item 6",
-                    "short_item": "Item 6",
+                    "short_name": "Item 6",
                     "capture_item": true,
                     "item_count": 1
                   }
