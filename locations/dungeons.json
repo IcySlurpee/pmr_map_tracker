@@ -1686,7 +1686,8 @@
           {
             "name": "Color Puzzle",
             "access_rules": [
-              "hammer,flag_can_solve_color_puzzle"
+              "hammer,flag_can_solve_color_puzzle",
+              "dictionary,mysterynote"
             ],
             "visibility_rules": [
               "hidden"
