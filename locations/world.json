@@ -381,6 +381,7 @@
                     "name": "Sushie Island",
                     "short_name": "Island",
                     "access_rules": [
+                      "setting_partners_active",
                       "sushie",
                       "{}"
                     ],
@@ -847,6 +848,7 @@
                   {
                     "name": "Bomb Rock",
                     "access_rules": [
+                      "setting_partners_active",
                       "bombette"
                     ],
                     "hosted_item": "flag_bombed_train_rock"
@@ -1033,6 +1035,7 @@
                   {
                     "name": "Defeat Fuzzipede",
                     "access_rules": [
+                      "setting_partners_active,flag_whale_awake",
                       "watt,flag_whale_awake"
                     ],
                     "hosted_item": "flag_beat_fuzzipede"
@@ -1364,6 +1367,7 @@
               {
                 "name": "Star Piece",
                 "access_rules": [
+                  "setting_partners_active",
                   "kooper"
                 ],
                 "item_count": 1
@@ -1566,6 +1570,7 @@
               {
                 "name": "On Stump",
                 "access_rules": [
+                  "setting_partners_active",
                   "kooper",
                   "parakarry"
                 ],
@@ -1628,6 +1633,7 @@
                     "name": "On top of Bricks",
                     "short_name": "Brick Block",
                     "access_rules": [
+                      "setting_partners_active",
                       "kooper",
                       "tornadojump"
                     ],
@@ -1636,6 +1642,7 @@
                   {
                     "name": "Activate Bridge",
                     "access_rules": [
+                      "setting_partners_active",
                       "kooper"
                     ],
                     "hosted_item": "flag_kooper_bridge"
@@ -1677,6 +1684,7 @@
                 "name": "Pipe Behind Cracked Wall",
                 "short_name": "Cracked Wall Pipe",
                 "access_rules": [
+                  "setting_partners_active",
                   "bombette"
                 ],
                 "item_count": 1
@@ -1777,6 +1785,7 @@
               {
                 "name": "Kooper Ledge",
                 "access_rules": [
+                  "setting_partners_active",
                   "kooper"
                 ],
                 "item_count": 1
@@ -1784,6 +1793,7 @@
               {
                 "name": "Parakarry Ledge",
                 "access_rules": [
+                  "setting_partners_active",
                   "parakarry"
                 ],
                 "item_count": 1
@@ -1809,6 +1819,7 @@
               {
                 "name": "Bul-ulb Gift",
                 "access_rules": [
+                  "setting_partners_active",
                   "parakarry"
                 ],
                 "item_count": 1
@@ -1848,6 +1859,7 @@
                 "name": "Item in Coin Ring Center",
                 "short_name": "Center of Coins",
                 "access_rules": [
+                  "setting_partners_active",
                   "parakarry"
                 ],
                 "item_count": 1
@@ -2198,6 +2210,7 @@
             "__mapID": "SBK_45",
             "name": "R5C6 Kooper Item",
             "access_rules": [
+              "setting_partners_active",
               "kooper",
               "tornadojump"
             ],
@@ -2402,6 +2415,7 @@
                 "name": "Item on Rock",
                 "short_name": "Rock Item",
                 "access_rules": [
+                  "setting_partners_active",
                   "kooper"
                 ],
                 "item_count": 1
