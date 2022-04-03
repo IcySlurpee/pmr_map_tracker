@@ -11,3 +11,15 @@
 * Chapter 2
 * Chapter 3
 * Chapter 4
+
+### Support for the following settings:
+
+* Coinsanity
+* Shopsanity
+* Shuffle Dojo Rewards
+* Shuffle Star Piece Panels
+* Partner Abilities Always Active
+* Hidden Block Visibility with or without Watt
+* Open Blue House
+* Open Toy Box
+* Open Whale
