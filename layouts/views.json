@@ -13,20 +13,17 @@
           "content": [
             {
               "type": "group",
-              "header": "Star Spirits",
+              "header": "Star Spirits / Partners",
               "dock": "top",
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#CC212121",
+                "layout": "combined_settings_popup_grid"
+              },
               "content": {
                 "type": "layout",
-                "key": "star_spirit_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Partners",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "partner_grid"
+                "key": "stars_partners_grid"
               }
             },
             {
@@ -54,15 +51,6 @@
               "content": {
                 "type": "layout",
                 "key": "counters_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "combined_settings_grid"
               }
             }
           ]

@@ -65,18 +65,24 @@
       }
     ]
   },
-  "combined_settings_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "h_alignment": "left",
-    "content": [
+  "combined_settings_popup_grid": {
+    "type": "tabbed",
+    "tabs": [
       {
-        "type": "layout",
-        "key": "world_setting_grid"
+        "title": "World Settings",
+        "content": {
+          "type": "layout",
+          "key": "world_setting_grid",
+          "h_alignment": "left"
+        }
       },
       {
-        "type": "layout",
-        "key": "check_setting_grid"
+        "title": "Check Settings",
+        "content": {
+          "type": "layout",
+          "key": "check_setting_grid",
+          "h_alignment": "left"
+        }
       }
     ]
   },
