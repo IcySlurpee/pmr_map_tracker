@@ -1130,6 +1130,7 @@
         "children": [
           {
             "name": "Toybox Blue Station",
+            "color": "#0033cc",
             "sections": [
               {
                 "__mapID": "OMO_03",
@@ -1272,6 +1273,7 @@
           },
           {
             "name": "Toybox Pink Station",
+            "color": "#ff6699",
             "access_rules": [
               "@Shy Guy's Toybox/Returned Train"
             ],
@@ -1425,6 +1427,7 @@
           },
           {
             "name": "Toybox Green Station",
+            "color": "#006600",
             "access_rules": [
               "@Shy Guy's Toybox/Pulled Pink Lever"
             ],
@@ -1525,6 +1528,7 @@
           },
           {
             "name": "Toybox Red Station",
+            "color": "#cc3300",
             "access_rules": [
               "@Shy Guy's Toybox/Color Puzzle"
             ],
