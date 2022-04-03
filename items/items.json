@@ -245,7 +245,7 @@
     "name": "Luigi's Autograph",
     "type": "toggle",
     "img": "images/koot/kootLuigi.png",
-    "codes": "luigisautograph,lautograph,kootluigiautograph"
+    "codes": "luigisautograph,lauto,kootluigiautograph"
   },
   {
     "name": "Wallet",
@@ -263,7 +263,7 @@
     "name": "Merluvlee's Autograph",
     "type": "toggle",
     "img": "images/koot/kootMerluvlee.png",
-    "codes": "merluvleesautograph,mautograph,kootmerluvleeautograph"
+    "codes": "merluvleesautograph,mauto,kootmerluvleeautograph"
   },
   {
     "name": "Old Photo",
