@@ -1,0 +1,45 @@
+repository:
+  name: pmr_map_tracker
+  description: Paper Mario Randomizer Map Tracker Package for Emotracker
+  topics: tracker, randomizer, pmr, rando, emotracker, paper-mario, map-tracker
+  private: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  default_branch: main
+  allow_squash_merge: false
+  allow_merge_commit: false
+  allow_rebase_merge: true
+  delete_branch_on_merge: true
+  enable_automated_security_fixes: false
+  enable_vulnerability_alerts: false
+
+branches:
+  - name: main
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+      required_status_checks:
+        contexts: []
+      required_linear_history: true
+      enforce_admins: false
+
+labels:
+  - name: logic
+    color: cc3333
+    description: A problem with the tracker's logic.
+  - name: layout
+    color: 3366ff
+    description: A problem with the tracker's layout.
+  - name: feature
+    color: 009900
+    description: A feature request.
+  - name: question
+    color: ffcc00
+    description: A question about the tracker.
+
+milestones:
+
+collaborators:
