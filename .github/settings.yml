@@ -27,18 +27,36 @@ branches:
       enforce_admins: false
 
 labels:
-  - name: logic
-    color: cc3333
-    description: A problem with the tracker's logic.
-  - name: layout
-    color: 3366ff
-    description: A problem with the tracker's layout.
-  - name: feature
-    color: 009900
+  - name: bug-report
+    color: "#cc3333"
+    description: A bug report.
+  - name: feature-request
+    color: "#009900"
     description: A feature request.
   - name: question
-    color: ffcc00
+    color: "#ffcc00"
     description: A question about the tracker.
+  - name: triage
+    color: "#99aaff"
+    description: Issue/PR that needs triage.
+  - name: accepted
+    color: "#99ffaa"
+    description: Accepted issue - validated bug report or approved feature request.
+  - name: cannot-verify
+    color: "#ffaa99"
+    description: An issue that cannot be verified, needs more information.
+  - name: logic
+    color: "#999999"
+    description: Relating to the tracker's logic.
+  - name: layout
+    color: "#999999"
+    description: Relating to the tracker's layout.
+  - name: checks
+    color: "#999999"
+    description: Relating to the tracker's checks.
+  - name: scripts
+    color: "#999999"
+    description: Relating to the tracker's scripts.
 
 milestones:
 
