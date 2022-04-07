@@ -205,6 +205,48 @@
     "codes": "flag_pink_lever,MF_Ch4_PulledPinkSwitch"
   },
   {
+    "name": "Saved Yoshi Kid 1",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_yoshi1"
+  },
+  {
+    "name": "Saved Yoshi Kid 2",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_yoshi2"
+  },
+  {
+    "name": "Saved Yoshi Kid 3",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_yoshi3"
+  },
+  {
+    "name": "Saved Yoshi Kid 4",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_yoshi4"
+  },
+  {
+    "name": "Saved Yoshi Kid 5",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_yoshi5"
+  },
+  {
+    "name": "Moved Raven Statue",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_moved_raven"
+  },
+  {
+    "name": "Mt. Lavalava Zipline Built",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_built_zipline"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",

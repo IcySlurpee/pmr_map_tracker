@@ -432,25 +432,25 @@
                     "short_name": "Item 2",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 3",
                     "short_name": "Item 3",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 4",
                     "short_name": "Item 4",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 5",
                     "short_name": "Item 5",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 6",
                     "short_name": "Item 6",
@@ -549,7 +549,7 @@
               {
                 "name": "Plaza West",
                 "sections": [
-                  {             
+                  {
                     "name": "Shake Tree",
                     "access_rules": [
                       "$can_shake_trees"
@@ -906,25 +906,25 @@
                     "short_name": "Item 2",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 3",
                     "short_name": "Item 3",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 4",
                     "short_name": "Item 4",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 5",
                     "short_name": "Item 5",
                     "capture_item": true,
                     "item_count": 1
-                  },              
+                  },
                   {
                     "name": "Shop Item 6",
                     "short_name": "Item 6",
@@ -2512,6 +2512,631 @@
                 "map": "worldmap",
                 "x": 805,
                 "y": 520
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__regionID": "JAN",
+        "name": "Jade Jungle",
+        "color": "#009966",
+        "access_rules": [
+          "flag_warp3,$can_ride_whale"
+        ],
+        "children": [
+          {
+            "__mapID": "JAN_00",
+            "name": "Whale Cove",
+            "sections": [
+              {
+                "name": "Coins Over Flower",
+                "short_name": "Over Flower",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Behind Bush",
+                "item_count": 1
+              },
+              {
+                "name": "In Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 210,
+                "y": 910
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_01",
+            "name": "Long Beach",
+            "sections": [
+              {
+                "name": "Left Hidden Block",
+                "short_name": "Left Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Right Hidden Block",
+                "short_name": "Right Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "On Rocks",
+                "item_count": 1
+              },
+              {
+                "name": "Coins Over Flower",
+                "short_name": "Over Flower",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Coconut Trees",
+                "short_name": "Trees",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 7
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 260,
+                "y": 895
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_02",
+            "name": "Village Cove",
+            "sections": [
+              {
+                "name": "Statue Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              },
+              {
+                "name": "Shake Trees",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 2
+              },
+              {
+                "name": "Save Yoshi Kids Gift",
+                "short_name": "Yoshi Kids",
+                "access_rules": [
+                  "flag_yoshi_kids:5"
+                ],
+                "hosted_item": "flag_saved_yoshi_kids"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 315,
+                "y": 880
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_03",
+            "name": "Yoshi Village",
+            "sections": [
+              {
+                "name": "Turn in Volcano Vase",
+                "short_name": "Volcano Vase",
+                "access_rules": [
+                  "flag_saved_yoshi_kids,volcanovase"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Give Yoshi a Tayce T. Food",
+                "short_name": "Gourmet Yoshi",
+                "access_rules": [
+                  "flag_saved_yoshi_kids,fryingpan"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 340,
+                "y": 855
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_03",
+            "name": "Yoshi Village Shop",
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 345,
+                "y": 830
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_04",
+            "name": "Sushie Tree",
+            "sections": [
+              {
+                "name": "Save Sushie",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Bul-ulb Gift",
+                "access_rules": [
+                  "setting_partners_active",
+                  "sushie"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Free Item",
+                "access_rules": [
+                  "setting_partners_active",
+                  "sushie"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake NE Tree",
+                "access_rules": [
+                  "setting_partners_active,$can_shake_trees",
+                  "sushie,$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Post-Chapter Chest",
+                "access_rules": [
+                  "flag_cleared_volcano"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 285,
+                "y": 825
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_05",
+            "name": "SE Jungle (Spear Guy Island)",
+            "sections": [
+              {
+                "name": "Island ? Block",
+                "short_name": "Island ?",
+                "access_rules": [
+                  "setting_partners_active",
+                  "sushie"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Save Yoshi Kid",
+                "access_rules": [
+                  "setting_partners_active,$can_shake_trees",
+                  "sushie,$can_shake_trees"
+                ],
+                "hosted_item": "flag_yoshi5"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 250,
+                "y": 850
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_06",
+            "name": "NE Jungle (Raven Statue)",
+            "access_rules": [
+              "setting_partners_active",
+              "sushie"
+            ],
+            "sections": [
+              {
+                "name": "Underwater Coin",
+                "short_name": "Coin",
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Move Raven Statue",
+                "access_rules": [
+                  "jaderaven"
+                ],
+                "hosted_item": "flag_moved_raven"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 240,
+                "y": 820
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_07",
+            "name": "Piranha Plant Yoshi",
+            "access_rules": [
+              "setting_partners_active",
+              "sushie"
+            ],
+            "sections": [
+              {
+                "name": "Save Yoshi Kid",
+                "hosted_item": "flag_yoshi4"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 270,
+                "y": 795
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_08",
+            "name": "SW Jungle (Super Block)",
+            "sections": [
+              {
+                "name": "Save Yoshi Kid",
+                "hosted_item": "flag_yoshi1"
+              },
+              {
+                "name": "Underwater Items",
+                "access_rules": [
+                  "setting_partners_active",
+                  "sushie"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 3
+              },
+              {
+                "name": "Hidden ? Block",
+                "access_rules": [
+                  "setting_partners_active",
+                  "sushie,$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 220,
+                "y": 855
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_09",
+            "name": "NW Jungle (Large Ledge)",
+            "access_rules": [
+              "setting_partners_active",
+              "sushie"
+            ],
+            "sections": [
+              {
+                "name": "South Bushes Near Water",
+                "short_name": "South Bushes",
+                "item_count": 1
+              },
+              {
+                "name": "East Bushes Near Exit",
+                "short_name": "East Bushes",
+                "item_count": 1
+              },
+              {
+                "name": "East Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Tree on Ledge",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "visibility_rules": [
+                  "setting_coinsanity"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Save Yoshi Kid in Pipe",
+                "short_name": "Save Yoshi Kid",
+                "access_rules": [
+                  "setting_partners_active",
+                  "watt"
+                ],
+                "hosted_item": "flag_yoshi3"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 210,
+                "y": 825
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_10",
+            "name": "Western Dead End",
+            "access_rules": [
+              "setting_partners_active",
+              "sushie"
+            ],
+            "sections": [
+              {
+                "name": "Underwater Star Piece",
+                "short_name": "Star Piece",
+                "item_count": 1
+              },
+              {
+                "name": "Save Yoshi Kid",
+                "hosted_item": "flag_yoshi2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 185,
+                "y": 825
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_12",
+            "name": "Deep Jungle",
+            "access_rules": [
+              "setting_partners_active,jaderaven",
+              "sushie,jaderaven",
+              "setting_partners_active,flag_moved_raven",
+              "sushie,flag_moved_raven"
+            ],
+            "sections": [
+              {
+                "name": "Hidden ? Block",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "West Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 235,
+                "y": 795
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_13",
+            "name": "Deep Jungle (Block Puzzle)",
+            "access_rules": [
+              "setting_partners_active,jaderaven",
+              "sushie,jaderaven",
+              "setting_partners_active,flag_moved_raven",
+              "sushie,flag_moved_raven"
+            ],
+            "sections": [
+              {
+                "name": "Hidden ? Block",
+                "short_name": "Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 205,
+                "y": 795
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_14",
+            "name": "Deep Jungle (Vines)",
+            "access_rules": [
+              "setting_partners_active,jaderaven",
+              "sushie,jaderaven",
+              "setting_partners_active,flag_moved_raven",
+              "sushie,flag_moved_raven"
+            ],
+            "sections": [
+              {
+                "name": "Shake 2nd Tree",
+                "short_name": "2nd Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake Eastmost Tree",
+                "short_name": "East Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 175,
+                "y": 795
+              }
+            ]
+          },
+          {
+            "__mapID": "JAN_15",
+            "name": "Deep Jungle (Ambush)",
+            "access_rules": [
+              "setting_partners_active,jaderaven",
+              "sushie,jaderaven",
+              "setting_partners_active,flag_moved_raven",
+              "sushie,flag_moved_raven"
+            ],
+            "sections": [
+              {
+                "name": "Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 145,
+                "y": 805
+              }
+            ]
+          },
+          {
+            "__mapID1": "JAN_18",
+            "__mapID2": "JAN_22",
+            "name": "Great Tree",
+            "access_rules": [
+              "setting_partners_active,jaderaven",
+              "sushie,jaderaven",
+              "setting_partners_active,flag_moved_raven",
+              "sushie,flag_moved_raven"
+            ],
+            "sections": [
+              {
+                "name": "Item on Vine Ascent",
+                "short_name": "Vine Ascent",
+                "item_count": 1
+              },
+              {
+                "name": "Talk to Raphael",
+                "short_name": "Zipline Gift",
+                "hosted_item": "flag_built_zipline"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 100,
+                "y": 790
               }
             ]
           }
