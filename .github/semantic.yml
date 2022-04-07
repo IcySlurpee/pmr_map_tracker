@@ -25,6 +25,7 @@ scopes:
 
 types:
   - chore
+  - docs
   - feat
   - fix
   - refactor
