@@ -1724,6 +1724,147 @@
             "y": 555
           }
         ]
+      },
+      {
+        "__regionID": "KZN",
+        "name": "Mt. Lavalava",
+        "access_rules": [
+          "flag_built_zipline"
+        ],
+        "sections": [
+          {
+            "name": "Can Cross Lava",
+            "access_rules": [
+              "setting_partners_active",
+              "parakarry",
+              "lakilester"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Opened Hammer Chest",
+            "access_rules": [
+              "flag_lavalava_hammer"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Zipline",
+            "access_rules": [
+              "flag_lavalava_hammer"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_03",
+            "name": "Item on Brick Block",
+            "short_name": "Central Bricks",
+            "access_rules": [
+              "setting_partners_active",
+              "kooper",
+              "tornadojump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_03",
+            "name": "Central ? Blocks",
+            "visibility_rules": [
+              "setting_coinsanity"
+            ],
+            "item_count": 4
+          },
+          {
+            "__mapID": "KZN_03",
+            "name": "Item on Central Pillar",
+            "short_name": "Central Pillar",
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_06",
+            "name": "Block Puzzle Hidden ? Block",
+            "short_name": "Before Hammer Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_07",
+            "name": "Ultra Hammer Chest",
+            "access_rules": [
+              "@Mt. Lavalava/Can Cross Lava"
+            ],
+            "hosted_item": "flag_lavalava_hammer"
+          },
+          {
+            "__mapID": "KZN_08",
+            "name": "Chest Past Hammer Block",
+            "short_name": "Dizzy Stomp Chest",
+            "access_rules": [
+              "@Mt. Lavalava/Opened Hammer Chest,@Mt. Lavalava/Can Cross Lava"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_09",
+            "name": "Panel Near Super Block",
+            "short_name": "Super Block Panel",
+            "access_rules": [
+              "$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_18",
+            "name": "Panel Near Heart Block",
+            "short_name": "Heart Block Panel",
+            "access_rules": [
+              "@Mt. Lavalava/Past Zipline,$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KZN_19",
+            "name": "Yellow ? Blocks Above Boss",
+            "short_name": "Above Boss ?s",
+            "access_rules": [
+              "@Mt. Lavalava/Past Zipline"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "KZN_19",
+            "name": "Star Spirit",
+            "access_rules": [
+              "@Mt. Lavalava/Past Zipline"
+            ],
+            "hosted_item": "flag_cleared_lavalava"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 190,
+            "y": 745
+          }
+        ]
       }
     ]
   }

@@ -247,6 +247,19 @@
     "codes": "flag_built_zipline"
   },
   {
+    "name": "Opened Mt. Lavalava Hammer Chest",
+    "type": "toggle",
+    "img": "images/hammer/hammerUltra.png",
+    "codes": "flag_lavalava_hammer,RF_KZN07_OpenedHammerChest"
+  },
+  {
+    "name": "Cleared Mt. Lavalava",
+    "type": "toggle",
+    "disabled_img": "images/spirit/spiritCardBack.png",
+    "img": "images/spirit/spiritCardMisstar.png",
+    "codes": "flag_cleared_lavalava,MF_Ch5_RescuedStarSpirit"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",

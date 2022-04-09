@@ -2772,7 +2772,7 @@
               {
                 "name": "Post-Chapter Chest",
                 "access_rules": [
-                  "flag_cleared_volcano"
+                  "flag_cleared_lavalava"
                 ],
                 "item_count": 1
               }
