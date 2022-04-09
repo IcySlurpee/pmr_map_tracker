@@ -349,6 +349,15 @@
         ],
         "sections": [
           {
+            "__mapID": "OSR_02",
+            "name": "Outside Hidden ? Block",
+            "short_name": "Outside Hidden ?",
+            "access_rules": [
+              "$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
             "__mapID": "KKJ_20",
             "name": "1F East Guest Room",
             "short_name": "1F Guest Room",
