@@ -28,5 +28,7 @@ types:
   - docs
   - feat
   - fix
+  - pre-release
   - refactor
+  - release
   - revert
