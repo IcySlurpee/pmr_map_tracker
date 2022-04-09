@@ -129,7 +129,7 @@ Must be one of the following:
 - `refactor`: a change that is neither a new feature nor a bug fix
 
 #### Scope
-The scope should be the area your change affects. Use `logic` for generalized logic fixes, like a new randomization option.  Bug fixes should use the chapter number as their scope.
+The scope should be the area your change affects. Use `logic` for generalized logic fixes, like a new randomization option, or logic overhaul; or the `ch<#>` scopes for fixes targeting a specific chapter.
 
 ### Revert Commits
 If your PR reverts a previous commit, simply add `revert: ` (note the space) to the beginning of the header of the commit you're reverting.
