@@ -104,6 +104,9 @@ This repo follows a commit message structure inspired by [multiple](https://gith
 
 The `header` is required and must follow the [message header format](#header).  Try to keep the header under 50 characters; Github knows about this convention and the web UI will notify you when you've gone over.
 
+You can think of your header as a shortened form of the sentence:
+>"This is a `<type>` commit, regarding [the] `<scope>`; it will `<short summary>`."
+
 The `body` is optional; if included, should be at least 20 characters.  Please consider adding a commit message body, as it will allow you to explain why you made this change and your motivations behind the change.  Messages in bug fix commits are especially useful if they contained information about the behavior before the change.
 
 The `footer` is optional; if included, can contain links to issues that this commit will close.  You can [close a PR via commit message](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) with words like `fix`, `fixes`, `close`, or `closes`, followed by the issue number prefixed with a `#`: for example, `fixes #14`.
@@ -115,13 +118,13 @@ The `footer` is optional; if included, can contain links to issues that this com
   |       |             └─≫ summary in present tense, not capitalized, no period at the end.
   |       |
   |       └─≫ commit scope: prlg|ch1|ch2|ch3|ch4|ch5|ch6|ch7|ch8|
-  |                         check|item|layout|logic|map|script
+  |                         checks|items|layouts|logic|map|scripts
   |
   └─≫ commit type: chore|docs|feat|fix|refactor
 ```
 
 #### Type
-Must be one of the following:
+Type is required and must be one of the following:
 - `chore`: changes that do not touch any user-facing code, ex. repo settings, templates, etc.
 - `docs`: changes that involve updating documentation like `README.md` or `CHANGELOG.md`.
 - `feat`: a new feature
@@ -129,7 +132,7 @@ Must be one of the following:
 - `refactor`: a change that is neither a new feature nor a bug fix
 
 #### Scope
-The scope should be the area your change affects. Use `logic` for generalized logic fixes, like a new randomization option, or logic overhaul; or the `ch<#>` scopes for fixes targeting a specific chapter.
+Scope is optional and if supplied, should be the area your change affects. Use `logic` for generalized logic fixes, like a new randomization option, or logic overhaul; the `ch<#>` scopes for fixes targeting a specific chapter; or any of the other scopes for generalized changes.
 
 ### Revert Commits
 If your PR reverts a previous commit, simply add `revert: ` (note the space) to the beginning of the header of the commit you're reverting.
