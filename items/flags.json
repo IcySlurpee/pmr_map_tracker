@@ -253,6 +253,18 @@
     "codes": "flag_lavalava_hammer,RF_KZN07_OpenedHammerChest"
   },
   {
+    "name": "Spoke with the Sun",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_spoke_with_sun,RF_Ch6_SpokeWithTheSun"
+  },
+  {
+    "name": "Destroyed Puff Puff Machine",
+    "type": "toggle",
+    "img": "images/debugPH.png",
+    "codes": "flag_destroyed_puff_puff,RF_Ch6_DestroyedPuffPuffMachine"
+  },
+  {
     "name": "Cleared Mt. Lavalava",
     "type": "toggle",
     "disabled_img": "images/spirit/spiritCardBack.png",

@@ -3141,6 +3141,614 @@
             ]
           }
         ]
+      },
+      {
+        "__regionID": "FLO",
+        "name": "Flower Fields",
+        "color": "#ffcc00",
+        "access_rules": [
+          "setting_open_flower_gate",
+          "seeds:4",
+          "seed1,seed2,seed3,seed4",
+          "flag_opened_flower_gate"
+        ],
+        "sections": [
+          {
+            "name": "Red Flower Guard",
+            "access_rules": [
+              "redberry"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Flower Guard",
+            "access_rules": [
+              "yellowberry"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Flower Guard",
+            "access_rules": [
+              "blueberry"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Bubble Flower",
+            "access_rules": [
+              "bubbleberry",
+              "setting_partners_active",
+              "lakilester"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Elevators",
+            "access_rules": [
+              "spinjump,setting_partners_active",
+              "spinjump,lakilester"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Grow Beanstalk",
+            "access_rules": [
+              "flag_destroyed_puff_puff,magicalbean,fertilesoil,miraclewater"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          }
+        ],
+        "children": [
+          {
+            "__mapID": "FLO_00",
+            "name": "Flower Fields Center",
+            "sections": [
+              {
+                "name": "Ride Beanstalk Up",
+                "short_name": "Beanstalk",
+                "access_rules": [
+                  "@Flower Fields/Grow Beanstalk"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 200,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_09",
+            "name": "East - Triple Tree",
+            "sections": [
+              {
+                "name": "Westmost Vine",
+                "item_count": 1
+              },
+              {
+                "name": "Hit Trees (Mid, Right, Left)",
+                "short_name": "Trees (M, R, L)",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 240,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_03",
+            "name": "East - Petunia's Field",
+            "sections": [
+              {
+                "name": "Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              },
+              {
+                "name": "Talk to Petunia",
+                "short_name": "Petunia",
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 270,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_22",
+            "name": "East - Old Well",
+            "sections": [
+              {
+                "name": "Throw Berry in Well",
+                "short_name": "Well",
+                "access_rules": [
+                  "blueberry"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 300,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_25",
+            "name": "Southwest - Path to Crystal Tree",
+            "access_rules": [
+              "@Flower Fields/Red Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "Center Vine",
+                "item_count": 1
+              },
+              {
+                "name": "Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 180,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_07",
+            "name": "Southwest - Crystal Tree/Posie",
+            "access_rules": [
+              "@Flower Fields/Red Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "Gift from Posie",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 150,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_08",
+            "name": "Southeast - Briar Pit",
+            "sections": [
+              {
+                "name": "Westmost Vine",
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "@Flower Fields/Yellow Flower Guard,$can_shake_trees"
+                ],
+                "clear_as_group": false,
+                "item_count": 2
+              },
+              {
+                "name": "Item in Flowers",
+                "access_rules": [
+                  "@Flower Fields/Yellow Flower Guard"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 220,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_24",
+            "name": "Southeast - Bubble Berry Tree",
+            "access_rules": [
+              "@Flower Fields/Yellow Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "West ? Block",
+                "short_name": "West ?",
+                "item_count": 1
+              },
+              {
+                "name": "Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              },
+              {
+                "name": "East Hidden ? Block",
+                "short_name": "East Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "waterstone,setting_partners_active,$can_shake_trees",
+                  "waterstone,sushie,$can_shake_trees"
+                ],
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 250,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_10",
+            "name": "Southeast - Lily's Fountain",
+            "access_rules": [
+              "@Flower Fields/Yellow Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "Gift from Lily",
+                "short_name": "Gift",
+                "access_rules": [
+                  "waterstone"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Shake Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 280,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_23",
+            "name": "West - Path to Maze",
+            "access_rules": [
+              "@Flower Fields/Blue Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "Hidden ? Blocks",
+                "short_name": "Hidden ?s",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 160,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_12",
+            "name": "West - Rosie's Pagoda",
+            "access_rules": [
+              "@Flower Fields/Blue Flower Guard"
+            ],
+            "sections": [
+              {
+                "name": "Gift from Rosie",
+                "short_name": "Gift",
+                "access_rules": [
+                  "crystalberry"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 110,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_14",
+            "name": "Northwest - Bubble Flower",
+            "sections": [
+              {
+                "name": "West Vine near Flower",
+                "short_name": "Flower Vine",
+                "item_count": 1
+              },
+              {
+                "name": "Item on Ledge",
+                "short_name": "Ledge",
+                "access_rules": [
+                  "@Flower Fields/Bubble Flower"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 180,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_13",
+            "name": "Northwest - Path to Sun Tower",
+            "access_rules": [
+              "@Flower Fields/Bubble Flower"
+            ],
+            "sections": [
+              {
+                "name": "Item in Flowers",
+                "item_count": 1
+              },
+              {
+                "name": "Item Under Rock",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bombette"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Lakilester Partner",
+                "short_name": "Partner",
+                "access_rules": [
+                  "flag_spoke_with_sun"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 150,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_15",
+            "name": "Sun Tower",
+            "access_rules": [
+              "@Flower Fields/Bubble Flower"
+            ],
+            "sections": [
+              {
+                "name": "Speak with Sun",
+                "access_rules": [
+                  "setting_partners_active",
+                  "bombette"
+                ],
+                "hosted_item": "flag_spoke_with_sun"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 120,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_16",
+            "name": "Northeast - Elevators",
+            "sections": [
+              {
+                "name": "Vine Near Stairs",
+                "short_name": "Stairs Vine",
+                "item_count": 1
+              },
+              {
+                "name": "Spin Jump Over East Arch",
+                "short_name": "Arch Spin Jump",
+                "access_rules": [
+                  "@Flower Fields/Elevators,spinjump"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 220,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_17",
+            "name": "Northeast - Logs",
+            "access_rules": [
+              "@Flower Fields/Elevators"
+            ],
+            "sections": [
+              {
+                "name": "Item in Flowers",
+                "item_count": 1
+              },
+              {
+                "name": "Hidden ? Block",
+                "short_name": "Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 250,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_18",
+            "name": "Northeast - Puff Puff Machine",
+            "sections": [
+              {
+                "name": "Destroy Puff Puff Machine",
+                "short_name": "Destroy Machine",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "hosted_item": "flag_destroyed_puff_puff"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 280,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_19",
+            "name": "Cloudy Climb",
+            "access_rules": [
+              "@Flower Fields/Grow Beanstalk"
+            ],
+            "sections": [
+              {
+                "name": "Item in Clouds",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 200,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "__mapID": "FLO_21",
+            "name": "Huff N Puff Lair",
+            "access_rules": [
+              "@Flower Fields/Grow Beanstalk"
+            ],
+            "sections": [
+              {
+                "name": "Defeat Huff N Puff",
+                "chest_unopened_img": "images/spirit/spiritCardBack.png",
+                "chest_opened_img": "images/spirit/spiritCardKlevar.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 230,
+                "y": 310
+              }
+            ]
+          }
+        ]
       }
     ]
   }
