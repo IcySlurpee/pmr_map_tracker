@@ -272,7 +272,7 @@
   "compact_right_item_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
-    "item_margin": 0,
+    "item_margin": "0",
     "rows": [
       [
         "portrait",
