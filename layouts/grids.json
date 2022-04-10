@@ -16,22 +16,6 @@
       ]
     ]
   },
-  "star_spirit_grid": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "0",
-    "rows": [
-      [
-        "eldstar",
-        "mamar",
-        "skolar",
-        "muskular",
-        "misstar",
-        "klevar",
-        "kalmar"
-      ]
-    ]
-  },
   "stars_partners_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
@@ -55,55 +39,6 @@
         "watt",
         "sushie",
         "lakilester"
-      ]
-    ]
-  },
-  "items_grid": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "0",
-    "rows": [
-      [
-        "boots",
-        "hammer",
-        "",
-        "pulsestone",
-        "pyramidstone",
-        "diamondstone",
-        "lunarstone"
-      ],
-      [
-        "portrait",
-        "toytrain",
-        "cake",
-        "raven",
-        "magicalseeds",
-        "magicbean",
-        "fertilesoil"
-      ],
-      [
-        "miraclewater",
-        "warehousekey",
-        "bucket",
-        "scarf",
-        "starstone",
-        "ultrastone"
-      ]
-    ]
-  },
-  "dungeon_keys_grid": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "0",
-    "rows": [
-      [
-        "fortresskey",
-        "ruinskey",
-        "tubbacastlekey",
-        "redkey",
-        "bluekey",
-        "palacekey",
-        "bowserkey"
       ]
     ]
   },
