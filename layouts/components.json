@@ -105,6 +105,21 @@
       }
     ]
   },
+  "compact_combined_items_keys_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "compact_combined_items_grid"
+      },
+      {
+        "type": "layout",
+        "key": "other_keys_grid"
+      }
+    ]
+  },
   "compact_combined_capture_grid": {
     "type": "array",
     "orientation": "horizontal",

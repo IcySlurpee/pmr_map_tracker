@@ -32,7 +32,7 @@
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "combined_items_keys_grid"
+                "key": "compact_combined_items_keys_grid"
               }
             },
             {
