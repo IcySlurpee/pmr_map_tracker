@@ -12,6 +12,7 @@
 * Chapter 3
 * Chapter 4
 * Chapter 5
+* Chapter 6
 
 ### Support for the following settings:
 
@@ -24,3 +25,4 @@
 * Open Blue House
 * Open Toy Box
 * Open Whale
+* Open Flower Gate

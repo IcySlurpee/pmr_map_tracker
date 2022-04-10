@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.5.0] - 2022-04-09
+### ➕ Checks and logic for
+- Chapter 6
+  - Flower Fields
+  - Cloudy Climb
+
+### ➕ Support for
+- Open Flower Gate
+
+### 🔄 Check updates
+- Peach's Castle Grounds
+  - Added: Hijacked Peach's Castle Entrance - Hidden ? Block
+- Toad Town
+  - Updates Flower Gate flag name and codes to align with other flags.
+
+### 📰 Documentation
+- `CONTRIBUTING.md`: Clarifies commit header and updates scopes.
+
+### 🧹 Chores
+- `semantic.json`: Standardizes scopes
+
 ## [v0.4.0] - 2022-04-08
 ### ➕ Checks and logic for
 - Chapter 5
@@ -12,8 +33,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Yoshi Village
   - Mt. Lavalava
 
-### 🧹 Chores
+### 📰 Documentation
 - Adds a `CONTRIBUTING.md` file to help people new to contributing.
+
+### 🧹 Chores
 - Sets up repo Infrastructure as Code with `.github/settings.yml`.
 - Sets up Semantic commit messages with `.github/semantic.yml`.
 - Adds an [`.editorconfig` file](https://editorconfig.org/) to standardize formatting. (mostly helps Github Web UI users)
@@ -166,6 +189,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[v0.5.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.4.0...v0.5.0
 [v0.4.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.1.1...v0.2.0
