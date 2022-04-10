@@ -2032,7 +2032,7 @@
       {
         "__regionID": "SBK",
         "name": "Dry Dry Desert - Northwest is R1C1 (0,0)",
-        "color": "#ffcc33",
+        "color": "#ffcc66",
         "access_rules": [
           "$can_traverse_desert"
         ],
