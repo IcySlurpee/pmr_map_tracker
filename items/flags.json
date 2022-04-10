@@ -48,10 +48,10 @@
     "codes": "flag_beat_master3"
   },
   {
-    "name": "Flower Fields Accessible",
+    "name": "Opened Flower Gate",
     "type": "toggle",
     "img": "images/setting/settingFieldsOpen.png",
-    "codes": "flag_flower_fields_access,RF_Ch6_FlowerGateOpen"
+    "codes": "flag_opened_flower_gate,RF_Ch6_FlowerGateOpen"
   },
   {
     "name": "Unlocked Blue House",
