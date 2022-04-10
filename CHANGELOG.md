@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adds a `CONTRIBUTING.md` file to help people new to contributing.
 - Sets up repo Infrastructure as Code with `.github/settings.yml`.
 - Sets up Semantic commit messages with `.github/semantic.yml`.
-- Adds an `.editorconfig` file to standardize formatting. (mostly helps Github Web UI users)
+- Adds an [`.editorconfig` file](https://editorconfig.org/) to standardize formatting. (mostly helps Github Web UI users)
 
 ## [v0.3.0] - 2022-04-03
 ### ➕ Additional support for
