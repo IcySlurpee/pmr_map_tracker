@@ -16,12 +16,13 @@ scopes:
   - ch6
   - ch7
   - ch8
-  - check
-  - item
+  - checks
+  - items
+  - flags
   - layout
   - logic
   - map
-  - script
+  - scripts
 
 types:
   - chore
