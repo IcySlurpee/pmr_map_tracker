@@ -5,6 +5,6 @@
   },
   "tracker_capture_item": {
     "type": "layout",
-    "key": "items_only_tracker"
+    "key": "capture_item_view"
   }
 }

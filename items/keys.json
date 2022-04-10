@@ -97,5 +97,11 @@
     "img_mods": "overlay|images/overlay/overlayPrison.png",
     "codes": "prisonkey,castleprisonkey,koopatrolkey",
     "max_quantity": 2
+  },
+  {
+    "name": "Unknown Key",
+    "type": "toggle",
+    "img": "images/misc/miscKey.png",
+    "codes": "capturekey,unknownkey,key"
   }
 ]

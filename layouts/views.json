@@ -93,7 +93,22 @@
       {
         "type": "layout",
         "key": "compact_combined_items_grid"
-      }     
+      }
+    ]
+  },
+  "capture_item_view": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "partner_grid"
+      },
+      {
+        "type": "layout",
+        "key": "compact_combined_capture_grid"
+      }
     ]
   }
 }

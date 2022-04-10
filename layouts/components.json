@@ -104,5 +104,24 @@
         "key": "compact_right_item_grid"
       }
     ]
+  },
+  "compact_combined_capture_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "compact_left_capture_grid"
+      },
+      {
+        "type": "layout",
+        "key": "gap_grid"
+      },
+      {
+        "type": "layout",
+        "key": "compact_right_item_grid"
+      }
+    ]
   }
 }

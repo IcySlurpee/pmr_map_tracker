@@ -296,6 +296,41 @@
       ]
     ]
   },
+  "compact_left_capture_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "0",
+    "rows": [
+      [
+        "boots",
+        "hammer",
+        "ultrastone"
+      ],
+      [
+        "pulsestone",
+        "pyramidstone",
+        "diamondstone",
+        "lunarstone"
+      ],
+      [
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4"
+      ],
+      [
+        "magicalbean",
+        "fertilesoil",
+        "miraclewater"
+      ],
+      [
+        "capturekey",
+        "bucket",
+        "scarf",
+        "starstone"
+      ]
+    ]
+  },
   "gap_grid": {
     "type": "itemgrid",
     "rows": []
