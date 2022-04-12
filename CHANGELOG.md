@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.6.0] - 2022-04-11
+### 🔄 Check updates
+- Jade Jungle
+  - Save Yoshi Kids Gift now checks correct flags for accessibility.
+
+### 🔄 Layout updates
+- Item Capture - Simplifies item capture popup by:
+  - Removing star sprites (not randomized)
+  - Swapping the Warehouse Key with a generic "Unknown Key" (players can't tell which key is actually behind a capturable check that uses the generic key sprite)
+- Refactors required item section in the sidebar of the map tracker.  This brings it in line with the items only tracker, which flows better at the expense of vertical space.
+- Settings popup
+  - Adds Partners Always Active button to World Settings.
+  - Breaks the World Settings tab into two lines:  top line is for general world settings, the second line is for the open chapter/area settings.
+- `compact_right_item_grid`: corrected `item_margin`'s value, int -> string.
+- Cleaned up unused grids from the layouts.
+
 ## [v0.5.0] - 2022-04-09
 ### ➕ Checks and logic for
 - Chapter 6
@@ -189,6 +205,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[v0.6.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.5.0...v0.6.0
 [v0.5.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.4.0...v0.5.0
 [v0.4.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.2.0...v0.3.0
