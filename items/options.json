@@ -115,7 +115,7 @@
   {
     "name": "Partner Abilities Always Active",
     "type": "toggle",
-    "img": "images/debugPH.png",
+    "img": "images/setting/settingPartnersActive.png",
     "codes": "setting_partners_active"
   }
 ]
