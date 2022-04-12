@@ -2633,7 +2633,7 @@
                 "name": "Save Yoshi Kids Gift",
                 "short_name": "Yoshi Kids",
                 "access_rules": [
-                  "flag_yoshi_kids:5"
+                  "flag_yoshi1,flag_yoshi2,flag_yoshi3,flag_yoshi4,flag_yoshi5"
                 ],
                 "hosted_item": "flag_saved_yoshi_kids"
               }
