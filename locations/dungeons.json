@@ -55,8 +55,7 @@
           {
             "name": "B2 from Rip Cheato",
             "access_rules": [
-              "setting_open_blue_house,setting_partners_active",
-              "setting_open_blue_house,bombette"
+              "setting_open_blue_house,$partner|bombette"
             ],
             "visibility_rules": [
               "hidden"
@@ -66,19 +65,15 @@
           {
             "name": "B2 Full Access",
             "access_rules": [
-              "@Toad Town Tunnels/B1 Break Panels,setting_partners_active",
-              "@Toad Town Tunnels/B2 from Rip Cheato,setting_partners_active",
-              "@Toad Town Tunnels/B1 Break Panels,sushie",
-              "@Toad Town Tunnels/B2 from Rip Cheato,sushie"
+              "@Toad Town Tunnels/B1 Break Panels,$partner|sushie",
+              "@Toad Town Tunnels/B2 from Rip Cheato,$partner|sushie"
             ]
           },
           {
             "name": "B3 Access",
             "access_rules": [
-              "@Toad Town Tunnels/B2 Full Access,setting_partners_active",
-              "@Toad Town Tunnels/B2 from Rip Cheato,setting_partners_active",
-              "@Toad Town Tunnels/B2 Full Access,lakilester",
-              "@Toad Town Tunnels/B2 from Rip Cheato,lakilester"
+              "@Toad Town Tunnels/B2 Full Access,$partner|lakilester",
+              "@Toad Town Tunnels/B2 from Rip Cheato,$partner|lakilester"
             ],
             "visibility_rules": [
               "hidden"
@@ -146,8 +141,7 @@
             "name": "B2 Elevator Ledge",
             "short_name": "B2 Elevator",
             "access_rules": [
-              "@Toad Town Tunnels/B1 West Pipe to B2,setting_partners_active",
-              "@Toad Town Tunnels/B1 West Pipe to B2,parakarry",
+              "@Toad Town Tunnels/B1 West Pipe to B2,$partner|parakarry",
               "{@Toad Town Tunnels/B1 West Pipe to B2}"
             ],
             "capture_item": true,
@@ -272,8 +266,7 @@
         "name": "Rip Cheato Deals",
         "access_rules": [
           "setting_open_blue_house",
-          "spinjump,setting_partners_active",
-          "spinjump,sushie,bombette"
+          "spinjump,$partner|sushie,$partner|bombette"
         ],
         "sections": [
           {
@@ -429,9 +422,8 @@
           {
             "name": "2F Access",
             "access_rules": [
-              "fortresskey:3,setting_partners_active",
-              "fortresskey:3,kooper",
-              "fortresskey:3,parakarry"
+              "fortresskey:3,$partner|kooper",
+              "fortresskey:3,$partner|parakarry"
             ],
             "visibility_rules": [
               "hidden"
@@ -485,8 +477,7 @@
             "name": "1F Central Hall Cracked Wall Middle",
             "short_name": "1FC Cracked Wall Middle",
             "access_rules": [
-              "@Koopa Bros. Fortress/1F Access,setting_partners_active",
-              "@Koopa Bros. Fortress/1F Access,bombette",
+              "@Koopa Bros. Fortress/1F Access,$partner|bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
             "capture_item": true,
@@ -497,8 +488,7 @@
             "name": "1F Central Hall Cracked Wall Right",
             "short_name": "1FC Cracked Wall Right",
             "access_rules": [
-              "@Koopa Bros. Fortress/1F Access,setting_partners_active",
-              "@Koopa Bros. Fortress/1F Access,bombette",
+              "@Koopa Bros. Fortress/1F Access,$partner|bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
             "capture_item": true,
@@ -509,8 +499,7 @@
             "name": "1F Right Tower Cracked Wall",
             "short_name": "1FR Tower Cracked Wall",
             "access_rules": [
-              "@Koopa Bros. Fortress/Right Tower Access,setting_partners_active",
-              "@Koopa Bros. Fortress/Right Tower Access,bombette"
+              "@Koopa Bros. Fortress/Right Tower Access,$partner|bombette"
             ],
             "item_count": 1
           },
@@ -528,8 +517,7 @@
             "name": "1F Left Stairs Cracked Wall",
             "short_name": "1FL Stairs Cracked Wall",
             "access_rules": [
-              "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,setting_partners_active",
-              "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,bombette",
+              "@Koopa Bros. Fortress/2F Access,flag_trd_left_lowered,$partner|bombette",
               "{@Koopa Bros. Fortress/1F Access}"
             ],
             "capture_item": true,
@@ -557,8 +545,7 @@
             "name": "Battlements Behind Rock",
             "short_name": "Battlements",
             "access_rules": [
-              "@Koopa Bros. Fortress/Battlements Access,setting_partners_active",
-              "@Koopa Bros. Fortress/Battlements Access,bombette"
+              "@Koopa Bros. Fortress/Battlements Access,$partner|bombette"
             ],
             "item_count": 1
           },
@@ -647,8 +634,7 @@
             "name": "Upper Second Sand Drain Switch",
             "short_name": "Upper Second Sand Drain Switch",
             "access_rules": [
-              "@Dry Dry Ruins/First Sand Drain,setting_partners_active",
-              "@Dry Dry Ruins/First Sand Drain,parakarry,bombette"
+              "@Dry Dry Ruins/First Sand Drain,$partner|parakarry,$partner|bombette"
             ],
             "hosted_item": "flag_drained_second_sand"
           },
@@ -677,8 +663,7 @@
             "name": "Hidden Ledge Above Super Hammer",
             "short_name": "Super Hammer Ledge",
             "access_rules": [
-              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active",
-              "@Dry Dry Ruins/Past Central Crypt,parakarry"
+              "@Dry Dry Ruins/Past Central Crypt,$partner|parakarry"
             ],
             "item_count": 1
           },
@@ -686,8 +671,7 @@
             "__mapID": "ISK_09",
             "name": "Super Hammer Chest",
             "access_rules": [
-              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active",
-              "@Dry Dry Ruins/Past Central Crypt,parakarry"
+              "@Dry Dry Ruins/Past Central Crypt,$partner|parakarry"
             ],
             "hosted_item": "flag_ruins_hammer"
           },
@@ -716,10 +700,8 @@
             "__mapID": "ISK_14",
             "name": "Diamond Stone Room",
             "access_rules": [
-              "@Dry Dry Ruins/Past Central Crypt,setting_partners_active,flag_ruins_hammer",
-              "@Dry Dry Ruins/Past Central Crypt,bombette,flag_ruins_hammer",
-              "{@Dry Dry Ruins/Past Central Crypt,setting_partners_active}",
-              "{@Dry Dry Ruins/Past Central Crypt,bombette}"
+              "@Dry Dry Ruins/Past Central Crypt,$partner|bombette,flag_ruins_hammer",
+              "{@Dry Dry Ruins/Past Central Crypt,$partner|bombette}"
             ],
             "capture_item": true,
             "item_count": 1
@@ -913,8 +895,7 @@
             "__mapID": "OBK_06",
             "name": "Library Crate",
             "access_rules": [
-              "@Boo's Mansion/Weighted Chandelier,setting_partners_active,spinjump",
-              "@Boo's Mansion/Weighted Chandelier,bombette,spinjump",
+              "@Boo's Mansion/Weighted Chandelier,$partner|bombette,spinjump",
               "spinjump"
             ],
             "item_count": 1
@@ -998,8 +979,7 @@
         "name": "Tubba Blubba's Castle",
         "color": "#cccc99",
         "access_rules": [
-          "flag_cleared_mansion,setting_partners_active",
-          "flag_cleared_mansion,bow"
+          "flag_cleared_mansion,$partner|bow"
         ],
         "sections": [
           {
@@ -1052,8 +1032,7 @@
             "name": "2F Hidden Room Drop to 1F Covered Table",
             "short_name": "2F Hidden Planks Drop",
             "access_rules": [
-              "@Tubba Blubba's Castle/2F Access,setting_partners_active,spinjump",
-              "@Tubba Blubba's Castle/2F Access,bombette,spinjump,parakarry",
+              "@Tubba Blubba's Castle/2F Access,$partner|bombette,spinjump,$partner|parakarry",
               "{}"
             ],
             "capture_item": true,
@@ -1115,7 +1094,7 @@
             "access_rules": [
               "@Tubba Blubba's Castle/Mystical Key Access"
             ],
-            "capture_item": "yakkey"
+            "hosted_item": "yakkey"
           }
         ],
         "map_locations": [
@@ -1132,8 +1111,7 @@
         "name": "Shy Guy's Toybox",
         "access_rules": [
           "setting_open_toybox",
-          "bow",
-          "setting_partners_active"
+          "$partner|bow"
         ],
         "color": "#cc9966",
         "children": [
@@ -1235,8 +1213,7 @@
                 "name": "East City Roof Item",
                 "short_name": "East - City Roof",
                 "access_rules": [
-                  "setting_partners_active",
-                  "parakarry"
+                  "$partner|parakarry"
                 ],
                 "item_count": 1
               },
@@ -1481,8 +1458,7 @@
                 "__mapID": "OMO_09",
                 "name": "Stolen Item",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bow"
+                  "$partner|bow"
                 ],
                 "item_count": 1
               },
@@ -1490,9 +1466,8 @@
                 "__mapID": "OMO_09",
                 "name": "Peach's Choice",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bow,parakarry",
-                  "{bow}"
+                  "$partner|bow,$partner|parakarry",
+                  "{$partner|bow}"
                 ],
                 "item_count": 1
               },
@@ -1500,16 +1475,14 @@
                 "__mapID": "OMO_09",
                 "name": "Chest",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bow,parakarry"
+                  "$partner|bow,$partner|parakarry"
                 ]
               },
               {
                 "__mapID": "OMO_09",
                 "name": "Item Under Chest",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bow"
+                  "$partner|bow"
                 ],
                 "item_count": 1
               },
@@ -1517,8 +1490,7 @@
                 "__mapID": "OMO_09",
                 "name": "Coins Around Item",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bow"
+                  "$partner|bow"
                 ],
                 "visibility_rules": [
                   "setting_coinsanity"
@@ -1604,10 +1576,9 @@
                 "name": "Watt Partner",
                 "short_name": "Watt",
                 "access_rules": [
-                  "setting_partners_active",
                   "hammer",
-                  "bombette",
-                  "kooper"
+                  "$partner|bombette",
+                  "$partner|kooper"
                 ],
                 "item_count": 1
               },
@@ -1625,8 +1596,7 @@
                 "name": "East Item on Bricks",
                 "short_name": "East - Bricks",
                 "access_rules": [
-                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks,setting_partners_active",
-                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks,kooper",
+                  "@Shy Guy's Toybox/Shy Guy Barricade,$can_see_hidden_blocks,$partner|kooper",
                   "@Shy Guy's Toybox/Shy Guy Barricade,tornadojump",
                   "{@Shy Guy's Toybox/Shy Guy Barricade}"
                 ],
@@ -1647,8 +1617,7 @@
                 "name": "Defeat General Guy",
                 "short_name": "General Guy",
                 "access_rules": [
-                  "@Shy Guy's Toybox/Shy Guy Barricade,setting_partners_active",
-                  "@Shy Guy's Toybox/Shy Guy Barricade,watt"
+                  "@Shy Guy's Toybox/Shy Guy Barricade,$partner|watt"
                 ],
                 "chest_unopened_img": "images/spirit/spiritCardBack.png",
                 "chest_opened_img": "images/spirit/spiritCardMuskular.png",
@@ -1710,8 +1679,7 @@
           {
             "name": "Shy Guy Barricade",
             "access_rules": [
-              "@Shy Guy's Toybox/Color Puzzle,setting_partners_active",
-              "@Shy Guy's Toybox/Color Puzzle,bombette"
+              "@Shy Guy's Toybox/Color Puzzle,$partner|bombette"
             ],
             "visibility_rules": [
               "hidden"
@@ -1744,9 +1712,8 @@
           {
             "name": "Can Cross Lava",
             "access_rules": [
-              "setting_partners_active",
-              "parakarry",
-              "lakilester"
+              "$partner|parakarry",
+              "$partner|lakilester"
             ],
             "visibility_rules": [
               "hidden"
@@ -1778,8 +1745,7 @@
             "name": "Item on Brick Block",
             "short_name": "Central Bricks",
             "access_rules": [
-              "setting_partners_active",
-              "kooper",
+              "$partner|kooper",
               "tornadojump"
             ],
             "item_count": 1

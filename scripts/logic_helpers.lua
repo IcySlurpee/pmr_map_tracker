@@ -72,6 +72,26 @@ function can_access_star_haven()
   return 0
 end
 
+--[[
+  fn partner() -> integer
+
+  Queries the tracker for the specified partner, returning `1` immediately if
+  the Partners Always Active setting is enabled.  If not, the function checks
+  if Mario has collected the specified partner and returns `1` if he has;
+  if he has not, returns `0`.
+]]--
+function partner(code)
+  if has("setting_partners_active") then
+    return 1
+  else
+    if has(code) then
+      return 1
+    else
+      return 0
+    end
+  end
+end
+
 ----
 ----Location Helper Functions
 ----

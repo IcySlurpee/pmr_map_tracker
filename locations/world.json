@@ -381,8 +381,7 @@
                     "name": "Sushie Island",
                     "short_name": "Island",
                     "access_rules": [
-                      "setting_partners_active",
-                      "sushie",
+                      "$partner|sushie",
                       "{}"
                     ],
                     "capture_item": true,
@@ -848,8 +847,7 @@
                   {
                     "name": "Bomb Rock",
                     "access_rules": [
-                      "setting_partners_active",
-                      "bombette"
+                      "$partner|bombette"
                     ],
                     "hosted_item": "flag_bombed_train_rock"
                   }
@@ -1026,17 +1024,10 @@
                 "name": "Whale at Docks",
                 "sections": [
                   {
-                    "name": "Wake Up Whale",
-                    "access_rules": [
-                      "hammer"
-                    ],
-                    "hosted_item": "flag_whale_awake"
-                  },
-                  {
                     "name": "Defeat Fuzzipede",
                     "access_rules": [
-                      "setting_partners_active,flag_whale_awake",
-                      "watt,flag_whale_awake"
+                      "setting_open_whale,$partner|watt",
+                      "hammer,spinjump,$partner|watt"
                     ],
                     "hosted_item": "flag_beat_fuzzipede"
                   }
@@ -1367,8 +1358,7 @@
               {
                 "name": "Star Piece",
                 "access_rules": [
-                  "setting_partners_active",
-                  "kooper"
+                  "$partner|kooper"
                 ],
                 "item_count": 1
               }
@@ -1570,9 +1560,8 @@
               {
                 "name": "On Stump",
                 "access_rules": [
-                  "setting_partners_active",
-                  "kooper",
-                  "parakarry"
+                  "$partner|kooper",
+                  "$partner|parakarry"
                 ],
                 "item_count": 1
               }
@@ -1633,8 +1622,7 @@
                     "name": "On top of Bricks",
                     "short_name": "Brick Block",
                     "access_rules": [
-                      "setting_partners_active",
-                      "kooper",
+                      "$partner|kooper",
                       "tornadojump"
                     ],
                     "item_count": 1
@@ -1642,8 +1630,7 @@
                   {
                     "name": "Activate Bridge",
                     "access_rules": [
-                      "setting_partners_active",
-                      "kooper"
+                      "$partner|kooper"
                     ],
                     "hosted_item": "flag_kooper_bridge"
                   },
@@ -1684,8 +1671,7 @@
                 "name": "Pipe Behind Cracked Wall",
                 "short_name": "Cracked Wall Pipe",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bombette"
+                  "$partner|bombette"
                 ],
                 "item_count": 1
               }
@@ -1788,16 +1774,14 @@
               {
                 "name": "Kooper Ledge",
                 "access_rules": [
-                  "setting_partners_active",
-                  "kooper"
+                  "$partner|kooper"
                 ],
                 "item_count": 1
               },
               {
                 "name": "Parakarry Ledge",
                 "access_rules": [
-                  "setting_partners_active",
-                  "parakarry"
+                  "$partner|parakarry"
                 ],
                 "item_count": 1
               }
@@ -1822,8 +1806,7 @@
               {
                 "name": "Bul-ulb Gift",
                 "access_rules": [
-                  "setting_partners_active",
-                  "parakarry"
+                  "$partner|parakarry"
                 ],
                 "item_count": 1
               }
@@ -1862,8 +1845,7 @@
                 "name": "Item in Coin Ring Center",
                 "short_name": "Center of Coins",
                 "access_rules": [
-                  "setting_partners_active",
-                  "parakarry"
+                  "$partner|parakarry"
                 ],
                 "item_count": 1
               },
@@ -2213,8 +2195,7 @@
             "__mapID": "SBK_45",
             "name": "R5C6 Kooper Item",
             "access_rules": [
-              "setting_partners_active",
-              "kooper",
+              "$partner|kooper",
               "tornadojump"
             ],
             "item_count": 1
@@ -2418,8 +2399,7 @@
                 "name": "Item on Rock",
                 "short_name": "Rock Item",
                 "access_rules": [
-                  "setting_partners_active",
-                  "kooper"
+                  "$partner|kooper"
                 ],
                 "item_count": 1
               },
@@ -2748,24 +2728,21 @@
               {
                 "name": "Bul-ulb Gift",
                 "access_rules": [
-                  "setting_partners_active",
-                  "sushie"
+                  "$partner|sushie"
                 ],
                 "item_count": 1
               },
               {
                 "name": "Free Item",
                 "access_rules": [
-                  "setting_partners_active",
-                  "sushie"
+                  "$partner|sushie"
                 ],
                 "item_count": 1
               },
               {
                 "name": "Shake NE Tree",
                 "access_rules": [
-                  "setting_partners_active,$can_shake_trees",
-                  "sushie,$can_shake_trees"
+                  "$partner|sushie,$can_shake_trees"
                 ],
                 "item_count": 1
               },
@@ -2793,16 +2770,14 @@
                 "name": "Island ? Block",
                 "short_name": "Island ?",
                 "access_rules": [
-                  "setting_partners_active",
-                  "sushie"
+                  "$partner|sushie"
                 ],
                 "item_count": 1
               },
               {
                 "name": "Save Yoshi Kid",
                 "access_rules": [
-                  "setting_partners_active,$can_shake_trees",
-                  "sushie,$can_shake_trees"
+                  "$partner|sushie,$can_shake_trees"
                 ],
                 "hosted_item": "flag_yoshi5"
               }
@@ -2819,8 +2794,7 @@
             "__mapID": "JAN_06",
             "name": "NE Jungle (Raven Statue)",
             "access_rules": [
-              "setting_partners_active",
-              "sushie"
+              "$partner|sushie"
             ],
             "sections": [
               {
@@ -2844,8 +2818,7 @@
             "__mapID": "JAN_07",
             "name": "Piranha Plant Yoshi",
             "access_rules": [
-              "setting_partners_active",
-              "sushie"
+              "$partner|sushie"
             ],
             "sections": [
               {
@@ -2872,8 +2845,7 @@
               {
                 "name": "Underwater Items",
                 "access_rules": [
-                  "setting_partners_active",
-                  "sushie"
+                  "$partner|sushie"
                 ],
                 "visibility_rules": [
                   "setting_coinsanity"
@@ -2883,8 +2855,7 @@
               {
                 "name": "Hidden ? Block",
                 "access_rules": [
-                  "setting_partners_active",
-                  "sushie,$can_see_hidden_blocks"
+                  "$partner|sushie,$can_see_hidden_blocks"
                 ],
                 "item_count": 1
               }
@@ -2901,8 +2872,7 @@
             "__mapID": "JAN_09",
             "name": "NW Jungle (Large Ledge)",
             "access_rules": [
-              "setting_partners_active",
-              "sushie"
+              "$partner|sushie"
             ],
             "sections": [
               {
@@ -2936,8 +2906,7 @@
                 "name": "Save Yoshi Kid in Pipe",
                 "short_name": "Save Yoshi Kid",
                 "access_rules": [
-                  "setting_partners_active",
-                  "watt"
+                  "$partner|watt"
                 ],
                 "hosted_item": "flag_yoshi3"
               }
@@ -2954,8 +2923,7 @@
             "__mapID": "JAN_10",
             "name": "Western Dead End",
             "access_rules": [
-              "setting_partners_active",
-              "sushie"
+              "$partner|sushie"
             ],
             "sections": [
               {
@@ -2980,8 +2948,7 @@
             "__mapID": "JAN_12",
             "name": "Deep Jungle",
             "access_rules": [
-              "setting_partners_active,jaderaven",
-              "sushie,jaderaven"
+              "$partner|sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3011,8 +2978,7 @@
             "__mapID": "JAN_13",
             "name": "Deep Jungle (Block Puzzle)",
             "access_rules": [
-              "setting_partners_active,jaderaven",
-              "sushie,jaderaven"
+              "$partner|sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3036,8 +3002,7 @@
             "__mapID": "JAN_14",
             "name": "Deep Jungle (Vines)",
             "access_rules": [
-              "setting_partners_active,jaderaven",
-              "sushie,jaderaven"
+              "$partner|sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3069,8 +3034,7 @@
             "__mapID": "JAN_15",
             "name": "Deep Jungle (Ambush)",
             "access_rules": [
-              "setting_partners_active,jaderaven",
-              "sushie,jaderaven"
+              "$partner|sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3100,8 +3064,7 @@
             "__mapID2": "JAN_22",
             "name": "Great Tree",
             "access_rules": [
-              "setting_partners_active,jaderaven",
-              "sushie,jaderaven"
+              "$partner|sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3170,8 +3133,7 @@
             "name": "Bubble Flower",
             "access_rules": [
               "bubbleberry",
-              "setting_partners_active",
-              "lakilester"
+              "$partner|lakilester"
             ],
             "visibility_rules": [
               "hidden"
@@ -3181,8 +3143,7 @@
           {
             "name": "Elevators",
             "access_rules": [
-              "spinjump,setting_partners_active",
-              "spinjump,lakilester"
+              "spinjump,$partner|lakilester"
             ],
             "visibility_rules": [
               "hidden"
@@ -3434,8 +3395,7 @@
               {
                 "name": "Shake Tree",
                 "access_rules": [
-                  "waterstone,setting_partners_active,$can_shake_trees",
-                  "waterstone,sushie,$can_shake_trees"
+                  "waterstone,$partner|sushie,$can_shake_trees"
                 ],
                 "clear_as_group": false,
                 "item_count": 2
@@ -3568,8 +3528,7 @@
               {
                 "name": "Item Under Rock",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bombette"
+                  "$partner|bombette"
                 ],
                 "item_count": 1
               },
@@ -3600,8 +3559,7 @@
               {
                 "name": "Speak with Sun",
                 "access_rules": [
-                  "setting_partners_active",
-                  "bombette"
+                  "$partner|bombette"
                 ],
                 "hosted_item": "flag_spoke_with_sun"
               }
