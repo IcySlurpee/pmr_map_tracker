@@ -143,6 +143,7 @@ Scope is optional and if supplied, should be the area your change affects. Use `
 If your PR reverts a previous commit, simply add `revert: ` (note the space) to the beginning of the header of the commit you're reverting.
 
 ### Example commit message
+This example starts a new line before reaching 72 characters (or columns); line wrapping at 72 characters is not required, this is a legacy style for users who still primarily use command-line utilities (80 columns is the default terminal width in Linux).
 ```
 feat(logic): add koopa koot shuffle support
 
