@@ -2830,13 +2830,6 @@
                   "setting_coinsanity"
                 ],
                 "item_count": 1
-              },
-              {
-                "name": "Move Raven Statue",
-                "access_rules": [
-                  "jaderaven"
-                ],
-                "hosted_item": "flag_moved_raven"
               }
             ],
             "map_locations": [
@@ -2988,9 +2981,7 @@
             "name": "Deep Jungle",
             "access_rules": [
               "setting_partners_active,jaderaven",
-              "sushie,jaderaven",
-              "setting_partners_active,flag_moved_raven",
-              "sushie,flag_moved_raven"
+              "sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3021,9 +3012,7 @@
             "name": "Deep Jungle (Block Puzzle)",
             "access_rules": [
               "setting_partners_active,jaderaven",
-              "sushie,jaderaven",
-              "setting_partners_active,flag_moved_raven",
-              "sushie,flag_moved_raven"
+              "sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3048,9 +3037,7 @@
             "name": "Deep Jungle (Vines)",
             "access_rules": [
               "setting_partners_active,jaderaven",
-              "sushie,jaderaven",
-              "setting_partners_active,flag_moved_raven",
-              "sushie,flag_moved_raven"
+              "sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3083,9 +3070,7 @@
             "name": "Deep Jungle (Ambush)",
             "access_rules": [
               "setting_partners_active,jaderaven",
-              "sushie,jaderaven",
-              "setting_partners_active,flag_moved_raven",
-              "sushie,flag_moved_raven"
+              "sushie,jaderaven"
             ],
             "sections": [
               {
@@ -3116,9 +3101,7 @@
             "name": "Great Tree",
             "access_rules": [
               "setting_partners_active,jaderaven",
-              "sushie,jaderaven",
-              "setting_partners_active,flag_moved_raven",
-              "sushie,flag_moved_raven"
+              "sushie,jaderaven"
             ],
             "sections": [
               {
