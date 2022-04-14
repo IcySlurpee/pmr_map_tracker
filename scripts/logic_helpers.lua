@@ -142,7 +142,7 @@ function can_access_blue_house()
     return 1
   else
     return 0
-  end 
+  end
 end
 
 --[[
