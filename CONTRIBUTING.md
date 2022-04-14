@@ -21,6 +21,11 @@ You may request a new feature by submitting an issue to this repo.  After a feat
 If you would like to _implement_ a new feature, you may submit a pull request instead.
 
 ## <a name="pr"></a> Submitting a Pull Request (PR)
+This guide assumes that you have a working [`git`](https://git-scm.com/) installation.  If you are completely new to `git` and source code repositories, it's highly recommended that you read [Github's Git Guides](https://github.com/git-guides).  The Git Guides describe in detail how to install, configure, and use `git`.
+
+You can also [edit files in Github's Web UI](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository) by clicking the pencil icon at the top right of any file.
+
+### Creating your change
 1. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the repo.
 2. In your forked repository, switch to a new branch:
     ```
