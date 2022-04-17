@@ -406,7 +406,7 @@
                     "access_rules": [
                       "dictionary,mysterynote"
                     ],
-                    "hosted_item": "flag_can_solve_color_puzzle"
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [

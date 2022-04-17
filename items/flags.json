@@ -12,12 +12,6 @@
     "codes": "flag_beat_goomba_king,RF_BeatGoombaKing"
   },
   {
-    "name": "Can Solve Toybox Color Puzzle",
-    "type": "toggle",
-    "img": "images/debugPH.png",
-    "codes": "flag_can_solve_color_puzzle,RF_CanSolveColorPuzzle"
-  },
-  {
     "name": "Defeated Chan",
     "type": "toggle",
     "img": "images/flag/flagChan.png",
