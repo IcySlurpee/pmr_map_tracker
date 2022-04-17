@@ -386,7 +386,7 @@
         "__regionID": "TRD",
         "name": "Koopa Bros. Fortress",
         "access_rules": [
-          "flag_kooper_bridge"
+          "$partner|kooper"
         ],
         "sections": [
           {

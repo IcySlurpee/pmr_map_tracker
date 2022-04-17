@@ -1308,6 +1308,18 @@
         "access_rules": [
           "$can_access_toad_town"
         ],
+        "sections": [
+          {
+            "name": "Past Kooper Bridge",
+            "access_rules": [
+              "$partner|kooper"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          }
+        ],
         "children": [
           {
             "__mapID": "NOK_11",
@@ -1343,13 +1355,6 @@
                 "name": "West ? Block",
                 "short_name": "West ?",
                 "item_count": 1
-              },
-              {
-                "name": "Bridge Switch",
-                "access_rules": [
-                  "$can_shake_trees"
-                ],
-                "hosted_item": "flag_path_bridge"
               },
               {
                 "name": "Behind Fence",
@@ -1628,17 +1633,10 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Activate Bridge",
-                    "access_rules": [
-                      "$partner|kooper"
-                    ],
-                    "hosted_item": "flag_kooper_bridge"
-                  },
-                  {
                     "name": "Hidden Block between Bricks",
                     "short_name": "Hidden ?",
                     "access_rules": [
-                      "flag_kooper_bridge,$can_see_hidden_blocks"
+                      "@Koopa Region/Past Kooper Bridge,$can_see_hidden_blocks"
                     ],
                     "item_count": 1
                   }
@@ -1657,7 +1655,7 @@
             "__mapID": "NOK_15",
             "name": "East Fortress Path",
             "access_rules": [
-              "flag_kooper_bridge"
+              "@Koopa Region/Past Kooper Bridge"
             ],
             "sections": [
               {
