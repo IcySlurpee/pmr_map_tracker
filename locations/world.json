@@ -2502,6 +2502,18 @@
         "access_rules": [
           "flag_warp3,$can_ride_whale"
         ],
+        "sections": [
+          {
+            "name": "Past Raven Statue",
+            "access_rules": [
+              "$partner|sushie,jaderaven"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          }
+        ],
         "children": [
           {
             "__mapID": "JAN_00",
@@ -2946,7 +2958,7 @@
             "__mapID": "JAN_12",
             "name": "Deep Jungle",
             "access_rules": [
-              "$partner|sushie,jaderaven"
+              "@Jade Jungle/Past Raven Statue"
             ],
             "sections": [
               {
@@ -2976,7 +2988,7 @@
             "__mapID": "JAN_13",
             "name": "Deep Jungle (Block Puzzle)",
             "access_rules": [
-              "$partner|sushie,jaderaven"
+              "@Jade Jungle/Past Raven Statue"
             ],
             "sections": [
               {
@@ -3000,7 +3012,7 @@
             "__mapID": "JAN_14",
             "name": "Deep Jungle (Vines)",
             "access_rules": [
-              "$partner|sushie,jaderaven"
+              "@Jade Jungle/Past Raven Statue"
             ],
             "sections": [
               {
@@ -3032,7 +3044,7 @@
             "__mapID": "JAN_15",
             "name": "Deep Jungle (Ambush)",
             "access_rules": [
-              "$partner|sushie,jaderaven"
+              "@Jade Jungle/Past Raven Statue"
             ],
             "sections": [
               {
@@ -3062,7 +3074,7 @@
             "__mapID2": "JAN_22",
             "name": "Great Tree",
             "access_rules": [
-              "$partner|sushie,jaderaven"
+              "@Jade Jungle/Past Raven Statue"
             ],
             "sections": [
               {
