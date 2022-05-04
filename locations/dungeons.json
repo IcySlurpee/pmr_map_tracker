@@ -1840,6 +1840,188 @@
             "y": 745
           }
         ]
+      },
+      {
+        "__regionID": "PRA",
+        "name": "Crystal Palace",
+        "access_rules": [
+          "scarf,bucket,spinjump,$partner|kooper,starstone"
+        ],
+        "sections": [
+          {
+            "name": "First Mirror Gap",
+            "access_rules": [
+              "spinjump,bluekey",
+              "redkey"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Turnstile",
+            "access_rules": [
+              "redkey,$partner|bombette"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Second Mirror Gap",
+            "access_rules": [
+              "@Crystal Palace/Past Turnstile,$partner|kooper"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_05",
+            "name": "Mirror 1 South - Upper Chest",
+            "short_name": "M1 S - Upper",
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_04",
+            "name": "Mirror 1 North - ? Block",
+            "short_name": "M1 N - ? Block",
+            "access_rules": [
+              "@Crystal Palace/First Mirror Gap"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_06",
+            "name": "Mirror 1 North - On Ground",
+            "short_name": "M1 N - Ground",
+            "access_rules": [
+              "@Crystal Palace/First Mirror Gap"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_10",
+            "name": "Mirror 1 North - Chest",
+            "short_name": "M1 N - Chest",
+            "access_rules": [
+              "@Crystal Palace/First Mirror Gap,spinjump"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_15",
+            "name": "Reflected Palace Entrance",
+            "short_name": "Reflected Entrance",
+            "access_rules": [
+              "@Crystal Palace/First Mirror Gap"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_11",
+            "name": "Mirror 1 South - Lower Chest",
+            "short_name": "M1 S - Lower",
+            "access_rules": [
+              "@Crystal Palace/First Mirror Gap,spinjump,$partner|bombette"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_35",
+            "name": "Reflected Chest",
+            "access_rules": [
+              "@Crystal Palace/Past Turnstile"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_21",
+            "name": "Mirror 2 South - ? Block",
+            "short_name": "M2 S - ? Block",
+            "access_rules": [
+              "@Crystal Palace/Past Turnstile"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_21",
+            "name": "Mirror 2 South - Panel",
+            "short_name": "M2 S - Panel",
+            "access_rules": [
+              "@Crystal Palace/Past Turnstile,$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_22",
+            "name": "Mirror 2 North - Hidden ? Block",
+            "short_name": "M2 N - Hidden ?",
+            "access_rules": [
+              "@Crystal Palace/Second Mirror Gap,$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_22",
+            "name": "Mirror 2 North - Panel",
+            "short_name": "M2 N - Panel",
+            "access_rules": [
+              "@Crystal Palace/Second Mirror Gap,$can_flip_panels"
+            ],
+            "visibility_rules": [
+              "setting_panel"
+            ],
+            "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+            "chest_unopened_img": "images/counter/counterStarPiece.png",
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_28",
+            "name": "Mirror 2 North - Chest",
+            "short_name": "M2 N - Chest",
+            "access_rules": [
+              "@Crystal Palace/Second Mirror Gap"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_27",
+            "name": "Mirror 2 South - Chest",
+            "short_name": "M2 S - Chest",
+            "access_rules": [
+              "@Crystal Palace/Second Mirror Gap"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "PRA_32",
+            "name": "Defeat Crystal King",
+            "short_name": "Crystal King",
+            "access_rules": [
+              "@Crystal Palace/Second Mirror Gap,palacekey"
+            ],
+            "chest_unopened_img": "images/spirit/spiritCardBack.png",
+            "chest_opened_img": "images/spirit/spiritCardKalmar.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 920,
+            "y": 305
+          }
+        ]
       }
     ]
   }

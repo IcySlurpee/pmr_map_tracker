@@ -3700,6 +3700,436 @@
             ]
           }
         ]
+      },
+      {
+        "__regionID": "SAM",
+        "name": "Shiver Mountain",
+        "color": "#ccffff",
+        "access_rules": [
+          "setting_open_blue_house,$partner|bombette",
+          "flag_unlocked_blue_house,$partner|bombette",
+          "spinjump,$partner|sushie"
+        ],
+        "sections": [
+          {
+            "name": "Post Mystery Start",
+            "access_rules": [
+              "mysteryinprogress",
+              "mysterysolved"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Post Mystery",
+            "access_rules": [
+              "mysterysolved"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Snowmen",
+            "access_rules": [
+              "scarf,bucket"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Duplighost",
+            "access_rules": [
+              "@Shiver Mountain/Past Snowmen,spinjump,$partner|kooper"
+            ]
+          }
+        ],
+        "children": [
+          {
+            "__mapID": "SAM_01",
+            "name": "West Shiver City",
+            "sections": [
+              {
+                "name": "Panel near Mayor's",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels,$not_has|mysteryinprogress"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              },
+              {
+                "name": "Chest in House",
+                "item_count": 1
+              },
+              {
+                "name": "Start Mystery",
+                "access_rules": [
+                  "$not_has|mysteryinprogress,$not_has|mysterysolved"
+                ],
+                "visibility_rules": [
+                  "$not_has|mysteryinprogress,$not_has|mysterysolved"
+                ],
+                "hosted_item": "mysterystart"
+              },
+              {
+                "name": "Finish Mystery",
+                "access_rules": [
+                  "foundherringway"
+                ],
+                "visibility_rules": [
+                  "$not_has|mysterysolved"
+                ],
+                "hosted_item": "mysterysolved"
+              },
+              {
+                "name": "Gift from Mayor",
+                "access_rules": [
+                  "mysterysolved,flag_visited_merle"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 685,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_02",
+            "name": "Shiver City Inn",
+            "sections": [
+              {
+                "name": "Stay the Night",
+                "item_count": 1
+              },
+              {
+                "name": "Stay the Night after Snowmen",
+                "short_name": "Post-Snowmen Stay",
+                "access_rules": [
+                  "flag_moved_snowmen"
+                ],
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 715,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_02",
+            "name": "Shiver City Shop",
+            "access_rules": [
+              "$not_has|mysteryinprogress"
+            ],
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 690,
+                "y": 335
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_11",
+            "name": "East Shiver City",
+            "sections": [
+              {
+                "name": "Talk to Herringway",
+                "access_rules": [
+                  "mysterystart,warehousekey"
+                ],
+                "visibility_rules": [
+                  "$not_has|foundherringway,$not_has|mysterysolved"
+                ],
+                "hosted_item": "foundherringway"
+              },
+              {
+                "name": "Under Pond Ice",
+                "access_rules": [
+                  "@Shiver Mountain/Post Mystery Start,$partner|bombette,$partner|sushie",
+                  "@Shiver Mountain/Post Mystery Start,spinjump,$partner|sushie"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 750,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_04",
+            "name": "Shiver Snowfield",
+            "access_rules": [
+              "@Shiver Mountain/Post Mystery"
+            ],
+            "sections": [
+              {
+                "name": "Open Path to Shiver Mountain",
+                "short_name": "Open Path",
+                "access_rules": [
+                  "scarf,bucket"
+                ],
+                "hosted_item": "flag_moved_snowmen"
+              },
+              {
+                "name": "Hit Left Large Tree",
+                "short_name": "Left Tree",
+                "access_rules": [
+                  "$can_shake_trees"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Behind Right Large Tree",
+                "short_name": "Right Tree",
+                "item_count": 1
+              },
+              {
+                "name": "Hidden Panel",
+                "short_name": "Panel",
+                "access_rules": [
+                  "$can_flip_panels"
+                ],
+                "visibility_rules": [
+                  "setting_panel"
+                ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 780,
+                "y": 375
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_05",
+            "name": "Road to Starborn Valley",
+            "access_rules": [
+              "@Shiver Mountain/Post Mystery"
+            ],
+            "sections": [
+              {
+                "name": "Behind Ice",
+                "item_count": 1
+              },
+              {
+                "name": "Hidden ? Block",
+                "short_name": "Hidden ?",
+                "access_rules": [
+                  "$can_see_hidden_blocks"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 810,
+                "y": 375
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_06",
+            "name": "Starborn Valley",
+            "access_rules": [
+              "@Shiver Mountain/Post Mystery"
+            ],
+            "sections": [
+              {
+                "name": "Talk to Merle",
+                "hosted_item": "flag_visited_merle"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 900,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_07",
+            "name": "Shiver Mountain Passage",
+            "access_rules": [
+              "@Shiver Mountain/Past Snowmen"
+            ],
+            "sections": [
+              {
+                "name": "Hidden ? Block",
+                "access_rules": [
+                  "tornadojump"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 795,
+                "y": 345
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_08",
+            "name": "Shiver Mountain Hills",
+            "access_rules": [
+              "@Shiver Mountain/Past Snowmen,spinjump"
+            ],
+            "sections": [
+              {
+                "name": "On Ground",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 825,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_09",
+            "name": "Shiver Mountain Tunnel",
+            "access_rules": [
+              "@Shiver Mountain/Past Duplighost"
+            ],
+            "sections": [
+              {
+                "name": "Replace Items",
+                "clear_as_group": false,
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 855,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_10",
+            "name": "Shiver Mountain Peaks",
+            "access_rules": [
+              "@Shiver Mountain/Past Duplighost"
+            ],
+            "sections": [
+              {
+                "name": "On Ground",
+                "access_rules": [
+                  "starstone"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "? Block",
+                "access_rules": [
+                  "starstone"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 885,
+                "y": 315
+              }
+            ]
+          },
+          {
+            "__mapID": "SAM_12",
+            "name": "Merlar's Sanctuary",
+            "access_rules": [
+              "@Shiver Mountain/Past Duplighost,$partner|bombette"
+            ],
+            "sections": [
+              {
+                "name": "On Ground",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 885,
+                "y": 340
+              }
+            ]
+          }
+        ]
       }
     ]
   }

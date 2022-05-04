@@ -266,6 +266,39 @@
     "codes": "flag_cleared_lavalava,MF_Ch5_RescuedStarSpirit"
   },
   {
+    "name": "Murder Mystery Step",
+    "type": "progressive",
+    "stages": [
+      {
+        "codes": "mysterystart,deadmayor,mysteryinprogress,RF_Ch7_MurderMysteryStarted",
+        "img": "images/debugPH.png",
+        "inherit_codes": false
+      },
+      {
+        "codes": "foundherringway,unlockedwarehouse,mysteryinprogress,RF_Ch7_SpokeWithHerringway",
+        "img": "images/debugPH.png",
+        "inherit_codes": false
+      },
+      {
+        "codes": "mysterysolved,mayorawake,RF_Ch7_MurderMysterySolved",
+        "img": "images/debugPH.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Visited Merle",
+    "type": "toggle",
+    "codes": "flag_visited_merle,RF_Ch7_GotSnowmanScarf",
+    "img": "images/debugPH.png"
+  },
+  {
+    "name": "Moved Snowmen",
+    "type": "toggle",
+    "codes": "flag_moved_snowmen,MF_SAM_04_UnlockedShiverMountain",
+    "img": "images/debugPH.png"
+  },
+  {
     "name": "Cleared Bowser's Castle",
     "type": "toggle",
     "img": "images/debugPH.png",
