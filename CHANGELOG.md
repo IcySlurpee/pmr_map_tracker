@@ -5,6 +5,43 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.7.0] - 2022-05-04
+### ➕ Checks and logic for
+- Chapter 7
+  - Shiver Mountain
+  - Crystal Palace
+
+### 🔄 Check updates
+- Flag Refactoring - Chapters 2, 4, and 5
+  - Removed and updated unnecessary flags.
+    - `NOK_14`: building the bridge with Kooper
+    - `OMO_08`: solving the color box puzzle
+    - `JAN_06`: moving the raven statue
+  - These flags added no additional logic to the tracker.
+  - They added more player effort by requiring extra clicks.
+  - They disguised multiple checks behind one, making it seem like there are less checks available than in actuality.
+- Jade Jungle
+  - Changed `access_rules` of checks after moving the raven statue to reference a location instead of explicit codes.
+
+### 🔧 Check Fixes
+- Dry Dry Outpost
+  - Added image for Moustafa.
+
+### 🔄 Script updates
+- New `partner()` script
+  - Checks if Always Active Partners is enabled before checking if the partner has been collected.
+  - Simplifies `access_rules` for Always Active Partners.
+  - `access_rules` should be a bit more readable across the pack.
+
+### 📰 Documentation
+- `CONTRIBUTING.md`
+  - Advises contributors that the guide assumes you have a working `git` install.
+  - Provides links to install `git` and Github's Git Guides.
+  - Adds context around 72 character line wrapping in commit message example.
+
+### 🧹 Chores
+- Add debug overlay images for testing progressive items that use a placeholder image for multiple steps.
+
 ## [v0.6.0] - 2022-04-11
 ### 🔄 Check updates
 - Jade Jungle
@@ -205,6 +242,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[v0.7.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.6.0...v0.7.0
 [v0.6.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.5.0...v0.6.0
 [v0.5.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.4.0...v0.5.0
 [v0.4.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.3.0...v0.4.0
