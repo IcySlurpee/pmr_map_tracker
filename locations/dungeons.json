@@ -1045,6 +1045,9 @@
           {
             "__mapID": "DGB_12",
             "name": "2F Spike Room",
+            "access_rules": [
+              "@Tubba Blubba's Castle/2F Access,$partner|bow,$partner|lakilester"
+            ],
             "item_count": 1
           },
           {
