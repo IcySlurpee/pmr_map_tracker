@@ -64,7 +64,7 @@
       },
       {
         "img": "images/setting/settingStart.png",
-        "img_mods": "overlay|images/overlay/overlayYoshi.png,overlay|images/overlay/overlayX.png",
+        "img_mods": "overlay|images/overlay/overlayYoshi.png",
         "codes": "setting_start,setting_start_yoshi",
         "inherit_codes": false
       }
