@@ -148,6 +148,9 @@
                   {
                     "name": "? Block on Ground",
                     "short_name": "? Block",
+                    "access_rules": [
+                      "$can_hit_ground_blocks"
+                    ],
                     "item_count": 1
                   }
                 ],
@@ -299,6 +302,9 @@
                   },
                   {
                     "name": "Hit Brick Block",
+                    "access_rules": [
+                      "$can_hit_ground_blocks"
+                    ],
                     "short_name": "? Block",
                     "item_count": 1
                   }
@@ -1400,7 +1406,7 @@
                 "name": "Smash Brick Blocks",
                 "short_name": "Bricks: L -> R -> C",
                 "access_rules": [
-                  "hammer"
+                  "$can_hit_ground_blocks"
                 ],
                 "item_count": 1
               }
@@ -2022,7 +2028,7 @@
             "name": "R1C1 Left ? Block",
             "short_name": "R1C1 Left ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "$not_has|setting_coinsanity"
@@ -2034,7 +2040,7 @@
             "name": "R1C1 Ground ? Blocks",
             "short_name": "R1C1 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "setting_coinsanity"
@@ -2070,7 +2076,7 @@
             "name": "R2C4 Right ? Block",
             "short_name": "R2C4 Right ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "$not_has|setting_coinsanity"
@@ -2082,7 +2088,7 @@
             "name": "R2C4 Ground ? Blocks",
             "short_name": "R2C4 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "setting_coinsanity"
@@ -2093,7 +2099,7 @@
             "__mapID": "SBK_20",
             "name": "R3C1 Hit Block 1 Time",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "item_count": 1
           },
@@ -2101,7 +2107,7 @@
             "__mapID": "SBK_20",
             "name": "R3C1 Hit Block 5 Times",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "item_count": 1
           },
@@ -2109,7 +2115,7 @@
             "__mapID": "SBK_20",
             "name": "R3C1 Hit Block 10 Times",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "item_count": 1
           },
@@ -2118,7 +2124,7 @@
             "name": "R3C3 Center ? Block",
             "short_name": "R3C3 Center ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "$not_has|setting_coinsanity"
@@ -2130,7 +2136,7 @@
             "name": "R3C3 Ground ? Blocks",
             "short_name": "R3C3 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "setting_coinsanity"
@@ -2182,7 +2188,7 @@
             "name": "R5C4 Ground ? Block",
             "short_name": "R5C4 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "visibility_rules": [
               "setting_coinsanity"
@@ -2209,7 +2215,7 @@
             "name": "R5C7 Ground ? Block",
             "short_name": "R5C7 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "item_count": 1
           },
@@ -2251,7 +2257,7 @@
             "name": "R7C5 Ground ? Block",
             "short_name": "R7C5 Ground ?",
             "access_rules": [
-              "hammer"
+              "$can_hit_ground_blocks"
             ],
             "item_count": 1
           }

@@ -180,6 +180,22 @@ function can_shake_trees()
 end
 
 --[[
+  fn can_hit_ground_blocks() -> integer
+
+  Mario needs a hammer, super boots, Kooper or Bombette to activate a ground block.
+]]--
+function can_hit_ground_blocks()
+  if has("hammer")
+     or has("spinjump")
+     or partner("kooper")
+     or partner("bombette") then
+    return 1
+  else
+    return 0
+  end
+end
+
+--[[
   fn can_flip_panels() -> integer
 
   Mario needs the Super Boots or the Ultra Hammer to flip panels.
