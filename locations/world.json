@@ -2520,7 +2520,8 @@
         "name": "Jade Jungle",
         "color": "#009966",
         "access_rules": [
-          "flag_warp3,$can_ride_whale"
+          "flag_warp3",
+          "$can_ride_whale"
         ],
         "sections": [
           {
