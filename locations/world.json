@@ -1533,6 +1533,14 @@
                     "name": "Push Block Star Piece",
                     "short_name": "Star Piece",
                     "item_count": 1
+                  },
+                  {
+                    "name": "Turn in Artifact to Kolorado",
+                    "short_name": "Turn in Artifact",
+                    "access_rules": [
+                      "artifact"
+                    ],
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
