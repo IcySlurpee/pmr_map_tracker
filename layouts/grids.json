@@ -162,7 +162,8 @@
         "setting_start",
         "setting_spirits",
         "setting_visible_blocks",
-        "setting_partners_active"
+        "setting_partners_active",
+        "setting_fastbowser"
       ],
       [
         "setting_open_blue_house",

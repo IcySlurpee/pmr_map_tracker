@@ -2026,6 +2026,342 @@
             "y": 305
           }
         ]
+      },
+      {
+        "__regionID": "KPA",
+        "name": "Bowser's Castle",
+        "access_rules": [
+          "$can_access_star_haven"
+        ],
+        "children": [
+          {
+            "__mapID": "KPA_96",
+            "name": "Bowser's Castle Item Shop",
+            "access_rules": [
+              "@Bowser's Castle/Past First Bowser Door"
+            ],
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 405,
+                "y": 140
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Inside Castle",
+            "access_rules": [
+              "bowsercastlekey:1",
+              "setting_fastbowser"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Lava Drain Puzzle",
+            "access_rules": [
+              "@Bowser's Castle/Inside Castle,$partner|lakilester"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Castle Caves",
+            "access_rules": [
+              "@Bowser's Castle/Lava Drain Puzzle,bowsercastlekey:2"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past First Bowser Door",
+            "access_rules": [
+              "@Bowser's Castle/Castle Caves,$partner|watt,$partner|parakarry",
+              "setting_fastbowser"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 0
+          },
+          {
+            "name": "Past Water Puzzle",
+            "access_rules": [
+              "@Bowser's Castle/Past First Bowser Door,bowsercastlekey:3",
+              "setting_fastbowser"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Second Bowser Door",
+            "access_rules": [
+              "@Bowser's Castle/Past Water Puzzle,bowsercastlekey:4",
+              "setting_fastbowser"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Past Looping Room",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door,bowsercastlekey:5",
+              "setting_fastbowser"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_11",
+            "name": "Defeat Koopatrol near Toads",
+            "short_name": "Guard near Toads",
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_14",
+            "name": "Lava Platforms",
+            "access_rules": [
+              "@Bowser's Castle/Lava Drain Puzzle"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 2
+          },
+          {
+            "__mapID": "KPA_15",
+            "name": "Lava Chest",
+            "access_rules": [
+              "@Bowser's Castle/Lava Drain Puzzle"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_11",
+            "name": "Lava ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Lava Drain Puzzle"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_62",
+            "name": "Outside Castle ? Block",
+            "short_name": "Outside ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Lava Drain Puzzle"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_01",
+            "name": "Lower Cave ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Castle Caves,$partner|watt,$partner|parakarry"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_03",
+            "name": "Upper Cave ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Castle Caves,$partner|watt,$partner|parakarry"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_91",
+            "name": "Defeat First Jail Koopatrol",
+            "short_name": "Jail Guard 1",
+            "access_rules": [
+              "@Bowser's Castle/Past First Bowser Door"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_134",
+            "name": "Water Puzzle Hidden ? Block",
+            "short_name": "Water Hidden ?",
+            "access_rules": [
+              "@Bowser's Castle/Past First Bowser Door,$partner|sushie,$partner|bombette,tornadojump,$can_see_hidden_blocks"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_133",
+            "name": "Water Puzzle On Ground",
+            "short_name": "Water On Ground",
+            "access_rules": [
+              "@Bowser's Castle/Past First Bowser Door,$partner|sushie,$partner|bombette,tornadojump"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_111",
+            "name": "Statue Room Hidden ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Past Water Puzzle,$can_see_hidden_blocks"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_111",
+            "name": "Statue Room ? Block",
+            "access_rules": [
+              "@Bowser's Castle/Past Water Puzzle"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_119",
+            "name": "Statue Path On Ground",
+            "access_rules": [
+              "@Bowser's Castle/Past Water Puzzle"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_61",
+            "name": "Battlements ? Blocks",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door"
+            ],
+            "clear_as_group": false,
+            "item_count": 3
+          },
+          {
+            "__mapID": "KPA_61",
+            "name": "Battlements On Ledge",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_95",
+            "name": "Defeat Second Jail Koopatrol",
+            "short_name": "Jail Guard 2",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_101",
+            "name": "West Timing Puzzle",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door,$partner|bombette"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_100",
+            "name": "East Timing Puzzle",
+            "access_rules": [
+              "@Bowser's Castle/Past Second Bowser Door,$partner|bombette",
+              "@Bowser's Castle/Past Second Bowser Door,$partner|kooper"
+            ],
+            "visibility_rules": [
+              "$not_has|setting_fastbowser"
+            ],
+            "item_count": 1
+          },
+          {
+            "__mapID": "KPA_83",
+            "name": "Defeat Jr. Troopa",
+            "access_rules": [
+              "@Bowser's Castle/Past Looping Room"
+            ],
+            "hosted_item": "flag_cleared_bowsers_castle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "size": 35,
+            "x": 380,
+            "y": 140
+          }
+        ]
       }
     ]
   }

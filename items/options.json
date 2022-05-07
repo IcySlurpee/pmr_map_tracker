@@ -14,9 +14,8 @@
   {
     "name": "Fast Bowser's Castle",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "images/setting/settingFastBowser.png",
-    "img_mods": "overlay|images/overlay/overlayX.png",
-    "disabled_img_mods": "@disabled,overlay|images/overlay/overlayX.png",
     "codes": "setting_fastbowser"
   },
   {
