@@ -5,6 +5,89 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.8.0] - 2022-05-11
+### ➕ Checks and logic for
+- Toad Town
+  - Added missing mailbag turn-in.
+- Chapter 8
+  - Bowser's Castle
+
+### 🔄 Check updates
+- Moved shops to be children of their parent dungeon.
+  - Allows access rules of the parent dungeon to be applied to the shops.
+  - No user facing changes.
+- Boo's Mansion
+  - Removed duplicate panel check.
+- Jade Jungle
+  - Trees along the long beach no longer clear as a group.
+
+### 🔧 Check Fixes
+- Toad Town
+  - Removes a non-existent check in MAC_05.
+- Toad Town Tunnels
+  - Standardized B3 ? block coinsanity checks.
+- Pleasant Path
+  - Standardizes the name of a ground item check.
+- Koopa Village
+  - Added missing Kolorado Artifact turn-in.
+- Dry Dry Desert
+  - Corrected grid location in names of two checks.
+- Dry Dry Ruins
+  - 3rd sand drain pit item can now be collected by draining the sand.
+- Tubba Blubba's Castle
+  - Spike room now requires two keys and Bow or Lakilester.
+- Shy Guy's Toybox
+  - Removes Star Piece icon from check that's not a panel.
+  - CHanges capture on 3rd Peach's choice check to nothing since it can be viewed in the cutscene.
+- Jade Jungle
+  - Access rules now check correctly for either warp 3 or `can_ride_whale()`.
+  - Removes a non-existent check in JAN_04.
+  - Standardizes the name of a ground item check.
+- Crystal Palace
+  - Added Ultra Boots as required for two ? blocks past the second mirror gap.
+
+### 🔄 Item updates
+- Goombario is now collected by default.
+
+### 🔄 Logic updates
+- Blue House can now be opened from the outside.
+- Toad Town Tunnels
+  - Location based access rules are now applied correctly in B2.
+- Mt. Rugged
+  - Now requires Parakarry for the ring of coins in IWA_03.
+- Dry Dry Desert
+  - Removes `flag_raised_ruins`, it adds no value and disguises multiple checks behind one.
+- Boo's Mansion
+  - Mansion Shop now correctly checks for the weight.
+  - Now requires Parakarry to cross the library shelf gap.
+- Gusty Gulch
+  - Now requires Parakarry for the ? Blocks in ARN_04
+- Tubba Blubba's Castle
+  - Now requires Parakarry to access.
+- Shy Guy's Toybox
+  - Require pulling the pink lever for checks past the Pink Station.
+- Jade Jungle
+  - Groups checks accessible after saving the Yoshi kids into a location.
+
+### 🔄 Layout updates
+- Added extended items only tracker
+  - For players that don't need an entire map, but want to track most key items.
+  - The default map tracker's broadcast view has been updated to use the extended items only tracker.
+- Added Bowser's castle key to the keys grid.
+
+### 🔄 Script updates
+- New: `can_hit_ground_blocks()`
+  - Ground blocks can be activated with a hammer, super boots, Kooper, or Bombette.
+  - Simplifies the access rules for all ground blocks.
+- Updated: `can_access_blue_house()`
+  - Now checks for having the Odd Key vs the flag.
+
+### 🔧 Setting fixes
+- Removed cross from Yoshi Village start setting icon.
+
+### 🧹 Chores
+- Fixes name of `__regionID` for Tubba Blubba's Castle.
+
 ## [v0.7.0] - 2022-05-04
 ### ➕ Checks and logic for
 - Chapter 7
@@ -242,6 +325,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[v0.8.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.7.0...v0.8.0
 [v0.7.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.6.0...v0.7.0
 [v0.6.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.5.0...v0.6.0
 [v0.5.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.4.0...v0.5.0

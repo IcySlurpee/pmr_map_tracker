@@ -14,6 +14,7 @@
 * Chapter 5
 * Chapter 6
 * Chapter 7
+* Chapter 8
 
 ### Support for the following settings:
 
@@ -23,6 +24,8 @@
 * Shuffle Star Piece Panels
 * Partner Abilities Always Active
 * Hidden Block Visibility with or without Watt
+* Fast Bowser's Castle
+* Different Starting Locations
 * Open Blue House
 * Open Toy Box
 * Open Whale
