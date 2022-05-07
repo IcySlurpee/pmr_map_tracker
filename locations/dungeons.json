@@ -1950,7 +1950,7 @@
             "name": "Mirror 2 South - ? Block",
             "short_name": "M2 S - ? Block",
             "access_rules": [
-              "@Crystal Palace/Past Turnstile"
+              "@Crystal Palace/Past Turnstile,tornadojump"
             ],
             "item_count": 1
           },
@@ -1973,7 +1973,7 @@
             "name": "Mirror 2 North - Hidden ? Block",
             "short_name": "M2 N - Hidden ?",
             "access_rules": [
-              "@Crystal Palace/Second Mirror Gap,$can_see_hidden_blocks"
+              "@Crystal Palace/Second Mirror Gap,$can_see_hidden_blocks,tornadojump"
             ],
             "item_count": 1
           },
