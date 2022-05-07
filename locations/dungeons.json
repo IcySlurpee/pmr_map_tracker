@@ -11,6 +11,80 @@
         "access_rules": [
           "$can_access_toad_town"
         ],
+        "children": [
+          {
+            "__mapID": "TIK_15",
+            "name": "Rip Cheato Deals",
+            "access_rules": [
+              "setting_open_blue_house",
+              "spinjump,$partner|sushie,$partner|bombette"
+            ],
+            "sections": [
+              {
+                "name": "Deal 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 6",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 7",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 8",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 9",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 10",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Deal 11",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 400,
+                "y": 590
+              }
+            ]
+          }
+        ],
         "sections": [
           {
             "name": "B1 Entrance Area",
@@ -257,78 +331,6 @@
             "map": "worldmap",
             "size": 35,
             "x": 425,
-            "y": 590
-          }
-        ]
-      },
-      {
-        "__mapID": "TIK_15",
-        "name": "Rip Cheato Deals",
-        "access_rules": [
-          "setting_open_blue_house",
-          "spinjump,$partner|sushie,$partner|bombette"
-        ],
-        "sections": [
-          {
-            "name": "Deal 1",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 2",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 3",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 4",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 5",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 6",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 7",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 8",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 9",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 10",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Deal 11",
-            "capture_item": true,
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "worldmap",
-            "x": 400,
             "y": 590
           }
         ]
@@ -758,6 +760,64 @@
         "access_rules": [
           "$can_access_toad_town"
         ],
+        "children": [
+          {
+            "__mapID": "OBK_03",
+            "name": "Boo's Mansion Shop",
+            "color": "#993399",
+            "access_rules": [
+              "flag_cleared_mansion"
+            ],
+            "sections": [
+              {
+                "name": "Shop Item 1",
+                "short_name": "Item 1",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 2",
+                "short_name": "Item 2",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 3",
+                "short_name": "Item 3",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 4",
+                "short_name": "Item 4",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 5",
+                "short_name": "Item 5",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Shop Item 6",
+                "short_name": "Item 6",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "restrict_visibility_rules": [
+                  "setting_shopsanity"
+                ],
+                "x": 710,
+                "y": 575
+              }
+            ]
+          }
+        ],
         "sections": [
           {
             "name": "Weighted Chandelier",
@@ -915,62 +975,6 @@
             "size": 35,
             "x": 710,
             "y": 550
-          }
-        ]
-      },
-      {
-        "__mapID": "OBK_03",
-        "name": "Boo's Mansion Shop",
-        "color": "#993399",
-        "access_rules": [
-          "flag_cleared_mansion"
-        ],
-        "sections": [
-          {
-            "name": "Shop Item 1",
-            "short_name": "Item 1",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Shop Item 2",
-            "short_name": "Item 2",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Shop Item 3",
-            "short_name": "Item 3",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Shop Item 4",
-            "short_name": "Item 4",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Shop Item 5",
-            "short_name": "Item 5",
-            "capture_item": true,
-            "item_count": 1
-          },
-          {
-            "name": "Shop Item 6",
-            "short_name": "Item 6",
-            "capture_item": true,
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "worldmap",
-            "restrict_visibility_rules": [
-              "setting_shopsanity"
-            ],
-            "x": 710,
-            "y": 575
           }
         ]
       },
