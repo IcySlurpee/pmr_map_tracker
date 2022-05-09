@@ -1361,7 +1361,8 @@
                 "item_count": 1
               },
               {
-                "name": "Star Piece",
+                "name": "Across Gap On Ground",
+                "short_name": "On Ground",
                 "access_rules": [
                   "$partner|kooper"
                 ],
@@ -2764,7 +2765,7 @@
                 "item_count": 1
               },
               {
-                "name": "Free Item",
+                "name": "On Ground",
                 "access_rules": [
                   "$partner|sushie"
                 ],
