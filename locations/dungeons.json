@@ -129,7 +129,8 @@
           {
             "name": "B2 from Rip Cheato",
             "access_rules": [
-              "setting_open_blue_house,$partner|bombette"
+              "setting_open_blue_house,$partner|bombette",
+              "oddkey,$partner|bombette"
             ],
             "visibility_rules": [
               "hidden"

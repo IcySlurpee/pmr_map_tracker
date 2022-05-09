@@ -827,8 +827,7 @@
                     "name": "Free Item",
                     "short_name": "Grab it",
                     "access_rules": [
-                      "$can_access_blue_house",
-                      "[hammer]"
+                      "$can_access_blue_house"
                     ],
                     "item_count": 1
                   }
@@ -3727,8 +3726,7 @@
         "name": "Shiver Mountain",
         "color": "#ccffff",
         "access_rules": [
-          "setting_open_blue_house,$partner|bombette",
-          "flag_unlocked_blue_house,$partner|bombette",
+          "$can_access_blue_house,$partner|bombette",
           "spinjump,$partner|sushie"
         ],
         "sections": [

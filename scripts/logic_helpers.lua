@@ -153,12 +153,12 @@ end
   * Can traverse Toad Town Tunnels via standard progression
     * Break planks to B2 -> Sushie across water -> Blow up wall
   * Open Blue House setting
-  * Blue House door unlocked, futureproofing for outside unlock logic
+  * Odd Key - Blue House can be unlocked from the outside.
 ]]--
 function can_access_blue_house()
   if (has("spinjump") and has("sushie") and has("bombette"))
      or has("setting_open_blue_house")
-     or has("flag_unlocked_blue_house") then
+     or has("oddkey") then
     return 1
   else
     return 0

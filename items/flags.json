@@ -48,12 +48,6 @@
     "codes": "flag_opened_flower_gate,RF_Ch6_FlowerGateOpen"
   },
   {
-    "name": "Unlocked Blue House",
-    "type": "toggle",
-    "img": "images/setting/settingHouse.png",
-    "codes": "flag_unlocked_blue_house,GF_MAC02_UnlockedHouse"
-  },
-  {
     "name": "Bombed Train Station Rock",
     "type": "toggle",
     "img": "images/flag/flagTrainRockCleared.png",
