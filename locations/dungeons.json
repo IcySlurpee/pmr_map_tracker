@@ -771,7 +771,7 @@
             "name": "Boo's Mansion Shop",
             "color": "#993399",
             "access_rules": [
-              "flag_cleared_mansion"
+              "weight,flag_cleared_mansion"
             ],
             "sections": [
               {
