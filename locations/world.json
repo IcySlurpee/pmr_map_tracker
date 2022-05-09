@@ -3765,7 +3765,11 @@
             "name": "Past Duplighost",
             "access_rules": [
               "@Shiver Mountain/Past Snowmen,spinjump,$partner|kooper"
-            ]
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
           }
         ],
         "children": [

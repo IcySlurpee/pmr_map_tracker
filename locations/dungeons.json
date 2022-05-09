@@ -142,7 +142,11 @@
             "access_rules": [
               "@Toad Town Tunnels/B1 Break Panels,$partner|sushie",
               "@Toad Town Tunnels/B2 from Rip Cheato,$partner|sushie"
-            ]
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
           },
           {
             "name": "B3 Access",
