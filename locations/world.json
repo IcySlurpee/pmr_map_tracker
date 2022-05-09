@@ -1000,11 +1000,6 @@
                 "name": "Toad Town Docks",
                 "sections": [
                   {
-                    "name": "West Behind Boxes",
-                    "short_name": "Boxes",
-                    "item_count": 1
-                  },
-                  {
                     "name": "Panel",
                     "chest_unopened_img": "images/counter/counterStarPiece.png",
                     "chest_opened_img": "images/counter/counterOpenPanelSP.png",
@@ -2765,13 +2760,6 @@
                 "name": "Save Sushie",
                 "access_rules": [
                   "$can_shake_trees"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Bul-ulb Gift",
-                "access_rules": [
-                  "$partner|sushie"
                 ],
                 "item_count": 1
               },
