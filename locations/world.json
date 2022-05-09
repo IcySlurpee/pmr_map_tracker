@@ -1875,6 +1875,9 @@
               },
               {
                 "name": "Upper Coin Ring",
+                "access_rules": [
+                  "$partner|parakarry"
+                ],
                 "visibility_rules": [
                   "setting_coinsanity"
                 ],
@@ -2456,11 +2459,17 @@
             "sections": [
               {
                 "name": "Behind Rock",
+                "access_rules": [
+                  "$partner|parakarry"
+                ],
                 "item_count": 1
               },
               {
                 "name": "West ? Block",
                 "short_name": "West ?",
+                "access_rules": [
+                  "$partner|parakarry"
+                ],
                 "visibility_rules": [
                   "$not_has|setting_coinsanity"
                 ],
@@ -2468,6 +2477,9 @@
               },
               {
                 "name": "? Blocks",
+                "access_rules": [
+                  "$partner|parakarry"
+                ],
                 "visibility_rules": [
                   "setting_coinsanity"
                 ],

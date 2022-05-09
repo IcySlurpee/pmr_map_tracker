@@ -941,7 +941,7 @@
             "name": "Top of Library Shelf",
             "short_name": "Library Shelf",
             "access_rules": [
-              "spinjump"
+              "spinjump,$partner|parakarry"
             ],
             "item_count": 1
           },
@@ -977,7 +977,7 @@
         "name": "Tubba Blubba's Castle",
         "color": "#cccc99",
         "access_rules": [
-          "flag_cleared_mansion,$partner|bow"
+          "flag_cleared_mansion,$partner|parakarry,$partner|bow"
         ],
         "sections": [
           {
