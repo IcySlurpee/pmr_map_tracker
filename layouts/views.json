@@ -96,6 +96,25 @@
       }
     ]
   },
+  "items_ext_tracker": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "layout",
+        "key": "items_only_tracker"
+      },
+      {
+        "type": "layout",
+        "key": "other_keys_grid"
+      },
+      {
+        "type": "layout",
+        "key": "combined_other_items_grid"
+      }
+    ]
+  },
   "capture_item_view": {
     "type": "array",
     "orientation": "vertical",

@@ -10,6 +10,9 @@
     },
     "varitemsonly": {
       "display_name": "Item Tracker Only"
+    },
+    "varitemsonlyext": {
+      "display_name": "Item Tracker Extended"
     }
   }
 }
