@@ -3,6 +3,7 @@
     "name": "Goombario",
     "type": "toggle",
     "img": "images/partner/partnerGoombario.png",
+    "initial_active_state": true,
     "codes": "goombario,partner1"
   },
   {
