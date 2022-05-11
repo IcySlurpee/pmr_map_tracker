@@ -746,6 +746,25 @@
                 ]
               },
               {
+                "name": "Post Office",
+                "sections": [
+                  {
+                    "name": "Return Mailbag",
+                    "access_rules": [
+                      "mailbag"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "worldmap",
+                    "x": 500,
+                    "y": 485
+                  }
+                ]
+              },
+              {
                 "name": "Flower Fields Entry",
                 "sections": [
                   {
