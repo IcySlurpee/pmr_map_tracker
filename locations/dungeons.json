@@ -1467,8 +1467,9 @@
                 "name": "Peach's Choice",
                 "access_rules": [
                   "$partner|bow,$partner|parakarry",
-                  "{$partner|bow}"
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {

@@ -1781,15 +1781,19 @@
               {
                 "name": "Kooper Ledge",
                 "access_rules": [
-                  "$partner|kooper"
+                  "$partner|kooper",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {
                 "name": "Parakarry Ledge",
                 "access_rules": [
-                  "$partner|parakarry"
+                  "$partner|parakarry",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               }
             ],
