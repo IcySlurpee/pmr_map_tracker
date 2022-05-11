@@ -2546,6 +2546,16 @@
         ],
         "sections": [
           {
+            "name": "Saved Yoshi Kids",
+            "access_rules": [
+              "flag_yoshi1,flag_yoshi2,flag_yoshi3,flag_yoshi4,flag_yoshi5"
+            ],
+            "visibility_rules": [
+              "hidden"
+            ],
+            "item_count": 1
+          },
+          {
             "name": "Past Raven Statue",
             "access_rules": [
               "$partner|sushie,jaderaven"
@@ -2666,9 +2676,9 @@
                 "name": "Save Yoshi Kids Gift",
                 "short_name": "Yoshi Kids",
                 "access_rules": [
-                  "flag_yoshi1,flag_yoshi2,flag_yoshi3,flag_yoshi4,flag_yoshi5"
+                  "@Jade Jungle/Saved Yoshi Kids"
                 ],
-                "hosted_item": "flag_saved_yoshi_kids"
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -2687,7 +2697,7 @@
                 "name": "Turn in Volcano Vase",
                 "short_name": "Volcano Vase",
                 "access_rules": [
-                  "flag_saved_yoshi_kids,volcanovase"
+                  "@Jade Jungle/Saved Yoshi Kids,volcanovase"
                 ],
                 "item_count": 1
               },
@@ -2695,7 +2705,7 @@
                 "name": "Give Yoshi a Tayce T. Food",
                 "short_name": "Gourmet Yoshi",
                 "access_rules": [
-                  "flag_saved_yoshi_kids,fryingpan"
+                  "@Jade Jungle/Saved Yoshi Kids,fryingpan"
                 ],
                 "item_count": 1
               },
