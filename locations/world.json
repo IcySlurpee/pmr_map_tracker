@@ -2060,15 +2060,6 @@
             "item_count": 2
           },
           {
-            "__mapID": "SBK_02",
-            "name": "R1C3 Activate Dry Dry Ruins",
-            "short_name": "R1C3 Activate Ruins",
-            "access_rules": [
-              "pulsestone"
-            ],
-            "hosted_item": "flag_raised_ruins"
-          },
-          {
             "__mapID": "SBK_05",
             "name": "R1C6 Pokey Army Item",
             "short_name": "R1C6 Item",

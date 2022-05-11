@@ -120,12 +120,6 @@
     "codes": "flag_met_moustafa"
   },
   {
-    "name": "Raised Dry Dry Ruins",
-    "type": "toggle",
-    "img": "images/ruins/ruinsPulse.png",
-    "codes": "flag_raised_ruins"
-  },
-  {
     "name": "Drained First Sand Room",
     "type": "toggle",
     "img": "images/flag/flagSandSwitch.png",

@@ -582,7 +582,7 @@
         "name": "Dry Dry Ruins",
         "color": "#cc9933",
         "access_rules": [
-          "flag_raised_ruins"
+          "pulsestone"
         ],
         "sections": [
           {
