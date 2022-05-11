@@ -1669,8 +1669,7 @@
           {
             "name": "Color Puzzle",
             "access_rules": [
-              "hammer,dictionary,mysterynote",
-              "[hammer]"
+              "@Shy Guy's Toybox/Pulled Pink Lever,dictionary,mysterynote"
             ],
             "visibility_rules": [
               "hidden"
