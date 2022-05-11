@@ -192,19 +192,22 @@
             "access_rules": [
               "@Toad Town Tunnels/B1 West Area"
             ],
+            "visibility_rules": [
+              "$not_has|setting_coinsanity"
+            ],
             "item_count": 1
           },
           {
             "__mapID": "TIK_03",
-            "name": "B1 West Elevator L/R ? Blocks",
-            "short_name": "B1 Lift Sides ?",
+            "name": "B1 West Elevator ? Blocks",
+            "short_name": "B1 Lift ?s",
             "access_rules": [
               "@Toad Town Tunnels/B1 West Area"
             ],
             "visibility_rules": [
               "setting_coinsanity"
             ],
-            "item_count": 2
+            "item_count": 3
           },
           {
             "__mapID": "TIK_05",
