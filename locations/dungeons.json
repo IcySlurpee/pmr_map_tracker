@@ -721,6 +721,7 @@
             "name": "Lower Third Sand Drain Item",
             "access_rules": [
               "@Dry Dry Ruins/Past Central Crypt,flag_ruins_hammer",
+              "flag_drained_third_sand",
               "{@Dry Dry Ruins/Past Central Crypt}"
             ],
             "capture_item": true,
