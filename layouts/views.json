@@ -43,15 +43,6 @@
                 "type": "layout",
                 "key": "combined_other_items_grid"
               }
-            },
-            {
-              "type": "group",
-              "header": "Counters",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "counters_grid"
-              }
             }
           ]
         },

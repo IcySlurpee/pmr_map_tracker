@@ -128,18 +128,6 @@
       ]
     ]
   },
-  "counters_grid": {
-    "type": "itemgrid",
-    "h_alignment": "left",
-    "item_margin": "0",
-    "rows": [
-      [
-        "counter_starpieces",
-        "counter_chuckquizmo",
-        "counter_ripcheato"
-      ]
-    ]
-  },
   "check_setting_grid": {
     "type": "itemgrid",
     "h_alignment": "left",
@@ -182,7 +170,8 @@
       [
         "boots",
         "hammer",
-        "ultrastone"
+        "ultrastone",
+        "starpieces"
       ],
       [
         "pulsestone",

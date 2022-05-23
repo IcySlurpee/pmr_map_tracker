@@ -288,5 +288,12 @@
     "type": "toggle",
     "img": "images/koot/kootJar.png",
     "codes": "redjar,jar,kootredjar"
+  },
+  {
+    "name": "Star Pieces",
+    "type": "consumable",
+    "img": "images/counter/counterStarPiece.png",
+    "codes": "starpieces,sp",
+    "max_quantity": 96
   }
 ]
