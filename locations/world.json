@@ -3369,6 +3369,8 @@
                 "visibility_rules": [
                   "setting_panel"
                 ],
+                "chest_unopened_img": "images/counter/counterStarPiece.png",
+                "chest_opened_img": "images/counter/counterOpenPanelSP.png",
                 "item_count": 1
               },
               {
