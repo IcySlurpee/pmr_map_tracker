@@ -315,16 +315,3 @@ function _can_ride_train()
     return false
   end
 end
-
---[[
-  fn fast_bowser_skipped_checks() -> integer
-
-  Removes visibility for checks in Bowser's Castle that are skipped
-  by the "fast Bowser's Castle" option.
-]]--
-function fast_bowser_skipped_checks()
-  if has("setting_fast_bowser") then
-    return 0
-  end
-  return 1
-end
