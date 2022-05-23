@@ -5,6 +5,71 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.9.0] - 2022-05-23
+### 🔄 Check updates
+- Added more places to capture items.
+  - Tubba Blubba's Castle
+    - Item on the table before 2F access
+  - Shy Guy's Toybox
+    - Peach's choice items, viewable in the Kammy Koopa cutscene
+  - Mt. Lavalava
+    - Item on top of the bricks in the central cavern
+  - Koopa Region
+    - Item across water below first bridge
+    - Item on stump behind Kooper's house
+    - Item on top of bricks on the path to Koopa Bros. Fortress
+  - Dry Dry Desert
+    - Item on bricks in cell R5C6
+  - Gusty Gulch
+    - Item on rock on path to Tubba Blubba's Castle
+  - Flower Fields
+    - Rosie's item, which is shown to Mario during/after her first dialogue
+    - Item on the ledge above the Bubble Flower
+  - Boo's Mansion
+    - Mansion shop is viewable before completing Bow's quest
+- Flower Fields
+  - The check for shaking Petunia's tree now clears in one click.
+
+### 🔧 Check Fixes
+- Shooting Star Summit
+  - Panel and freestanding item at the summit is now visible on the tracker.
+  - Name of check behind Summit now standardized to "on ground".
+- Mt. Rugged
+  - Allow Parakarry to access the item on the first ledge in `IWA_01`.
+  - Add missing ledge check in `IWA_03`.
+- Dry Dry Desert
+  - Fixes typos in `short_name` of R2C5 checks.
+- Tubba Blubba's Castle
+  - Now accessible with Lakilester OR Bow, not Lakilester AND Bow.
+- Shy Guy's Toybox
+  - Green Station west chest after Peach's Choice is now visible on the tracker.
+- Flower Fields
+  - Add Star Piece image to panel check in `FLO_25`.
+  - Require Lakilester to progress past the NE elevator room.
+
+### 🔄 Logic updates
+- Chapter 2
+  - Removes dependency on `flag_bombed_train_rock` for Mt. Rugged and beyond, it adds no value and hides checks.
+  - The location for bombing the rock is still visible, but has no bearing on the tracker's logic.
+- Boo's Mansion
+  - Detached `flag_attached_weight` from checks past the chandelier, it adds no value and hides checks.
+  - The location for attaching the weight is still visible, but has no bearing on the tracker's logic.
+
+### 🔧 Logic Fixes
+- Open Whale now correctly allows players to Jade Jungle without needing Watt.
+  - When playing with Open Whale, the Fuzzipede check is not visible.
+
+### 🔄 Layout updates
+- The "Counters" header and grids have been removed.
+  - Cheato quizzes answered and Rip Cheato deals purchased have been removed.
+  - The Star Pieces counter has been moved next to the Ultra Stone.
+
+### 📰 Documentation
+- Updates the README with information on the tracker's settings and what each icon means.
+
+### 🧹 Chores
+- Removes unused function `fast_bowser_skipped_checks`, this is handled by the Fast Bowser setting.
+
 ## [v0.8.0] - 2022-05-11
 ### ➕ Checks and logic for
 - Toad Town
@@ -47,7 +112,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added Ultra Boots as required for two ? blocks past the second mirror gap.
 
 ### 🔄 Item updates
-- Goombario is now collected by default.
+- Goombario is now collected by default.  Players using randomized starting partner can right-click Goombario to un-collect him.
 
 ### 🔄 Logic updates
 - Blue House can now be opened from the outside.
@@ -69,10 +134,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Jade Jungle
   - Groups checks accessible after saving the Yoshi kids into a location.
 
-### 🔄 Layout updates
+### ➕ Layout additions
 - Added extended items only tracker
   - For players that don't need an entire map, but want to track most key items.
   - The default map tracker's broadcast view has been updated to use the extended items only tracker.
+
+### 🔄 Layout updates
 - Added Bowser's castle key to the keys grid.
 
 ### 🔄 Script updates
@@ -110,7 +177,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dry Dry Outpost
   - Added image for Moustafa.
 
-### 🔄 Script updates
+### ➕ Script additions
 - New `partner()` script
   - Checks if Always Active Partners is enabled before checking if the partner has been collected.
   - Simplifies `access_rules` for Always Active Partners.
@@ -325,6 +392,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ➕ Initial support for
 - Starting location selection - Toad Town and Goomba Village
 
+[v0.9.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.8.0...v0.9.0
 [v0.8.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.7.0...v0.8.0
 [v0.7.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.6.0...v0.7.0
 [v0.6.0]: https://github.com/IcySlurpee/pmr_map_tracker/compare/v0.5.0...v0.6.0
