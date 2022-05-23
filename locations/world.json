@@ -3317,7 +3317,6 @@
                 "access_rules": [
                   "$can_shake_trees"
                 ],
-                "clear_as_group": false,
                 "item_count": 2
               }
             ],
