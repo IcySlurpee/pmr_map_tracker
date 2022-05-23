@@ -832,7 +832,7 @@
           {
             "name": "Weighted Chandelier",
             "access_rules": [
-              "flag_attached_weight"
+              "weight"
             ],
             "visibility_rules": [
               "hidden"
