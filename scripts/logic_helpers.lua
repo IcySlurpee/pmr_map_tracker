@@ -275,7 +275,7 @@ end
   * Outpost start location, walk to desert.
 ]]--
 function can_traverse_desert()
-  if (has("flag_bombed_train_rock") and has("parakarry"))
+  if (partner("bombette") and has("parakarry"))
      or _can_reach_warp1()
      or has("setting_start_outpost") then
     return 1
@@ -283,7 +283,7 @@ function can_traverse_desert()
   return 0
 end
 function _can_traverse_desert()
-  if (has("flag_bombed_train_rock") and has("parakarry"))
+  if (partner("bombette") and has("parakarry"))
      or _can_reach_warp1()
      or has("setting_start_outpost") then
     return true
@@ -302,14 +302,14 @@ end
   * Can traverse Dry Dry Desert (ride the train backwards)
 ]]--
 function can_ride_train()
-  if has("flag_bombed_train_rock") or _can_traverse_desert() then
+  if partner("bombette") or _can_traverse_desert() then
     return 1
   else
     return 0
   end
 end
 function _can_ride_train()
-  if has("flag_bombed_train_rock") or _can_traverse_desert() then
+  if partner("bombette") or _can_traverse_desert() then
     return true
   else
     return false
