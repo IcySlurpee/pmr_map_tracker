@@ -1903,6 +1903,11 @@
                 "item_count": 1
               },
               {
+                "name": "Item On Ledge",
+                "short_name": "On Ledge",
+                "item_count": 1
+              },
+              {
                 "name": "Lower Coins",
                 "visibility_rules": [
                   "setting_coinsanity"
