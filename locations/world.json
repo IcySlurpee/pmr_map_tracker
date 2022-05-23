@@ -1104,7 +1104,7 @@
             "name": "Shooting Star Summit",
             "sections": [
               {
-                "name": "Free Item Behind Summit",
+                "name": "On Ground Behind Summit",
                 "short_name": "Behind Summit",
                 "item_count": 1
               },
@@ -2116,7 +2116,7 @@
           {
             "__mapID": "SBK_14",
             "name": "R2C5 Right ? Block",
-            "short_name": "R2C4 Right ?",
+            "short_name": "R2C5 Right ?",
             "access_rules": [
               "$can_hit_ground_blocks"
             ],
@@ -2128,7 +2128,7 @@
           {
             "__mapID": "SBK_14",
             "name": "R2C5 Ground ? Blocks",
-            "short_name": "R2C4 Ground ?",
+            "short_name": "R2C5 Ground ?",
             "access_rules": [
               "$can_hit_ground_blocks"
             ],
