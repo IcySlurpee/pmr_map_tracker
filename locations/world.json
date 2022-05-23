@@ -1045,8 +1045,11 @@
                   {
                     "name": "Defeat Fuzzipede",
                     "access_rules": [
-                      "setting_open_whale,$partner|watt",
-                      "hammer,spinjump,$partner|watt"
+                      "hammer,$partner|watt",
+                      "spinjump,$partner|watt"
+                    ],
+                    "visibility_rules": [
+                      "$not_has|setting_open_whale"
                     ],
                     "hosted_item": "flag_beat_fuzzipede"
                   }

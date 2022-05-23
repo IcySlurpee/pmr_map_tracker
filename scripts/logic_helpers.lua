@@ -242,18 +242,23 @@ end
   Riding the whale backwards to Toad Town does not unlock the reverse path.
 
   Mario needs either:
-  * Yoshi Island start - Homeward Shroom (always take it)
+  * Yoshi Island start - Homeward Shroom
+  * Open Whale setting active (skips needing to fight Fuzzipede).
   * Hit whale 3 times with the hammer, then use Watt to reveal and defeat Fuzzipede.
 ]]--
 function can_ride_whale()
-  if has("setting_start_yoshi") or has("flag_beat_fuzzipede") then
+  if has("setting_start_yoshi")
+     or has("setting_open_whale")
+     or has("flag_beat_fuzzipede") then
     return 1
   else
     return 0
   end
 end
 function _can_ride_whale()
-  if has("setting_start_yoshi") or has("flag_beat_fuzzipede") then
+  if has("setting_start_yoshi")
+     or has("setting_open_whale")
+     or has("flag_beat_fuzzipede") then
     return true
   else
     return false
