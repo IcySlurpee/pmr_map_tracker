@@ -3716,6 +3716,9 @@
           {
             "__mapID": "FLO_18",
             "name": "Northeast - Puff Puff Machine",
+            "access_rules": [
+              "@Flower Fields/Elevators"
+            ],
             "sections": [
               {
                 "name": "Destroy Puff Puff Machine",
