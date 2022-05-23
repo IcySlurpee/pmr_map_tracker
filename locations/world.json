@@ -1121,6 +1121,13 @@
                 ],
                 "item_count": 1
               }
+            ],
+            "map_locations": [
+              {
+                "map": "worldmap",
+                "x": 490,
+                "y": 395
+              }
             ]
           },
           {

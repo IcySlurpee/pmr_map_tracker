@@ -1483,7 +1483,8 @@
                 "name": "Chest",
                 "access_rules": [
                   "$partner|bow,$partner|parakarry"
-                ]
+                ],
+                "item_count": 1
               },
               {
                 "__mapID": "OMO_09",
