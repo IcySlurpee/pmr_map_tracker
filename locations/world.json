@@ -1383,8 +1383,10 @@
                 "name": "Across Gap On Ground",
                 "short_name": "On Ground",
                 "access_rules": [
-                  "$partner|kooper"
+                  "$partner|kooper",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               }
             ],
@@ -1594,8 +1596,10 @@
                 "name": "On Stump",
                 "access_rules": [
                   "$partner|kooper",
-                  "$partner|parakarry"
+                  "$partner|parakarry",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               }
             ],
@@ -1656,8 +1660,10 @@
                     "short_name": "Brick Block",
                     "access_rules": [
                       "$partner|kooper",
-                      "tornadojump"
+                      "tornadojump",
+                      "{}"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2226,8 +2232,10 @@
             "name": "R5C6 Kooper Item",
             "access_rules": [
               "$partner|kooper",
-              "tornadojump"
+              "tornadojump",
+              "{}"
             ],
+            "capture_item": true,
             "item_count": 1
           },
           {
@@ -2429,8 +2437,10 @@
                 "name": "Item on Rock",
                 "short_name": "Rock Item",
                 "access_rules": [
-                  "$partner|kooper"
+                  "$partner|kooper",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {
@@ -3531,8 +3541,10 @@
                 "name": "Gift from Rosie",
                 "short_name": "Gift",
                 "access_rules": [
-                  "crystalberry"
+                  "crystalberry",
+                  "{@Flower Fields/Blue Flower Guard}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               }
             ],
@@ -3557,8 +3569,10 @@
                 "name": "Item on Ledge",
                 "short_name": "Ledge",
                 "access_rules": [
-                  "@Flower Fields/Bubble Flower"
+                  "@Flower Fields/Bubble Flower",
+                  "{}"
                 ],
+                "capture_item": true,
                 "item_count": 1
               }
             ],

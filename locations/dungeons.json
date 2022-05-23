@@ -775,7 +775,8 @@
             "name": "Boo's Mansion Shop",
             "color": "#993399",
             "access_rules": [
-              "weight,flag_cleared_mansion"
+              "weight,flag_cleared_mansion",
+              "{weight}"
             ],
             "sections": [
               {
@@ -1053,8 +1054,10 @@
             "name": "2F Clock Drop to 1F Table",
             "short_name": "2F Drop to Table",
             "access_rules": [
-              "@Tubba Blubba's Castle/2F Access"
+              "@Tubba Blubba's Castle/2F Access",
+              "{}"
             ],
+            "capture_item": true,
             "item_count": 1
           },
           {
@@ -1244,6 +1247,7 @@
                 "__mapID": "OMO_04",
                 "name": "East City Peach's Choice",
                 "short_name": "East - Peach's Choice",
+                "capture_item": true,
                 "item_count": 1
               },
               {
@@ -1327,6 +1331,7 @@
                 "access_rules": [
                   "@Shy Guy's Toybox/Returned Train"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {
@@ -1746,8 +1751,10 @@
             "short_name": "Central Bricks",
             "access_rules": [
               "$partner|kooper",
-              "tornadojump"
+              "tornadojump",
+              "{}"
             ],
+            "capture_item": true,
             "item_count": 1
           },
           {
